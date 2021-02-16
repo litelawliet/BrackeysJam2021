@@ -27,10 +27,11 @@ public partial class PlayerMovement
             {
                 // Not optimal due to GetComponent in loop, can be optimize using a dictionnary holding every Interactible objects
                 // in the scene as key and then having the IInteractible script as value to get
-                var target = collider.gameObject.GetComponent<IInteractible>();
-                if (target != null)
+                IInteractible interactionScript;
+                GameManager.interactibles.TryGetValue(collider.gameObject, out interactionScript);
+                if (interactionScript != null)
                 {
-                    if (target.Reusable || !target.Used)
+                    if (interactionScript.Reusable || !interactionScript.Used)
                     {
                         objectsInRange.Add(collider.gameObject);
                     }
