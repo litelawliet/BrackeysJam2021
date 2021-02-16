@@ -45,25 +45,28 @@ public partial class PlayerMovement
 
     public void Split(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!isJumping)
         {
-            if (PlayerState == EPlayerState.ALONE)
+            if (context.started)
             {
-                if (CanFusion())
+                if (PlayerState == EPlayerState.ALONE)
                 {
-                    SwitchPlayerState();
-                    transform.position = aloneStayGO.transform.position;
-                    aloneStayGO.SetActive(false);
+                    if (CanFusion())
+                    {
+                        SwitchPlayerState();
+                        transform.position = aloneStayGO.transform.position;
+                        aloneStayGO.SetActive(false);
+                    }
                 }
             }
-        }
-        if (context.performed)
-        {
-            if (PlayerState == EPlayerState.TOGETHER)
+            if (context.performed)
             {
-                SwitchPlayerState();
-                aloneStayGO.transform.position = transform.position;
-                aloneStayGO.SetActive(true);
+                if (PlayerState == EPlayerState.TOGETHER)
+                {
+                    SwitchPlayerState();
+                    aloneStayGO.transform.position = transform.position;
+                    aloneStayGO.SetActive(true);
+                }
             }
         }
     }
