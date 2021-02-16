@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 
-// DO NOT ADD THIS FILE IN GAMEOBJECT COMPONENTS, ONLY ADD PlayerMovement.cs
-
 public partial class PlayerMovement
 {
     #region Jump settings
@@ -53,13 +51,10 @@ public partial class PlayerMovement
         }
         else
         {
-            // TODO: Need to handle coyotte jump here
-            // Current bug: can jump once after falling when only moving towards the edge
-            // Reason: We don't keep track of a state which indicate if we are ground and fall from moving
             int layerMask = ~(LayerMask.GetMask("Player"));
-            float rayDistance = boxCollider.bounds.size.y;
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, rayDistance, layerMask);
-            Debug.DrawLine(transform.position, transform.position - transform.up * rayDistance, Color.red);
+            float rayDistance = playerCollider.bounds.size.y / 2.0f + 0.1f;
+            RaycastHit2D hit = Physics2D.Raycast(playerCollider.bounds.center, -Vector2.up, rayDistance, layerMask);
+            Debug.DrawLine(playerCollider.bounds.center, playerCollider.bounds.center - transform.up * rayDistance, Color.red);
 
             if (hit.collider != null)
             {

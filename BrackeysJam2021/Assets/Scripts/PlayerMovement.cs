@@ -1,6 +1,9 @@
-﻿using UnityEngine;
-using UnityEngine.InputSystem;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public partial class PlayerMovement : MonoBehaviour
 {
     #region Player speeds
@@ -19,6 +22,7 @@ public partial class PlayerMovement : MonoBehaviour
     float aloneMaxJumpHeight = 10.0f;
 
     private float speedDirection = 0.0f;
+    private float previousSpeedDirection = 1.0f;
     private float currentSpeed = 0.0f;
     #endregion
 
@@ -42,46 +46,64 @@ public partial class PlayerMovement : MonoBehaviour
     private float liftForce = 150.0f;
     #endregion
 
-    private EPlayerState _playerState;
+    public enum EPlayerState : byte
+    {
+        TOGETHER = 0,
+        ALONE,
+    };
+
+    private EPlayerState _playerState = EPlayerState.TOGETHER;
     public EPlayerState PlayerState
     {
-        get { return _playerState;  }
+        get { return _playerState; }
         set
         {
-            if (_playerState != value)
-            {
-                _playerState = value;
-                OnPlayerStateChange?.Invoke();
-            }
+            _playerState = value;
+            OnPlayerStateChange?.Invoke();
         }
     }
 
-    public float speed; // TODO: to change in local
-
+    #region Delegates
     public delegate void OnPlayerStateChangeDelegate();
-    public event OnPlayerStateChangeDelegate OnPlayerStateChange;
+    public static event OnPlayerStateChangeDelegate OnPlayerStateChange;
+    public delegate void OnUseInteractibleDelegate();
+    public static event OnUseInteractibleDelegate OnUseInteractible;
+    #endregion
+
+    public Sprite togetherSprite;
+    public Sprite alonePlayerSprite;
+    public Sprite aloneStaySprite;
+    public GameObject aloneStayGO;
+    public GameObject interactionTarget;
+    [SerializeField]
+    [Tooltip("Objects in range. Updated at each physic tick.")]
+    private List<GameObject> objectsInRange;
 
     #region PlayerMovement component references
     private Rigidbody2D rb;
-    private BoxCollider2D boxCollider;
+    private CapsuleCollider2D playerCollider;
+    private SpriteRenderer spriteRenderer;
     #endregion
 
     #region Unity Events
     private void OnDestroy()
     {
         OnPlayerStateChange -= UpdatePlayerState;
+        OnUseInteractible -= UseInteractibleTarget;
     }
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        playerCollider = GetComponent<CapsuleCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         OnPlayerStateChange += UpdatePlayerState;
+        OnUseInteractible += UseInteractibleTarget;
     }
 
     private void Start()
     {
-        PlayerState = EPlayerState.ALONE;
+        PlayerState = EPlayerState.TOGETHER;
     }
 
     private void Update()
@@ -93,55 +115,20 @@ public partial class PlayerMovement : MonoBehaviour
     {
         MoveAction();
         JumpAction();
+        PopulateInteractiblesInRange();
     }
     #endregion
 
     private void MoveAction()
     {
-         float currentAirControl = 1.0f;
+        float currentAirControl = 1.0f;
         if (isJumping)
         {
             currentAirControl = 1.0f - airControlReducer;
         }
-        speed = (currentSpeed * currentAirControl) * speedDirection * Time.fixedDeltaTime;
+        float speed = (currentSpeed * currentAirControl) * speedDirection * Time.fixedDeltaTime;
         rb.AddForce(Vector2.right * speed, ForceMode2D.Impulse);
     }
-
-    #region PlayerActions Events
-    public void Move(InputAction.CallbackContext context)
-    {
-        speedDirection = context.ReadValue<float>();
-    }
-
-    public void Use(InputAction.CallbackContext context)
-    {
-        var usePressed = context.ReadValueAsButton();
-        if (context.performed)
-        {
-            Debug.Log("Use interaction.");
-        }
-    }
-
-    public void Jump(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            SetJumpState(context.ReadValueAsButton());
-        }
-    }
-
-    public void Split(InputAction.CallbackContext context)
-    {
-        // TODO: Add a state to enable/disable an event interaction
-        // Here we want to disable Hold interaction in case we set playerState to ALONE
-        // In such a manner we can now simple press the button to go back to TOGETHER state instead of holding
-        // this state should be handled here in context.performed
-        if (context.performed)
-        {
-            SwitchPlayerState();
-        }
-    }
-    #endregion
 
     #region States setters
     public void SwitchPlayerState()
@@ -158,26 +145,24 @@ public partial class PlayerMovement : MonoBehaviour
 
     private void UpdatePlayerState()
     {
-        switch(_playerState)
+        switch (_playerState)
         {
             case EPlayerState.TOGETHER:
                 currentSpeed = togetherMaxSpeed;
                 rb.mass = togetherMass;
                 floatHeight = togetherMaxJumpHeight;
+
+                // Change sprite
+                spriteRenderer.sprite = togetherSprite;
                 break;
             case EPlayerState.ALONE:
                 currentSpeed = aloneMaxSpeed;
                 rb.mass = aloneMass;
                 floatHeight = aloneMaxJumpHeight;
+                spriteRenderer.sprite = alonePlayerSprite;
                 break;
             default: break;
         }
     }
     #endregion
 }
-
-public enum EPlayerState : byte
-{
-    TOGETHER = 0,
-    ALONE
-};
