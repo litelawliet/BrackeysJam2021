@@ -25,7 +25,16 @@ public partial class PlayerMovement
         {
             if (collider.transform.CompareTag("Interactible"))
             {
-                objectsInRange.Add(collider.gameObject);
+                // Not optimal due to GetComponent in loop, can be optimize using a dictionnary holding every Interactible objects
+                // in the scene as key and then having the IInteractible script as value to get
+                var target = collider.gameObject.GetComponent<IInteractible>();
+                if (target != null)
+                {
+                    if (target.Reusable || !target.Used)
+                    {
+                        objectsInRange.Add(collider.gameObject);
+                    }
+                }
             }
         }
 
@@ -46,6 +55,7 @@ public partial class PlayerMovement
             if (target != null)
             {
                 target.Use();
+                target.Used = true;
                 interactionTarget = null;
             }
         }

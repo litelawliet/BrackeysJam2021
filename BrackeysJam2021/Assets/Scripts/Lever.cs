@@ -9,6 +9,9 @@ public class Lever : IInteractible
     public override void Use()
     {
         Debug.Log("Lever interaction");
-        transform.gameObject.SetActive(false);
+        if (!Reusable)
+        {
+            transform.gameObject.SetActive(false);
+        }
     }
 }
