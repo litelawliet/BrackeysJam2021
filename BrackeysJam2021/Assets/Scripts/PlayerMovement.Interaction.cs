@@ -31,7 +31,7 @@ public partial class PlayerMovement
                 GameManager.interactibles.TryGetValue(collider.gameObject, out interactionScript);
                 if (interactionScript != null)
                 {
-                    if (interactionScript.Reusable || !interactionScript.Used)
+                    if (interactionScript.Usable)
                     {
                         objectsInRange.Add(collider.gameObject);
                     }

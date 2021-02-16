@@ -85,7 +85,7 @@ public partial class PlayerMovement : MonoBehaviour
     private CircleCollider2D playerGroundCollider;
     private SpriteRenderer spriteRenderer;
     #endregion
-
+     
     #region Unity Events
     private void OnDestroy()
     {

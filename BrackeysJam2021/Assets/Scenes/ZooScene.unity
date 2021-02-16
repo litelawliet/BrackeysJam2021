@@ -325,6 +325,22 @@ PrefabInstance:
       propertyPath: aloneStayGO
       value: 
       objectReference: {fileID: 55352044}
+    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_Size.x
+      value: 0.99558306
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5257542
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.2371229
+      objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_RootOrder
@@ -379,6 +395,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948196019617477464, guid: b2ce81f6e1758d84ab765318316691e5,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1.3059976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948196019617477464, guid: b2ce81f6e1758d84ab765318316691e5,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948196019617477464, guid: b2ce81f6e1758d84ab765318316691e5,
+        type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948196019617477465, guid: b2ce81f6e1758d84ab765318316691e5,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477467, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
@@ -1156,6 +1192,28 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1769701012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1948196019617477467, guid: b2ce81f6e1758d84ab765318316691e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 977122833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1769701019
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769701012}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 719f1f0d4952e844baf07eb1475eb76d, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.018555999}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1001 &2069669184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1218,15 +1276,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451425, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6455386267977451429, guid: dbecd6d111d11d64b9c651f2565b9861,
         type: 3}
       propertyPath: m_Name
-      value: interactible_png (1)
+      value: interactible_png
       objectReference: {fileID: 0}
     - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
         type: 3}
       propertyPath: Reusable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbecd6d111d11d64b9c651f2565b9861, type: 3}
@@ -1361,10 +1424,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451425, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6455386267977451429, guid: dbecd6d111d11d64b9c651f2565b9861,
         type: 3}
       propertyPath: m_Name
-      value: interactible_png
+      value: drag_png
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: Reusable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: Draggable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: AloneCanDrag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbecd6d111d11d64b9c651f2565b9861, type: 3}
