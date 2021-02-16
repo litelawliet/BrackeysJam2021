@@ -52,7 +52,7 @@ public partial class PlayerMovement
         else
         {
             int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible"));
-            float rayDistance = playerCollider.bounds.size.y / 2.0f + 0.05f;
+            float rayDistance = playerGroundCollider.bounds.size.y / 2.0f + 0.05f;
             RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, rayDistance, layerMask);
             Debug.DrawLine(transform.position, transform.position - transform.up * rayDistance, Color.red);
 

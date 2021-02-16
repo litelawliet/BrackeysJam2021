@@ -2,7 +2,8 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CapsuleCollider2D))]
+[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(CircleCollider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 public partial class PlayerMovement : MonoBehaviour
 {
@@ -81,7 +82,7 @@ public partial class PlayerMovement : MonoBehaviour
 
     #region PlayerMovement component references
     private Rigidbody2D rb;
-    private CapsuleCollider2D playerCollider;
+    private CircleCollider2D playerGroundCollider;
     private SpriteRenderer spriteRenderer;
     #endregion
 
@@ -95,7 +96,7 @@ public partial class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerCollider = GetComponent<CapsuleCollider2D>();
+        playerGroundCollider = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
