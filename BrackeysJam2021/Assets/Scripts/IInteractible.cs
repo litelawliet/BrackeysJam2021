@@ -6,11 +6,11 @@ public abstract class IInteractible : MonoBehaviour
 {
     private void Awake()
     {
-        _rigidbody2D= GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
         _boxCollider2D = GetComponent<BoxCollider2D>();
 
         _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-        
+
         if (Draggable)
         {
             _boxCollider2D.isTrigger = false;
@@ -34,16 +34,19 @@ public abstract class IInteractible : MonoBehaviour
         {
             var playerMovementScript = go.GetComponent<PlayerMovement>();
 
-            if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.ALONE)
+            if (playerMovementScript != null)
             {
-                if (!AloneCanDrag)
+                if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.ALONE)
                 {
-                    _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+                    if (!AloneCanDrag)
+                    {
+                        _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+                    }
                 }
-            }
-            else if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
-            {
-                _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                else if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
+                {
+                    _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                }
             }
         }
     }
@@ -57,8 +60,10 @@ public abstract class IInteractible : MonoBehaviour
     [Tooltip("Define if this LOD can be reactivated")]
     private bool Reusable = true;
     public bool Used { get; set; } = false;
-    public bool Usable {
-        get {
+    public bool Usable
+    {
+        get
+        {
             if (Reusable || !Used)
             {
                 return true;

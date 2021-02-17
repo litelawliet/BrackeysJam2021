@@ -17,10 +17,12 @@ public class BreakableWall : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             var playerMovementScript = collision.gameObject.GetComponent<PlayerMovement>();
-
-            if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
+            if (playerMovementScript != null)
             {
-                gameObject.SetActive(false);
+                if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
+                {
+                    gameObject.SetActive(false);
+                }
             }
         }
     }
