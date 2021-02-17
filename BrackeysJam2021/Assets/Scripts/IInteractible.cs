@@ -15,7 +15,7 @@ public abstract class IInteractible : MonoBehaviour
         {
             _boxCollider2D.isTrigger = false;
             _rigidbody2D.isKinematic = false;
-            this.transform.gameObject.layer = LayerMask.NameToLayer("Default");
+            transform.gameObject.layer = LayerMask.NameToLayer("Draggable");
             Reusable = false;
             Used = true;
         }
@@ -23,7 +23,7 @@ public abstract class IInteractible : MonoBehaviour
         {
             _boxCollider2D.isTrigger = true;
             _rigidbody2D.isKinematic = true;
-            this.transform.gameObject.layer = LayerMask.NameToLayer("Interactible");
+            transform.gameObject.layer = LayerMask.NameToLayer("Interactible");
         }
     }
 

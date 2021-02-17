@@ -28,7 +28,7 @@ public partial class PlayerMovement
 
         if (jumpCalledInput && !isJumping)
         {
-            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible"));
+            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker"));
             RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, layerMask);
 
             if (hit.collider != null)
@@ -51,7 +51,7 @@ public partial class PlayerMovement
         }
         else
         {
-            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible"));
+            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker"));
             float rayDistance = playerGroundCollider.bounds.size.y / 2.0f + 0.05f;
             RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, rayDistance, layerMask);
             Debug.DrawLine(transform.position, transform.position - transform.up * rayDistance, Color.red);
