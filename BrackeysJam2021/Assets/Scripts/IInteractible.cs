@@ -2,7 +2,7 @@
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-public abstract class IInteractible : MonoBehaviour
+public class IInteractible : MonoBehaviour
 {
     private void Awake()
     {
