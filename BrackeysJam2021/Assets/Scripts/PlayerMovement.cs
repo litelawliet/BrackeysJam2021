@@ -100,11 +100,11 @@ public partial class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
+        PlayerState = EPlayerState.TOGETHER;
     }
 
     private void Start()
     {
-        PlayerState = EPlayerState.TOGETHER;
     }
 
     private void Update()

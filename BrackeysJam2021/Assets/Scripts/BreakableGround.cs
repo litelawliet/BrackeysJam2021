@@ -14,13 +14,13 @@ public class BreakableGround : MonoBehaviour
 
     private void Update()
     {
-        if (transform.position.y < -500.0f)
+        if (transform.position.y < GameManager.deathLimit)
         {
             gameObject.SetActive(false);
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -34,7 +34,11 @@ public class BreakableGround : MonoBehaviour
                 }
             }
         }
-        else if (collision.gameObject.layer == LayerMask.NameToLayer("Draggable"))
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Draggable"))
         {
             var otherRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
             var otherScript = collision.gameObject.GetComponent<IInteractible>();
