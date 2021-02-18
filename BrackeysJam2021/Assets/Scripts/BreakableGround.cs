@@ -29,16 +29,22 @@ public class BreakableGround : MonoBehaviour
             {
                 if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
                 {
-                    _rigidbody2D.constraints = RigidbodyConstraints2D.None;
+                    _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                    _rigidbody2D.mass = 10.0f;
                 }
             }
         }
-        else if (collision.gameObject.layer == LayerMask.GetMask("Draggable"))
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Draggable"))
         {
             var otherRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
-            if (otherRigidbody != null)
+            var otherScript = collision.gameObject.GetComponent<IInteractible>();
+            if (otherRigidbody != null && otherScript != null)
             {
-                _rigidbody2D.constraints = RigidbodyConstraints2D.None;
+                if (!otherScript.AloneCanDrag)
+                {
+                    _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                    _rigidbody2D.mass = 10.0f;
+                }
             }
         }
         // TODO: add another if case for Enemy Tag
