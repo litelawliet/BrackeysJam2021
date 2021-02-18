@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -398,36 +398,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &481615131
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 481615132}
-  m_Layer: 0
-  m_Name: LookAt
-  m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &481615132
+--- !u!4 &481615132 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 481615132, guid: b2ce81f6e1758d84ab765318316691e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 977122833}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481615131}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 977122834}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &595320805
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,18 +716,14 @@ PrefabInstance:
       propertyPath: aloneStayGO
       value: 
       objectReference: {fileID: 55352044}
-    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
-      propertyPath: m_Size.x
-      value: 0.88759214
-      objectReference: {fileID: 0}
-    - target: {fileID: 1769701013, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1769701019, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 719f1f0d4952e844baf07eb1475eb76d, type: 2}
+    - target: {fileID: 1769701020, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 1399447298}
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_RootOrder
@@ -807,11 +779,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1948196019617477464, guid: b2ce81f6e1758d84ab765318316691e5,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477467, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_Name
@@ -819,12 +786,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
---- !u!4 &977122834 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
-    type: 3}
-  m_PrefabInstance: {fileID: 977122833}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1049325709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,27 +1822,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1769701012 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1948196019617477467, guid: b2ce81f6e1758d84ab765318316691e5,
-    type: 3}
-  m_PrefabInstance: {fileID: 977122833}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1769701020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769701012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0539000d16272de4593971de7f441cc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIsTogether: 1
-  timeSplitBeforeDeath: 15
-  timerText: {fileID: 1399447298}
 --- !u!1 &1925626845
 GameObject:
   m_ObjectHideFlags: 0
