@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerTimerSplit : MonoBehaviour
 {
-    public bool playerIsTogether = true;
+    private bool playerIsTogether = true;
 
     [SerializeField]
     [Tooltip("Time in second before the alone player dies")]
@@ -21,26 +21,15 @@ public class PlayerTimerSplit : MonoBehaviour
 
     private void Awake()
     {
-        var state = GetComponent<PlayerMovement>().PlayerState;
-        if  (state == PlayerMovement.EPlayerState.TOGETHER)
-        {
-            playerIsTogether = true;
-        }
-        else
-        {
-            playerIsTogether = false;
-        }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        PlayerMovement.OnPlayerStateChange += TimerStarter;
         countDown = timeSplitBeforeDeath;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
+    {
+        PlayerMovement.OnPlayerStateChange += TimerStarter;
+    }
+
+    private void Update()
     {
         if (!playerIsTogether)
         {
