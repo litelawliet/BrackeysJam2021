@@ -30,7 +30,7 @@ public class BreakableGround : MonoBehaviour
                 if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
                 {
                     _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-                    _rigidbody2D.mass = 10.0f;
+                    _rigidbody2D.mass = 100.0f;
                 }
             }
         }
@@ -47,7 +47,7 @@ public class BreakableGround : MonoBehaviour
                 if (!otherScript.AloneCanDrag)
                 {
                     _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-                    _rigidbody2D.mass = 10.0f;
+                    _rigidbody2D.mass = 100.0f;
                 }
             }
         }
