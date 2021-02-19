@@ -65,6 +65,9 @@ public partial class PlayerMovement
 
     public void SetJumpState(bool jumpingState)
     {
-        jumpCalledInput = jumpingState;
+        if (!isJumping)
+        {
+            jumpCalledInput = jumpingState;
+        }
     }
 }
