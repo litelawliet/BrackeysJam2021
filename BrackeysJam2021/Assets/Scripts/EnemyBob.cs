@@ -30,19 +30,22 @@ public class EnemyBob : MonoBehaviour
     GameObject aloneStayGolem = null;
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
+    SpriteRenderer spriteRenderer = null;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
         aloneStayGolem = playerMovementScript.aloneStayGO;
-        
+
         distance = boxCollider.bounds.size.x / 2.0f + 0.1f;
         direction = leftDirection ? -1.0f : 1.0f;
+        transform.Rotate(0.0f, 180.0f, 0.0f);
     }
 
     private void Update()
@@ -53,7 +56,7 @@ public class EnemyBob : MonoBehaviour
         {
             // Could use another condition to tell if they virtually colide, in which case we can
             // set the player to die
-           
+
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
                 afraid = true;
@@ -87,12 +90,17 @@ public class EnemyBob : MonoBehaviour
                 fleeDirection = 1.0f;
             }
 
+            if (direction != fleeDirection)
+            {
+                transform.Rotate(0.0f, 180.0f, 0.0f);
+            }
             direction = fleeDirection;
         }
     }
 
     private void FixedUpdate()
     {
+        var previousDir = direction;
         int mask = ~(LayerMask.GetMask("Enemy") + LayerMask.GetMask("StayPlayer"));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * direction, distance, mask);
 
@@ -102,8 +110,13 @@ public class EnemyBob : MonoBehaviour
             leftDirection = !leftDirection;
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
             rb.angularVelocity = 0.0f;
-            transform.Rotate(0.0f, 180.0f, 0.0f);
+            //transform.Rotate(0.0f, 180.0f, 0.0f);
             direction = leftDirection ? -1.0f : 1.0f;
+        }
+
+        if (direction != previousDir)
+        {
+            transform.Rotate(0.0f, 180.0f, 0.0f);
         }
 
         float acceleration = this.speed * direction * Time.fixedDeltaTime;
