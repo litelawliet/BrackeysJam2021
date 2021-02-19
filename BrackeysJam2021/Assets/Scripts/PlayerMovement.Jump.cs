@@ -48,6 +48,7 @@ public partial class PlayerMovement
 
                 jumpCalledInput = false;
                 isJumping = true;
+                playerAnimator.SetBool("IsJumping", true);
             }
         }
         else
@@ -61,6 +62,7 @@ public partial class PlayerMovement
             if (hit.collider != null)
             {
                 isJumping = false;
+                playerAnimator.SetBool("IsJumping", false);
             }
         }
     }

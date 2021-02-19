@@ -84,6 +84,7 @@ public partial class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private CircleCollider2D playerGroundCollider;
     private SpriteRenderer spriteRenderer;
+    private Animator playerAnimator;
     #endregion
      
     #region Unity Events
@@ -98,6 +99,7 @@ public partial class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerGroundCollider = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
         PlayerState = EPlayerState.TOGETHER;
