@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(Animator))]
 public class EnemyBob : MonoBehaviour
 {
     private bool leftDirection = true;
@@ -13,9 +14,11 @@ public class EnemyBob : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private CircleCollider2D circleCollider;
+    private Animator _animator;
 
     private float distance = 0.0f;
     private float direction = 0.0f;
+    private bool animationDone = false;
 
     [SerializeField]
     [Tooltip("Enemy speed")]
@@ -38,6 +41,7 @@ public class EnemyBob : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
 
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
@@ -65,10 +69,14 @@ public class EnemyBob : MonoBehaviour
             {
                 if (playerDistance <= deathRange || golemDistance <= deathRange)
                 {
-                    Debug.Log("Player death");
                     // Play animation
-                    Scene scene = SceneManager.GetActiveScene();
-                    SceneManager.LoadScene(scene.name);
+                    _animator.SetTrigger("Steal");
+                    // Notify the player to stop the inputs
+                    Debug.Log("Player death");
+                    StartCoroutine(Restart());
+                    rb.velocity = Vector2.zero;
+                    rb.angularVelocity = 0.0f;
+                    direction = 0.0f;
                 }
                 afraid = false;
             }
@@ -92,6 +100,7 @@ public class EnemyBob : MonoBehaviour
 
             if (direction != fleeDirection)
             {
+                _animator.SetTrigger("Afraid");
                 transform.Rotate(0.0f, 180.0f, 0.0f);
             }
             direction = fleeDirection;
@@ -106,7 +115,7 @@ public class EnemyBob : MonoBehaviour
 
         if (hit.collider != null && !hit.collider.CompareTag("Player"))
         {
-            // more conditions with player so when we're together player gets eaten
+            // more conditions with player so when we're alone player gets eaten
             leftDirection = !leftDirection;
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
             rb.angularVelocity = 0.0f;
@@ -142,5 +151,13 @@ public class EnemyBob : MonoBehaviour
 
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, deathRange);
+    }
+
+    private IEnumerator Restart()
+    {
+        yield return new WaitForSeconds(0.5f);
+        
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 }
