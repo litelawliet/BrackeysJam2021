@@ -15,7 +15,11 @@ public class GameManager : MonoBehaviour
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
         foreach(var go in gos)
         {
-            interactibles.Add(go, go.GetComponent<IInteractible>());
+            if (!interactibles.ContainsKey(go))
+            {
+                interactibles.Add(go, go.GetComponent<IInteractible>());
+            }
+            
         }
 
         if (player == null)
