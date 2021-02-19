@@ -27,6 +27,7 @@ public class EnemyBob : MonoBehaviour
     [Tooltip("Range of death near Alone player")]
     private float deathRange = 1.0f;
 
+    GameObject aloneStayGolem = null;
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
 
@@ -35,14 +36,19 @@ public class EnemyBob : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
-        distance = boxCollider.bounds.size.x / 2.0f + 0.1f;
+
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
+        aloneStayGolem = playerMovementScript.aloneStayGO;
+        
+        distance = boxCollider.bounds.size.x / 2.0f + 0.1f;
+        direction = leftDirection ? -1.0f : 1.0f;
     }
 
     private void Update()
     {
         float playerDistance = Vector2.Distance(transform.position, player.transform.position);
+        float golemDistance = Vector2.Distance(transform.position, aloneStayGolem.transform.position);
         if (playerDistance <= detectionRange)
         {
             // Could use another condition to tell if they virtually colide, in which case we can
@@ -50,12 +56,11 @@ public class EnemyBob : MonoBehaviour
            
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
-
                 afraid = true;
             }
             else
             {
-                if (playerDistance <= deathRange)
+                if (playerDistance <= deathRange || golemDistance <= deathRange)
                 {
                     Debug.Log("Player death");
                     // Play animation
