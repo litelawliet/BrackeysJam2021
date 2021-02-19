@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 468904227184234590}
   - component: {fileID: 3900015684945721915}
   - component: {fileID: 55352047}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: aloneStay_png
   m_TagString: Untagged
   m_Icon: {fileID: 0}
