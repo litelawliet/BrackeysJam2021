@@ -2290,8 +2290,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360979, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}
+      propertyPath: deathRange
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191818187014360979, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
       propertyPath: detectionRange
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360981, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}

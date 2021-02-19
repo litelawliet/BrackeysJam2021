@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -20,8 +21,11 @@ public class EnemyBob : MonoBehaviour
     [Tooltip("Enemy speed")]
     private float speed = 5.0f;
     [SerializeField]
-    [Tooltip("Enemy speed")]
+    [Tooltip("Enemy player detection")]
     private float detectionRange = 2.2f;
+    [SerializeField]
+    [Tooltip("Range of death near Alone player")]
+    private float deathRange = 1.0f;
 
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
@@ -38,17 +42,26 @@ public class EnemyBob : MonoBehaviour
 
     private void Update()
     {
-        if (Vector2.Distance(transform.position, player.transform.position) <= detectionRange)
+        float playerDistance = Vector2.Distance(transform.position, player.transform.position);
+        if (playerDistance <= detectionRange)
         {
             // Could use another condition to tell if they virtually colide, in which case we can
             // set the player to die
-
+           
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
+
                 afraid = true;
             }
             else
             {
+                if (playerDistance <= deathRange)
+                {
+                    Debug.Log("Player death");
+                    // Play animation
+                    Scene scene = SceneManager.GetActiveScene();
+                    SceneManager.LoadScene(scene.name);
+                }
                 afraid = false;
             }
         }
@@ -108,5 +121,8 @@ public class EnemyBob : MonoBehaviour
             Gizmos.color = Color.green;
         }
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, deathRange);
     }
 }
