@@ -103,6 +103,7 @@ public partial class PlayerMovement : MonoBehaviour
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
         PlayerState = EPlayerState.TOGETHER;
+        playerAnimator.SetBool("IsTogether", true);
     }
 
     private void Start()
@@ -148,10 +149,12 @@ public partial class PlayerMovement : MonoBehaviour
         if (PlayerState == EPlayerState.TOGETHER)
         {
             PlayerState = EPlayerState.ALONE;
+            playerAnimator.SetBool("IsTogether", false);
         }
         else
         {
             PlayerState = EPlayerState.TOGETHER;
+            playerAnimator.SetBool("IsTogether", true);
         }
     }
 

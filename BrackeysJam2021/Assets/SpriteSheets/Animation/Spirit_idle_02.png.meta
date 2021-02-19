@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: b4cf640f2611c394f843bc766feedda9
+guid: f0c7267344ef79f419e03e2d92283629
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4703231053929519139
-    second: Spirit_Idle_0
+      213: 3144103089456792360
+    second: Spirit_idle_02_0
   - first:
-      213: 5859997419706386650
-    second: Spirit_Idle_1
+      213: 603504968957278267
+    second: Spirit_idle_02_1
   - first:
-      213: 6658533194344731283
-    second: Spirit_Idle_2
+      213: -7761209350957137285
+    second: Spirit_idle_02_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 171
+  spritePixelsToUnits: 172
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,13 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spirit_Idle_0
+      name: Spirit_idle_02_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 170
-        height: 170
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,20 +110,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd7e1f57644cabeb0800000000000000
-      internalID: -4703231053929519139
+      spriteID: 823c7480a1912ab20800000000000000
+      internalID: 3144103089456792360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirit_Idle_1
+      name: Spirit_idle_02_1
       rect:
         serializedVersion: 2
         x: 170
         y: 0
         width: 170
-        height: 170
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad80e4a0b94e25150800000000000000
-      internalID: 5859997419706386650
+      spriteID: b38b1ee5294106800800000000000000
+      internalID: 603504968957278267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirit_Idle_2
+      name: Spirit_idle_02_2
       rect:
         serializedVersion: 2
         x: 340
         y: 0
         width: 170
-        height: 170
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392901e69acd76c50800000000000000
-      internalID: 6658533194344731283
+      spriteID: b7282c84735aa4490800000000000000
+      internalID: -7761209350957137285
       vertices: []
       indices: 
       edges: []

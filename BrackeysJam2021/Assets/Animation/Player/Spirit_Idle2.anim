@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Golem_Idle
+  m_Name: Spirit_Idle2
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 3358541013563233973, guid: c83ff818668f2b14b88896d9396d4ac7,
-        type: 3}
-    - time: 0.16666667
-      value: {fileID: 4603746703920835238, guid: c83ff818668f2b14b88896d9396d4ac7,
+      value: {fileID: 3144103089456792360, guid: f0c7267344ef79f419e03e2d92283629,
         type: 3}
     - time: 0.33333334
-      value: {fileID: -2495250544292010335, guid: c83ff818668f2b14b88896d9396d4ac7,
+      value: {fileID: 603504968957278267, guid: f0c7267344ef79f419e03e2d92283629,
+        type: 3}
+    - time: 1.3333334
+      value: {fileID: -7761209350957137285, guid: f0c7267344ef79f419e03e2d92283629,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -47,15 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 3358541013563233973, guid: c83ff818668f2b14b88896d9396d4ac7, type: 3}
-    - {fileID: 4603746703920835238, guid: c83ff818668f2b14b88896d9396d4ac7, type: 3}
-    - {fileID: -2495250544292010335, guid: c83ff818668f2b14b88896d9396d4ac7, type: 3}
+    - {fileID: 3144103089456792360, guid: f0c7267344ef79f419e03e2d92283629, type: 3}
+    - {fileID: 603504968957278267, guid: f0c7267344ef79f419e03e2d92283629, type: 3}
+    - {fileID: -7761209350957137285, guid: f0c7267344ef79f419e03e2d92283629, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5
+    m_StopTime: 1.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
