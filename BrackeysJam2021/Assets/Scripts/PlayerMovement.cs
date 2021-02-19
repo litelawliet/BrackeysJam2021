@@ -131,6 +131,15 @@ public partial class PlayerMovement : MonoBehaviour
         }
         float speed = (currentSpeed * currentAirControl) * speedDirection * Time.fixedDeltaTime;
         rb.AddForce(Vector2.right * speed, ForceMode2D.Impulse);
+
+        if (Mathf.Approximately(Mathf.Abs(speedDirection), 0.0f))
+        {
+            playerAnimator.SetBool("IsWalking", false);
+        }
+        else
+        {
+            playerAnimator.SetBool("IsWalking", true);
+        }
     }
 
     #region States setters
@@ -154,15 +163,15 @@ public partial class PlayerMovement : MonoBehaviour
                 currentSpeed = togetherMaxSpeed;
                 rb.mass = togetherMass;
                 floatHeight = togetherMaxJumpHeight;
-
-                // Change sprite
                 spriteRenderer.sprite = togetherSprite;
+                // Swap sprite here
                 break;
             case EPlayerState.ALONE:
                 currentSpeed = aloneMaxSpeed;
                 rb.mass = aloneMass;
                 floatHeight = aloneMaxJumpHeight;
                 spriteRenderer.sprite = alonePlayerSprite;
+                // Swap sprite animation
                 break;
             default: break;
         }
