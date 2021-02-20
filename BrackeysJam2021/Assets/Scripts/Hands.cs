@@ -5,43 +5,58 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Hands : MonoBehaviour
 {
-    BoxCollider2D boxCollider;
-    Rigidbody2D rb;
+    #region Components references
+    BoxCollider2D _boxCollider;
+    Rigidbody2D _rigidbody;
+    SpriteRenderer _spriteRenderer;
     public GameObject aloneGolem = null;
     public PlayerMovement playerMovementScript = null;
     Transform aloneGolemTransform;
+    Camera _cameraRef;
+    #endregion
 
+    private float speed = 0.0f;
     private bool beginChase = false;
+    private Vector3 initialPosition = Vector3.zero;
+
+    private float currentSpeed = 0.0f;
+
+    private void OnDestroy()
+    {
+        PlayerMovement.OnPlayerStateChange -= ChasePlayer;
+    }
 
     private void Awake()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
-        rb = GetComponent<Rigidbody2D>();
-        rb.isKinematic = true;
-        boxCollider.isTrigger = true;
+        _boxCollider = GetComponent<BoxCollider2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _rigidbody.isKinematic = true;
+        _boxCollider.isTrigger = true;
     }
 
-    // Start is called before the first frame update
     private void Start()
     {
         var player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
         aloneGolem = playerMovementScript.aloneStayGO;
         aloneGolemTransform = aloneGolem.transform;
+        _cameraRef = Camera.main;
         PlayerMovement.OnPlayerStateChange += ChasePlayer;
+        StartPosition();
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void FixedUpdate()
     {
         if (beginChase)
         {
-            float step = 1.0f * Time.deltaTime; // calculate distance to move
-            transform.position = Vector3.MoveTowards(transform.position, aloneGolemTransform.position, step);
             var newRotation = Quaternion.LookRotation(transform.position - aloneGolemTransform.position, Vector3.right);
             newRotation.x = 0.0f;
-            newRotation.y = 0.0f;
-            transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * 8);
+            newRotation.y = transform.rotation.y;
+            transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.fixedDeltaTime * 2.0f);
+
+            currentSpeed += speed;
+            transform.position = Vector3.Lerp(initialPosition, aloneGolemTransform.position, currentSpeed * speed * Time.fixedDeltaTime);
         }
     }
 
@@ -49,11 +64,22 @@ public class Hands : MonoBehaviour
     {
         if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.ALONE)
         {
+            _spriteRenderer.enabled = true;
             beginChase = true;
+            speed = Vector3.Distance(transform.position, aloneGolemTransform.position) /
+                ((float)GameManager.timeSplitBeforeDeath + 0x2);
+            // 0x2 is a special constant, please don't touch or it could break this entire damn game
+
+            if (transform.position.x < _cameraRef.transform.position.x)
+            {
+                transform.Rotate(0.0f, 180.0f, 0.0f);
+            }
+            currentSpeed = 0.0f;
         }
         else
         {
             beginChase = false;
+            StartPosition();
         }
     }
 
@@ -64,5 +90,15 @@ public class Hands : MonoBehaviour
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
+    }
+
+    private void StartPosition()
+    {
+        float halfHeight = _cameraRef.orthographicSize;
+        transform.position = new Vector3(_cameraRef.transform.position.x, halfHeight + 1.0f, 0.0f);
+        initialPosition = transform.position;
+        transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        _spriteRenderer.enabled = false;
+        currentSpeed = 0.0f;
     }
 }

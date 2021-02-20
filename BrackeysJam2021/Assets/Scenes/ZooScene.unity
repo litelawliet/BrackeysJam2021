@@ -629,7 +629,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.08187842, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -640,7 +640,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.30130434, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &595320810
 Rigidbody2D:
@@ -914,16 +914,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1948196019617477465, guid: b2ce81f6e1758d84ab765318316691e5,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1948196019617477465, guid: b2ce81f6e1758d84ab765318316691e5,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477467, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_Name
@@ -1044,31 +1034,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1349019055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9191818187014360976, guid: e5d8f71e92136f549b4a13c7cac814ea,
-    type: 3}
-  m_PrefabInstance: {fileID: 9191818185637357401}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1349019056
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349019055}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af307eff982d38b48b50ec8b665dcde7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1399447296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,12 +2095,12 @@ PrefabInstance:
     - target: {fileID: 231656158151715416, guid: 356bbd691bf1530408e0c946ba1566f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.54
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 231656158151715416, guid: 356bbd691bf1530408e0c946ba1566f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.69
+      value: 11.62
       objectReference: {fileID: 0}
     - target: {fileID: 231656158151715416, guid: 356bbd691bf1530408e0c946ba1566f3,
         type: 3}
@@ -2181,11 +2146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hands
-      objectReference: {fileID: 0}
-    - target: {fileID: 231656158151715420, guid: 356bbd691bf1530408e0c946ba1566f3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356bbd691bf1530408e0c946ba1566f3, type: 3}
@@ -2389,21 +2349,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3900015684945721915, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ee9377bcebc433f4d9d2b5ac11041b30,
-        type: 3}
     - target: {fileID: 3963425206907491791, guid: 64f36c83842943e4fafd0b98aa888568,
         type: 3}
       propertyPath: m_Name
       value: aloneStay_png
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963425206907491791, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_TagString
-      value: AloneStay
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f36c83842943e4fafd0b98aa888568, type: 3}
@@ -2513,11 +2462,6 @@ PrefabInstance:
       propertyPath: aloneStayGolem
       value: 
       objectReference: {fileID: 55352044}
-    - target: {fileID: 9191818187014360980, guid: e5d8f71e92136f549b4a13c7cac814ea,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360983, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}
       propertyPath: m_RootOrder
