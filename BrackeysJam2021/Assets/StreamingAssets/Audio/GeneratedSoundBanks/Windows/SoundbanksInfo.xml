@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="764940224">
+		<SoundBank Id="534561221" Language="SFX" Hash="2335807128">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -41,27 +41,27 @@
 					<IncludedMemoryFiles>
 						<File Id="232226598" Language="SFX">
 							<ShortName>FootstepsWalkForest09.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest09_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest09_8EE21B35.wem</Path>
 						</File>
 						<File Id="469036071" Language="SFX">
 							<ShortName>FootstepsWalkForest07.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest07_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest07_8EE21B35.wem</Path>
 						</File>
 						<File Id="872218194" Language="SFX">
 							<ShortName>FootstepsWalkForest06.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest06_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest06_8EE21B35.wem</Path>
 						</File>
 						<File Id="895044552" Language="SFX">
 							<ShortName>FootstepsWalkForest04.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest04_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest04_8EE21B35.wem</Path>
 						</File>
 						<File Id="897367241" Language="SFX">
 							<ShortName>FootstepsWalkForest02.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest02_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest02_8EE21B35.wem</Path>
 						</File>
 						<File Id="1031872274" Language="SFX">
 							<ShortName>FootstepsWalkForest05.wav</ShortName>
-							<Path>SFX\FootstepsWalkForest05_0F6A32B0.wem</Path>
+							<Path>SFX\FootstepsWalkForest05_8EE21B35.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
