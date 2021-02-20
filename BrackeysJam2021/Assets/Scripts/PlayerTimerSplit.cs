@@ -15,6 +15,13 @@ public class PlayerTimerSplit : MonoBehaviour
     private const  float second = 1.0f;
     private int countDown = 0;
 
+    private GameObject soundManager;
+
+    private void OnDestroy()
+    {
+        PlayerMovement.OnPlayerStateChange -= TimerStarter;
+    }
+
     private void Awake()
     {
         countDown = GameManager.timeSplitBeforeDeath;
@@ -23,6 +30,7 @@ public class PlayerTimerSplit : MonoBehaviour
     private void Start()
     {
         PlayerMovement.OnPlayerStateChange += TimerStarter;
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager");
     }
 
     private void Update()
@@ -37,6 +45,11 @@ public class PlayerTimerSplit : MonoBehaviour
             {
                 currentSecondsTimer -= second;
                 countDown--;
+            }
+            // Change time remainning
+            if (countDown >= 0)
+            {
+                AkSoundEngine.SetRTPCValue("HandTimer", countDown);
             }
 
             if (currentTime >= GameManager.timeSplitBeforeDeath)
@@ -61,6 +74,9 @@ public class PlayerTimerSplit : MonoBehaviour
             currentTime = 0.0f;
             currentSecondsTimer = 0.0f;
             countDown = GameManager.timeSplitBeforeDeath;
+
+            // Reset HandTimer RTC to default RTC value (hard value in Wwise)
+            AkSoundEngine.PostEvent("HandTimer_Stop", soundManager);
         }
     }
 }

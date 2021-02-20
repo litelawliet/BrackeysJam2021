@@ -45,6 +45,7 @@ public class Lever : IInteractible
             movingTime += Time.deltaTime;
             if (movingTime >= timeToMove)
             {
+                AkSoundEngine.PostEvent("PlatformLoop_Stop", targetToMove);
                 moving = false;
                 movingTime = 0.0f;
                 t = 0.0f;
@@ -79,6 +80,16 @@ public class Lever : IInteractible
         {
             if (Usable)
             {
+                if (Reusable)
+                {
+                    // Lever sound
+                    AkSoundEngine.PostEvent("LeverActivate", gameObject);
+                }
+                else
+                {
+                    // Bulbe sound
+                    AkSoundEngine.PostEvent("BulbExplode", gameObject);
+                }
                 StartCooldown();
             }
         }
@@ -93,5 +104,7 @@ public class Lever : IInteractible
         currentTime = 0.0f;
         movingTime = 0.0f;
         t = 0.0f;
+
+        AkSoundEngine.PostEvent("PlatformLoop_Start", targetToMove);
     }
 }

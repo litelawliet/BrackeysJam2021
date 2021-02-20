@@ -7,13 +7,19 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BulbExplode" ID="{EFE1FB25-0AD5-457B-9748-19559B86DF53}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Woodbreak" ID="{2066B9CE-05B9-4AD2-A2B9-0E3C4060A6AB}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LeverActivate" ID="{C99F15A5-1235-4C0D-A782-4A204445A349}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMusic_Start" ID="{69472728-EB19-4C53-8F08-816DF718AD16}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainAmbiance_Start" ID="{B69D3969-A4F6-4CFA-A8CE-A3C58F1F4625}" WorkUnitID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlatformLoop_Stop" ID="{2F3F7FC0-29E6-4D5A-9069-471F7B56155E}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlatformLoop_Start" ID="{43D69021-7856-4DAA-AF4F-58E5DBD8A119}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockPush_Start" ID="{312D7D2A-F757-4E89-A5B0-910A66473207}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hand_Trigger" ID="{4E83C0C0-3588-4FC0-81E9-AC097D37F854}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

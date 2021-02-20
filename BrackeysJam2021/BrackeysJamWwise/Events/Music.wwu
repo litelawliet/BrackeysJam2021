@@ -10,6 +10,7 @@
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -124,6 +125,7 @@
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -140,6 +142,7 @@
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

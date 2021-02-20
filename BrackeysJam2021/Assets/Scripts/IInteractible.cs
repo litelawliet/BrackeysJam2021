@@ -72,7 +72,7 @@ public class IInteractible : MonoBehaviour
 
     [SerializeField]
     [Tooltip("Define if this LOD can be reactivated")]
-    private bool Reusable = true;
+    protected bool Reusable = true;
     public bool Used { get; set; } = false;
     public bool Usable
     {
