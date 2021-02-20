@@ -50,3 +50,6 @@ TagManager:
   - name: ForeGround
     uniqueID: 2083189073
     locked: 0
+  - name: InteractibleObject
+    uniqueID: 3282196689
+    locked: 0
