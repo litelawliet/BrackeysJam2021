@@ -35,6 +35,7 @@ public class BreakableWall : MonoBehaviour
     {
         _animator.enabled = true;
         _animator.Play("BreakableWall_Destroy");
+        AkSoundEngine.PostEvent("Woodbreak", gameObject);
 
         var clips = _animator.GetCurrentAnimatorClipInfo(0);
         

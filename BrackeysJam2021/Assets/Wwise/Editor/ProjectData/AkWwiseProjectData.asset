@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877768688008428
+    m_lastTime: -8585877532339935471
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -215,6 +215,17 @@ MonoBehaviour:
       - ElementName: Ambiance
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\Ambiance
+    - name: Environment
+      guid: e32ff2f9760f6a4eb1b074cac39ed2cc
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Environment
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -235,17 +246,17 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\Music
-    - name: SFX
-      guid: da0233b082f803478dbd5c6b26778640
-      id: 393239870
+    - name: Player
+      guid: b83b7cd8e76e10419a691f458d906138
+      id: 1069431850
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
-      - ElementName: SFX
+      - ElementName: Player
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\SFX
+      Path: Default Work Unit\Master Audio Bus\Player
     - name: Triggers
       guid: 9fa1b2a6795c8e4b82b510b951bc662f
       id: 2465693650
@@ -288,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877768693384058
+    m_lastTime: -8585877532339955418
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -326,8 +337,40 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877532339955418
     List:
+    - name: BulbExplode
+      guid: 25fbe1efd50a7b45974819559b86df53
+      id: 221347139
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: BulbExplode
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\BulbExplode
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LeverActivate
+      guid: a5159fc935120d4ca7824a204445a349
+      id: 236780564
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: LeverActivate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\LeverActivate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: LogCrack
       guid: c57e23ec1ba4ff4c93f7ca3834d33ded
       id: 704035397
@@ -357,6 +400,38 @@ MonoBehaviour:
       - ElementName: LogFallHit
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogFallHit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlatformLoop_Start
+      guid: 2190d6435678aa4daf4f58e5dbd8a119
+      id: 1999309403
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: PlatformLoop_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\PlatformLoop_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlatformLoop_Stop
+      guid: c07f3f2fe6295a4d9069471f7b56155e
+      id: 2070386233
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: PlatformLoop_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\PlatformLoop_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -405,6 +480,22 @@ MonoBehaviour:
       - ElementName: RockPush_Stop
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockPush_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Woodbreak
+      guid: ceb96620b905d24aa2b90e3c4060a6ab
+      id: 3901853815
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Woodbreak
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Woodbreak
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -500,8 +591,24 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585877768693364110
-    List: []
+    m_lastTime: -8585877532339945446
+    List:
+    - name: Footsteps
+      guid: 7cfac9da84504e42ad1e3bbfcc3488b9
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
