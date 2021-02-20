@@ -1141,7 +1141,12 @@
 					<ChildrenList>
 						<MusicSegment Name="Hand_Trigger" ID="{AF8C7393-EC67-4CBB-815A-3B3E18863D57}" ShortID="789378297">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="7142.85416666667"/>
+								<Property Name="EndPosition" Type="Real64" Value="10000"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="105"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1194,32 +1199,32 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Hand_Trigger1" ID="{424A9328-6319-4CB1-B7EE-B4ECD6D967DD}">
-											<Language>SFX</Language>
-											<AudioFile>Hand_Trigger1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="697765994"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="Hand_Trigger2" ID="{2BD84B31-2F58-4E0C-905B-BB99EBAFB56B}">
+										<AudioFileSource Name="Hand_Trigger2" ID="{A32CA37B-ECA6-496F-8FC7-E38CF1167F6F}">
 											<Language>SFX</Language>
 											<AudioFile>Hand_Trigger2.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="436540397"/>
 											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Hand_Trigger3" ID="{96C328AC-F0CF-42DD-9E4F-18311D5299CA}">
+										<AudioFileSource Name="Hand_Trigger1" ID="{A343AC56-A246-4AE6-BB37-E5C011788DA7}">
 											<Language>SFX</Language>
-											<AudioFile>Hand_Trigger3.wav</AudioFile>
+											<AudioFile>Hand_Trigger1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="449164058"/>
+												<MediaID ID="697765994"/>
 											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Hand_Trigger4" ID="{D725CD54-D5F1-4D59-9BB9-F4D8AF00818F}">
+										<AudioFileSource Name="Hand_Trigger4" ID="{4CE0F478-F70C-4845-B922-4F2756EBCAAB}">
 											<Language>SFX</Language>
 											<AudioFile>Hand_Trigger4.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="602165710"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Hand_Trigger3" ID="{CA3489DF-C9B1-4B0C-BC21-51042EA46A4F}">
+											<Language>SFX</Language>
+											<AudioFile>Hand_Trigger3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449164058"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1234,49 +1239,49 @@
 									<SequenceList>
 										<MusicTrackSequence Name="" ID="{D43A7B7F-4ED1-4DC3-9B7B-307A18320514}">
 											<ClipList>
-												<MusicClip Name="Hand_Trigger1" ID="{B223615B-4364-4FD1-9FBB-F6FA1178B4D6}">
+												<MusicClip Name="Hand_Trigger1" ID="{435CB4E7-D523-4329-B465-0123CDA437AE}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="7142.85416666667"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8142.85416666667"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3525.19276515152"/>
 													</PropertyList>
-													<AudioSourceRef Name="Hand_Trigger1" ID="{424A9328-6319-4CB1-B7EE-B4ECD6D967DD}"/>
+													<AudioSourceRef Name="Hand_Trigger1" ID="{A343AC56-A246-4AE6-BB37-E5C011788DA7}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
 										<MusicTrackSequence Name="" ID="{8ECD16A4-2C9E-43E0-86F9-7FABAD2149BE}">
 											<ClipList>
-												<MusicClip Name="Hand_Trigger2" ID="{7678D428-94AF-4046-AD80-94D9DB711B2C}">
+												<MusicClip Name="Hand_Trigger2" ID="{3A8EA7EC-13B5-4100-9A97-27C75ACA66A8}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8142.85416666667"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3515.84212121212"/>
 													</PropertyList>
-													<AudioSourceRef Name="Hand_Trigger2" ID="{2BD84B31-2F58-4E0C-905B-BB99EBAFB56B}"/>
+													<AudioSourceRef Name="Hand_Trigger2" ID="{A32CA37B-ECA6-496F-8FC7-E38CF1167F6F}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
 										<MusicTrackSequence Name="" ID="{6A00F973-A27F-410B-A98E-3D1F43397871}">
 											<ClipList>
-												<MusicClip Name="Hand_Trigger3" ID="{665B32BE-3688-45B2-912E-0FC801233473}">
+												<MusicClip Name="Hand_Trigger3" ID="{C0819163-03F6-4985-A211-385EE357C26B}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="5428.5625"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8142.85416666667"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3534.54340909091"/>
 													</PropertyList>
-													<AudioSourceRef Name="Hand_Trigger3" ID="{96C328AC-F0CF-42DD-9E4F-18311D5299CA}"/>
+													<AudioSourceRef Name="Hand_Trigger3" ID="{CA3489DF-C9B1-4B0C-BC21-51042EA46A4F}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
 										<MusicTrackSequence Name="" ID="{574B4BD1-5A58-4A06-A1CE-3805EC115728}">
 											<ClipList>
-												<MusicClip Name="Hand_Trigger4" ID="{4C55BF93-A920-4C6E-ACEC-D9505532FEDF}">
+												<MusicClip Name="Hand_Trigger4" ID="{AC1C9837-8976-4163-BFB5-90C3D667079D}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="5428.5625"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8142.85416666667"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3497.14083333333"/>
 													</PropertyList>
-													<AudioSourceRef Name="Hand_Trigger4" ID="{D725CD54-D5F1-4D59-9BB9-F4D8AF00818F}"/>
+													<AudioSourceRef Name="Hand_Trigger4" ID="{4CE0F478-F70C-4845-B922-4F2756EBCAAB}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -1288,7 +1293,7 @@
 								<MusicCue Name="Exit Cue" ID="{8F0260EA-6B1B-49C3-B5E8-5B7393F39EBA}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="5142.85416666667"/>
+										<Property Name="TimeMs" Type="Real64" Value="8142.85416666667"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>

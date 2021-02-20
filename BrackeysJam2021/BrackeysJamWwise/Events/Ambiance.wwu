@@ -6,6 +6,9 @@
 				<Event Name="MainAmbiance_Start" ID="{B69D3969-A4F6-4CFA-A8CE-A3C58F1F4625}">
 					<ChildrenList>
 						<Action Name="" ID="{6C1DBCD3-21B6-43AD-BA8A-DA9405ABE29A}" ShortID="872444842">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WorldAmbiance" ID="{1A73C05D-0FE7-4AEF-904A-6D2279D5221C}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
