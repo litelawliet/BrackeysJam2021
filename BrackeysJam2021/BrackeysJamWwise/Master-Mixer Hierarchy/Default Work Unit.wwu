@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{82D014F5-EF27-4840-B3C4-23E9DC21505C}" WorkUnitID="{EB8C5D14-F79E-4958-B7F7-32997A1DB297}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Recorder_(Custom)" ID="{A431563C-98F8-43BF-BBE3-3E5F9FA76B50}" ShortID="143461770" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+									<PropertyList>
+										<Property Name="AuthoringFilename" Type="string" Value="combat.wav"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{5837EAEA-0505-455E-9E26-3D8199227278}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{B03302DA-F882-4703-8DBD-5C6B26778640}"/>
+						<Bus Name="Triggers" ID="{A6B2A19F-5C79-4B8E-82B5-10B951BC662F}"/>
+						<Bus Name="Ambiance" ID="{C230F5FE-E0C4-4846-81D7-E1981BF42282}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: d8cd8ae76387ec64f90070964c2b9ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 987367916276330956
+    second: SpriteSheet_WoodWall_0
+  - first:
+      213: 7554332528858669137
+    second: SpriteSheet_WoodWall_1
+  - first:
+      213: -5256583124611959408
+    second: SpriteSheet_WoodWall_2
+  - first:
+      213: -9112606010958178329
+    second: SpriteSheet_WoodWall_3
+  - first:
+      213: -115589825659193123
+    second: SpriteSheet_WoodWall_4
+  - first:
+      213: 5165715193390384512
+    second: SpriteSheet_WoodWall_5
+  - first:
+      213: 8935235664264498779
+    second: SpriteSheet_WoodWall_6
+  - first:
+      213: -1365161732607438201
+    second: SpriteSheet_WoodWall_7
+  - first:
+      213: -5255099343555120545
+    second: SpriteSheet_WoodWall_8
+  - first:
+      213: 8443125956901395198
+    second: SpriteSheet_WoodWall_9
+  - first:
+      213: 5337412982653508393
+    second: SpriteSheet_WoodWall_10
+  - first:
+      213: -8213501199675785386
+    second: SpriteSheet_WoodWall_11
+  - first:
+      213: -757835816300048341
+    second: SpriteSheet_WoodWall_12
+  - first:
+      213: 1507026953918545323
+    second: SpriteSheet_WoodWall_13
+  - first:
+      213: -7674981696670708460
+    second: SpriteSheet_WoodWall_14
+  - first:
+      213: -7892774897397427158
+    second: SpriteSheet_WoodWall_15
+  - first:
+      213: -8843380261322295604
+    second: SpriteSheet_WoodWall_16
+  - first:
+      213: 1287436138086171204
+    second: SpriteSheet_WoodWall_17
+  - first:
+      213: -3224116437473232784
+    second: SpriteSheet_WoodWall_18
+  - first:
+      213: 181354870260241834
+    second: SpriteSheet_WoodWall_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 369
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b44873e5d3bd00800000000000000
+      internalID: 987367916276330956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150acc1196166d860800000000000000
+      internalID: 7554332528858669137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095f03daf7ddc07b0800000000000000
+      internalID: -5256583124611959408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_3
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79fba1d15898180800000000000000
+      internalID: -9112606010958178329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_4
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83fed7aa7556ef0800000000000000
+      internalID: -115589825659193123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_5
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0854fd8699e40b740800000000000000
+      internalID: 5165715193390384512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_6
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e03e8ee75500c70800000000000000
+      internalID: 8935235664264498779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_7
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7821afa13a8fd0de0800000000000000
+      internalID: -1365161732607438201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_8
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5232006df22217b0800000000000000
+      internalID: -5255099343555120545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_9
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efadcfef2520c2570800000000000000
+      internalID: 8443125956901395198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_10
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bde9234dc421a40800000000000000
+      internalID: 5337412982653508393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_11
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f74170d28c30e80800000000000000
+      internalID: -8213501199675785386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_12
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b201e5b1750ab75f0800000000000000
+      internalID: -757835816300048341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_13
+      rect:
+        serializedVersion: 2
+        x: 5655
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badf04fa7090ae410800000000000000
+      internalID: 1507026953918545323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_14
+      rect:
+        serializedVersion: 2
+        x: 6090
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d41588fccfc7590800000000000000
+      internalID: -7674981696670708460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_15
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24918c6c0b377290800000000000000
+      internalID: -7892774897397427158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_16
+      rect:
+        serializedVersion: 2
+        x: 6960
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6fe2ea180064580800000000000000
+      internalID: -8843380261322295604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_17
+      rect:
+        serializedVersion: 2
+        x: 7395
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44280a1b854edd110800000000000000
+      internalID: 1287436138086171204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_18
+      rect:
+        serializedVersion: 2
+        x: 7830
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f8e5ae23a143d0800000000000000
+      internalID: -3224116437473232784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_WoodWall_19
+      rect:
+        serializedVersion: 2
+        x: 8265
+        y: 0
+        width: 435
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5162c2b4d448200800000000000000
+      internalID: 181354870260241834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

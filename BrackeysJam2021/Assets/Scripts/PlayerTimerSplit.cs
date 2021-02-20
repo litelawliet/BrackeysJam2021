@@ -7,10 +7,6 @@ public class PlayerTimerSplit : MonoBehaviour
     private bool playerIsTogether = true;
 
     [SerializeField]
-    [Tooltip("Time in second before the alone player dies")]
-    int timeSplitBeforeDeath = 15;
-
-    [SerializeField]
     private TMP_Text timerText;
 
     private float currentTime = 0.0f;
@@ -21,7 +17,7 @@ public class PlayerTimerSplit : MonoBehaviour
 
     private void Awake()
     {
-        countDown = timeSplitBeforeDeath;
+        countDown = GameManager.timeSplitBeforeDeath;
     }
 
     private void Start()
@@ -43,11 +39,11 @@ public class PlayerTimerSplit : MonoBehaviour
                 countDown--;
             }
 
-            if (currentTime >= timeSplitBeforeDeath)
+            if (currentTime >= GameManager.timeSplitBeforeDeath)
             {
                 // Game over
-                Scene scene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(scene.name);
+                /*Scene scene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(scene.name);*/
             }
         }
         else
@@ -64,7 +60,7 @@ public class PlayerTimerSplit : MonoBehaviour
         {
             currentTime = 0.0f;
             currentSecondsTimer = 0.0f;
-            countDown = timeSplitBeforeDeath;
+            countDown = GameManager.timeSplitBeforeDeath;
         }
     }
 }

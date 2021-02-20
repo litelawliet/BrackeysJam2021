@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 468904227184234590}
   - component: {fileID: 3900015684945721915}
   - component: {fileID: 55352047}
-  m_Layer: 8
+  m_Layer: 13
   m_Name: aloneStay_png
-  m_TagString: Untagged
+  m_TagString: AloneStay
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 35c846a66accebe4fb0386cabed0c261, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee9377bcebc433f4d9d2b5ac11041b30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

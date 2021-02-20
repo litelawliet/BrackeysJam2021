@@ -25,8 +25,6 @@ public partial class PlayerMovement
         {
             if (collider.transform.CompareTag("Interactible"))
             {
-                // Not optimal due to GetComponent in loop, can be optimize using a dictionnary holding every Interactible objects
-                // in the scene as key and then having the IInteractible script as value to get
                 IInteractible interactionScript;
                 GameManager.interactibles.TryGetValue(collider.gameObject, out interactionScript);
                 if (interactionScript != null)
@@ -41,6 +39,8 @@ public partial class PlayerMovement
 
         if (interactionTarget != null && !objectsInRange.Contains(interactionTarget))
         {
+            interactionTargetScript.outline.enabled = false;
+            interactionTargetScript = null;
             interactionTarget = null;
         }
 
@@ -57,6 +57,8 @@ public partial class PlayerMovement
             {
                 target.Use();
                 target.Used = true;
+                interactionTargetScript.outline.enabled = false;
+                interactionTargetScript = null;
                 interactionTarget = null;
             }
         }
@@ -73,6 +75,8 @@ public partial class PlayerMovement
             {
                 shortest = currentDistance;
                 interactionTarget = collider.gameObject;
+                GameManager.interactibles.TryGetValue(interactionTarget, out interactionTargetScript);
+                interactionTargetScript.outline.enabled = true;
             }
         }
     }

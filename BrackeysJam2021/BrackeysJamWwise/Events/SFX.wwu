@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{936094A2-058B-4431-9EFA-465D2DDFB39D}" SchemaVersion="97" RootDocumentID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{936094A2-058B-4431-9EFA-465D2DDFB39D}" OwnerID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Environment" ID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambiance" ID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

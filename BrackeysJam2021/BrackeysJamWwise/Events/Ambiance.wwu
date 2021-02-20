@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" SchemaVersion="97" RootDocumentID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}">
+	<Events>
+		<WorkUnit Name="Ambiance" ID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" OwnerID="{936094A2-058B-4431-9EFA-465D2DDFB39D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="MainAmbiance_Start" ID="{B69D3969-A4F6-4CFA-A8CE-A3C58F1F4625}">
+					<ChildrenList>
+						<Action Name="" ID="{6C1DBCD3-21B6-43AD-BA8A-DA9405ABE29A}" ShortID="872444842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WorldAmbiance" ID="{1A73C05D-0FE7-4AEF-904A-6D2279D5221C}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

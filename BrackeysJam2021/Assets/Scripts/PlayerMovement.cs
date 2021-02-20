@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 public partial class PlayerMovement : MonoBehaviour
 {
@@ -71,10 +71,8 @@ public partial class PlayerMovement : MonoBehaviour
     public static event OnUseInteractibleDelegate OnUseInteractible;
     #endregion
 
-    public Sprite togetherSprite;
-    public Sprite alonePlayerSprite;
-    public Sprite aloneStaySprite;
     public GameObject aloneStayGO;
+    public IInteractible interactionTargetScript;
     public GameObject interactionTarget;
     [SerializeField]
     [Tooltip("Objects in range. Updated at each physic tick.")]
@@ -82,8 +80,10 @@ public partial class PlayerMovement : MonoBehaviour
 
     #region PlayerMovement component references
     private Rigidbody2D rb;
-    private CircleCollider2D playerGroundCollider;
+    private BoxCollider2D playerTopCollider;
+    private CapsuleCollider2D playerGroundCollider;
     private SpriteRenderer spriteRenderer;
+    private Animator playerAnimator;
     #endregion
      
     #region Unity Events
@@ -96,11 +96,14 @@ public partial class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerGroundCollider = GetComponent<CircleCollider2D>();
+        playerGroundCollider = GetComponent<CapsuleCollider2D>();
+        playerTopCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
         PlayerState = EPlayerState.TOGETHER;
+        playerAnimator.SetBool("IsTogether", true);
     }
 
     private void Start()
@@ -129,6 +132,15 @@ public partial class PlayerMovement : MonoBehaviour
         }
         float speed = (currentSpeed * currentAirControl) * speedDirection * Time.fixedDeltaTime;
         rb.AddForce(Vector2.right * speed, ForceMode2D.Impulse);
+
+        if (Mathf.Approximately(Mathf.Abs(speedDirection), 0.0f))
+        {
+            playerAnimator.SetBool("IsWalking", false);
+        }
+        else
+        {
+            playerAnimator.SetBool("IsWalking", true);
+        }
     }
 
     #region States setters
@@ -137,10 +149,12 @@ public partial class PlayerMovement : MonoBehaviour
         if (PlayerState == EPlayerState.TOGETHER)
         {
             PlayerState = EPlayerState.ALONE;
+            playerAnimator.SetBool("IsTogether", false);
         }
         else
         {
             PlayerState = EPlayerState.TOGETHER;
+            playerAnimator.SetBool("IsTogether", true);
         }
     }
 
@@ -152,15 +166,13 @@ public partial class PlayerMovement : MonoBehaviour
                 currentSpeed = togetherMaxSpeed;
                 rb.mass = togetherMass;
                 floatHeight = togetherMaxJumpHeight;
-
-                // Change sprite
-                spriteRenderer.sprite = togetherSprite;
+                //spriteRenderer.sprite = togetherSprite;
                 break;
             case EPlayerState.ALONE:
                 currentSpeed = aloneMaxSpeed;
                 rb.mass = aloneMass;
                 floatHeight = aloneMaxJumpHeight;
-                spriteRenderer.sprite = alonePlayerSprite;
+                //spriteRenderer.sprite = alonePlayerSprite;
                 break;
             default: break;
         }

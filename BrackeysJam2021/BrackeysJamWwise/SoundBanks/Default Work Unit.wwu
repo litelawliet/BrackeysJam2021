@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A8CC294-B854-459B-9D87-E287A2FB9062}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5A8CC294-B854-459B-9D87-E287A2FB9062}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainSoundBank" ID="{8D7D59B2-4773-4423-9A3E-D13747CACA79}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainMusic_Start" ID="{69472728-EB19-4C53-8F08-816DF718AD16}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainAmbiance_Start" ID="{B69D3969-A4F6-4CFA-A8CE-A3C58F1F4625}" WorkUnitID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RockPush_Start" ID="{312D7D2A-F757-4E89-A5B0-910A66473207}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hand_Trigger" ID="{4E83C0C0-3588-4FC0-81E9-AC097D37F854}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
