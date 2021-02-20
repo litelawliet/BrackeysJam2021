@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sprite_Jump
+  m_Name: Bob_Steals
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4178880419571699245, guid: d8c3cec94f5f3364faf8f0c83ab4c40a,
+      value: {fileID: 6162988566812294039, guid: 1d15e6ad40f44944d921d376cfe25097,
         type: 3}
     - time: 0.083333336
-      value: {fileID: -2557122949081795937, guid: d8c3cec94f5f3364faf8f0c83ab4c40a,
+      value: {fileID: 5872638039450701423, guid: 1d15e6ad40f44944d921d376cfe25097,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4178880419571699245, guid: d8c3cec94f5f3364faf8f0c83ab4c40a, type: 3}
-    - {fileID: -2557122949081795937, guid: d8c3cec94f5f3364faf8f0c83ab4c40a, type: 3}
+    - {fileID: 6162988566812294039, guid: 1d15e6ad40f44944d921d376cfe25097, type: 3}
+    - {fileID: 5872638039450701423, guid: 1d15e6ad40f44944d921d376cfe25097, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

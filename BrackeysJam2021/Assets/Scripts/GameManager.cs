@@ -9,7 +9,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Negative Value which tells when objects have to be disposed in order to eventually reset the level (such as the Player for example).")]
     private GameObject player;
-    
+
+    [SerializeField]
+    [Tooltip("Time in second before the alone player dies")]
+    public static int timeSplitBeforeDeath = 15;
+
     private void Start()
     {
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
