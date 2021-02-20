@@ -9,34 +9,37 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Negative Value which tells when objects have to be disposed in order to eventually reset the level (such as the Player for example).")]
     private GameObject player;
-    Scene scene = SceneManager.GetActiveScene();
+
+    [SerializeField]
+    [Tooltip("Time in second before the alone player dies")]
+    public static int timeSplitBeforeDeath = 15;
 
     private void Start()
     {
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
-        foreach(var go in gos)
+        foreach (var go in gos)
         {
-            if (!interactibles.ContainsKey(go))
-            {
-                interactibles.Add(go, go.GetComponent<IInteractible>());
-            }
-            
+            interactibles.Add(go, go.GetComponent<IInteractible>());
         }
 
         if (player == null)
         {
             player = GameObject.FindWithTag("Player");
         }
+
+        // Sound test
+        AkSoundEngine.PostEvent("MainMusic_Start", gameObject);
     }
 
     private void Update()
     {
         if (player.transform.position.y <= deathLimit)
         {
-            //Scene scene = SceneManager.GetActiveScene();
+            Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
-
     }
 
 }
+
+

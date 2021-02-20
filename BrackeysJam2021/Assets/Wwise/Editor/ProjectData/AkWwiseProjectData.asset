@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8fb5eb5b0066ee40ac3f5ddceb6255dd
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877686258650025
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877686258645014
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877768688008428
+    m_lastTime: -8585877686297902992
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -265,7 +265,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877768632706306
+    m_lastTime: -8585877686258709767
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -288,7 +288,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877768693384058
+    m_lastTime: -8585877686304791199
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -313,7 +313,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7fd3d7361788fe4f83bb27c9e0d2553f
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877686304791199
     List: []
   - PhysicalPath: Events\Environment.wwu
     PathAndIcons:
@@ -326,7 +326,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877686304786229
     List:
     - name: LogCrack
       guid: c57e23ec1ba4ff4c93f7ca3834d33ded
@@ -342,8 +342,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogCrack
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.277542
+      minDuration: 2.809708
     - name: LogFallHit
       guid: a6103c49caff55418c61e6b488ee40e6
       id: 2152998613
@@ -358,8 +358,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogFallHit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.500021
+      minDuration: 1.497021
     - name: RockFallHit
       guid: f7946bdd7e62e74698fbb141ea98ffcf
       id: 1593996020
@@ -374,8 +374,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockFallHit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1
+      minDuration: 1
     - name: RockPush_Start
       guid: 2a7d2d3157f7894ea5b0910a66473207
       id: 2149952867
@@ -390,8 +390,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockPush_Start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5
+      minDuration: 5
     - name: RockPush_Stop
       guid: 1d34edf63348ef42bae179f8f3520c03
       id: 3687707233
@@ -406,8 +406,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockPush_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -417,7 +417,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877686304781274
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -431,8 +431,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Bob_Trigger
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Hand_Trigger
       guid: c0c0834e8835c04f81e9ac097d37f854
       id: 1515293495
@@ -445,8 +445,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Hand_Trigger
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: HandTimer_Start
       guid: fc90c42d760f574192705dbc3a0795b9
       id: 563379772
@@ -459,8 +459,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: HandTimer_Stop
       guid: 3ecc4714a5de474c9afac51b945d26cc
       id: 2488500112
@@ -473,8 +473,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: MainMusic_Start
       guid: 2827476919eb534c8f08816df718ad16
       id: 4088375194
@@ -500,7 +500,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585877768693364110
+    m_lastTime: -8585877686304776318
     List: []
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
@@ -511,7 +511,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX
     guid: a29460938b0531449efa465d2ddfb39d
     GuidInternal: 
-    m_lastTime: -8585877768693354136
+    m_lastTime: -8585877686304771359
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -521,7 +521,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f73d42214730624cb4f51881177cba4a
     GuidInternal: 
-    m_lastTime: -8585877768693354136
+    m_lastTime: -8585877686304766396
     List:
     - name: HandTimer
       guid: 5a0fb74f0896ca46a9eeea5b1ebea71f
@@ -540,7 +540,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2ccbbf3e64ac4645a14dd3f776dddbab
     GuidInternal: 
-    m_lastTime: -8585877768632696332
+    m_lastTime: -8585877686258684941
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -550,7 +550,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d6867f84c3608042ba9b859c81b7d687
     GuidInternal: 
-    m_lastTime: -8585877768632696332
+    m_lastTime: -8585877686258674801
     List:
     - name: HandTimer
       guid: 24e382aa4da74f418722f053fd4d5263
@@ -585,7 +585,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fec1f150b84c1b4fb9b0b4c44c4c3d43
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877686258665132
     List:
     - name: Bob
       guid: 5b56d82aac69374e9aad4dc332a2ff3e
