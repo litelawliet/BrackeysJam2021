@@ -25,6 +25,7 @@ public class BreakableWall : MonoBehaviour
             {
                 if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
                 {
+                    _boxCollider2D.isTrigger = true;
                     StartCoroutine(WallDestruction());
                 }
             }
@@ -39,7 +40,7 @@ public class BreakableWall : MonoBehaviour
         var clips = _animator.GetCurrentAnimatorClipInfo(0);
         
         yield return new WaitForSeconds(clips[0].clip.length);
-        _boxCollider2D.isTrigger = true;
+        //_boxCollider2D.isTrigger = true;
         gameObject.SetActive(false);
     }
 
