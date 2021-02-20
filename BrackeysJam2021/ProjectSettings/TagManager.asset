@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AloneStay
   - Interactible
+  - EndLevel
   layers:
   - Default
   - TransparentFX

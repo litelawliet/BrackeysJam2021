@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Negative Value which tells when objects have to be disposed in order to eventually reset the level (such as the Player for example).")]
     private GameObject player;
-    
+    Scene scene = SceneManager.GetActiveScene();
+
     private void Start()
     {
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
@@ -32,8 +33,10 @@ public class GameManager : MonoBehaviour
     {
         if (player.transform.position.y <= deathLimit)
         {
-            Scene scene = SceneManager.GetActiveScene();
+            //Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
+
     }
+
 }
