@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player");
         }
+
+        // Sound test
+        AkSoundEngine.PostEvent("MainMusic_Start", gameObject); 
     }
 
     private void Update()
