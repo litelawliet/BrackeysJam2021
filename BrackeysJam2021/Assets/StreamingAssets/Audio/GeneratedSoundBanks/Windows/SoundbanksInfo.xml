@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<SoundBanksRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
