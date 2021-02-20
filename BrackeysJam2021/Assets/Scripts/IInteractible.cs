@@ -31,6 +31,16 @@ public class IInteractible : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        outline = gameObject.AddComponent<Outline>();
+
+        outline.OutlineMode = Outline.Mode.OutlineAndSilhouette;
+        outline.OutlineColor = Color.yellow;
+        outline.OutlineWidth = 5f;
+        outline.enabled = false;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var go = collision.gameObject;
@@ -62,7 +72,7 @@ public class IInteractible : MonoBehaviour
 
     [SerializeField]
     [Tooltip("Define if this LOD can be reactivated")]
-    private bool Reusable = true;
+    protected bool Reusable = true;
     public bool Used { get; set; } = false;
     public bool Usable
     {
@@ -89,5 +99,6 @@ public class IInteractible : MonoBehaviour
     protected Rigidbody2D _rigidbody2D;
     protected BoxCollider2D _boxCollider2D;
     protected CircleCollider2D _circleCollider2D;
+    public Outline outline;
 }
 

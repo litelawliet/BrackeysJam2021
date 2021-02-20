@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 public partial class PlayerMovement : MonoBehaviour
 {
@@ -71,10 +71,8 @@ public partial class PlayerMovement : MonoBehaviour
     public static event OnUseInteractibleDelegate OnUseInteractible;
     #endregion
 
-    public Sprite togetherSprite;
-    public Sprite alonePlayerSprite;
-    public Sprite aloneStaySprite;
     public GameObject aloneStayGO;
+    public IInteractible interactionTargetScript;
     public GameObject interactionTarget;
     [SerializeField]
     [Tooltip("Objects in range. Updated at each physic tick.")]
@@ -82,7 +80,8 @@ public partial class PlayerMovement : MonoBehaviour
 
     #region PlayerMovement component references
     private Rigidbody2D rb;
-    private CircleCollider2D playerGroundCollider;
+    private BoxCollider2D playerTopCollider;
+    private CapsuleCollider2D playerGroundCollider;
     private SpriteRenderer spriteRenderer;
     private Animator playerAnimator;
     #endregion
@@ -97,7 +96,8 @@ public partial class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerGroundCollider = GetComponent<CircleCollider2D>();
+        playerGroundCollider = GetComponent<CapsuleCollider2D>();
+        playerTopCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
         OnPlayerStateChange += UpdatePlayerState;
@@ -108,6 +108,12 @@ public partial class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        var outline = gameObject.AddComponent<Outline>();
+
+        outline.OutlineMode = Outline.Mode.OutlineAndSilhouette;
+        outline.OutlineColor = Color.yellow;
+        outline.OutlineWidth = 5f;
+        outline.enabled = true;
     }
 
     private void Update()
@@ -120,6 +126,14 @@ public partial class PlayerMovement : MonoBehaviour
         MoveAction();
         JumpAction();
         PopulateInteractiblesInRange();
+    }
+
+    private void LateUpdate()
+    {
+        if (!aloneStayGO.activeSelf)
+        {
+            aloneStayGO.transform.position = transform.position;
+        }
     }
     #endregion
 
@@ -166,15 +180,13 @@ public partial class PlayerMovement : MonoBehaviour
                 currentSpeed = togetherMaxSpeed;
                 rb.mass = togetherMass;
                 floatHeight = togetherMaxJumpHeight;
-                spriteRenderer.sprite = togetherSprite;
-                // Swap sprite here
+                //spriteRenderer.sprite = togetherSprite;
                 break;
             case EPlayerState.ALONE:
                 currentSpeed = aloneMaxSpeed;
                 rb.mass = aloneMass;
                 floatHeight = aloneMaxJumpHeight;
-                spriteRenderer.sprite = alonePlayerSprite;
-                // Swap sprite animation
+                //spriteRenderer.sprite = alonePlayerSprite;
                 break;
             default: break;
         }

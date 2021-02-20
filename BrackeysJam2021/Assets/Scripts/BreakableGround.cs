@@ -32,6 +32,7 @@ public class BreakableGround : MonoBehaviour
                 {
                     _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
                     _rigidbody2D.mass = 100.0f;
+                    AkSoundEngine.PostEvent("Woodbreak", gameObject); // OK
                 }
             }
         }
@@ -49,6 +50,7 @@ public class BreakableGround : MonoBehaviour
                 {
                     _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
                     _rigidbody2D.mass = 100.0f;
+                    AkSoundEngine.PostEvent("Woodbreak", gameObject); // Ok
                 }
             }
         }
@@ -72,6 +74,13 @@ public class BreakableGround : MonoBehaviour
                     {
                         _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
                         _rigidbody2D.mass = 100.0f;
+
+                        if (!playerCollapseSound)
+                        {
+                            playerCollapseSound = true;
+                            AkSoundEngine.PostEvent("Woodbreak", gameObject);
+                        }
+                        break;
                     }
                 }
             }
@@ -80,4 +89,5 @@ public class BreakableGround : MonoBehaviour
 
     protected Rigidbody2D _rigidbody2D;
     protected BoxCollider2D _boxCollider2D;
+    private bool playerCollapseSound = false;
 }

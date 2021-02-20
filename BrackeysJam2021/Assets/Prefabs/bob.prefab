@@ -14,13 +14,14 @@ GameObject:
   - component: {fileID: 9191818187014360978}
   - component: {fileID: 9191818187014360979}
   - component: {fileID: 9191818187014360982}
+  - component: {fileID: 1349019056}
   m_Layer: 12
   m_Name: bob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9191818187014360983
 Transform:
   m_ObjectHideFlags: 0
@@ -147,6 +148,7 @@ MonoBehaviour:
   speed: 5
   detectionRange: 2
   deathRange: 0.5
+  aloneStayGolem: {fileID: 0}
 --- !u!58 &9191818187014360982
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -163,3 +165,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.010807991}
   serializedVersion: 2
   m_Radius: 0.489192
+--- !u!95 &1349019056
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9191818187014360976}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af307eff982d38b48b50ec8b665dcde7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

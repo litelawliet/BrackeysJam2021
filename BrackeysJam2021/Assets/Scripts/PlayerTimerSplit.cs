@@ -7,10 +7,6 @@ public class PlayerTimerSplit : MonoBehaviour
     private bool playerIsTogether = true;
 
     [SerializeField]
-    [Tooltip("Time in second before the alone player dies")]
-    int timeSplitBeforeDeath = 15;
-
-    [SerializeField]
     private TMP_Text timerText;
 
     private float currentTime = 0.0f;
@@ -19,14 +15,22 @@ public class PlayerTimerSplit : MonoBehaviour
     private const  float second = 1.0f;
     private int countDown = 0;
 
+    private GameObject soundManager;
+
+    private void OnDestroy()
+    {
+        PlayerMovement.OnPlayerStateChange -= TimerStarter;
+    }
+
     private void Awake()
     {
-        countDown = timeSplitBeforeDeath;
+        countDown = GameManager.timeSplitBeforeDeath;
     }
 
     private void Start()
     {
         PlayerMovement.OnPlayerStateChange += TimerStarter;
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager");
     }
 
     private void Update()
@@ -42,12 +46,17 @@ public class PlayerTimerSplit : MonoBehaviour
                 currentSecondsTimer -= second;
                 countDown--;
             }
+            // Change time remainning
+            if (countDown >= 0)
+            {
+                AkSoundEngine.SetRTPCValue("HandTimer", countDown);
+            }
 
-            if (currentTime >= timeSplitBeforeDeath)
+            if (currentTime >= GameManager.timeSplitBeforeDeath)
             {
                 // Game over
-                Scene scene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(scene.name);
+                /*Scene scene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(scene.name);*/
             }
         }
         else
@@ -64,7 +73,10 @@ public class PlayerTimerSplit : MonoBehaviour
         {
             currentTime = 0.0f;
             currentSecondsTimer = 0.0f;
-            countDown = timeSplitBeforeDeath;
+            countDown = GameManager.timeSplitBeforeDeath;
+
+            // Reset HandTimer RTC to default RTC value (hard value in Wwise)
+            AkSoundEngine.PostEvent("HandTimer_Stop", soundManager);
         }
     }
 }

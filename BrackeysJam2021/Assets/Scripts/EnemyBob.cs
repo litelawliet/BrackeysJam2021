@@ -18,7 +18,6 @@ public class EnemyBob : MonoBehaviour
 
     private float distance = 0.0f;
     private float direction = 0.0f;
-    private bool animationDone = false;
 
     [SerializeField]
     [Tooltip("Enemy speed")]
@@ -30,7 +29,7 @@ public class EnemyBob : MonoBehaviour
     [Tooltip("Range of death near Alone player")]
     private float deathRange = 1.0f;
 
-    GameObject aloneStayGolem = null;
+    public GameObject aloneStayGolem = null;
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
     SpriteRenderer spriteRenderer = null;
@@ -56,28 +55,14 @@ public class EnemyBob : MonoBehaviour
     {
         float playerDistance = Vector2.Distance(transform.position, player.transform.position);
         float golemDistance = Vector2.Distance(transform.position, aloneStayGolem.transform.position);
-        if (playerDistance <= detectionRange)
+        if (playerDistance <= detectionRange || golemDistance <= detectionRange)
         {
-            // Could use another condition to tell if they virtually colide, in which case we can
-            // set the player to die
-
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
                 afraid = true;
             }
             else
             {
-                if (playerDistance <= deathRange || golemDistance <= deathRange)
-                {
-                    // Play animation
-                    _animator.SetTrigger("Steal");
-                    // Notify the player to stop the inputs
-                    Debug.Log("Player death");
-                    StartCoroutine(Restart());
-                    rb.velocity = Vector2.zero;
-                    rb.angularVelocity = 0.0f;
-                    direction = 0.0f;
-                }
                 afraid = false;
             }
         }
@@ -105,6 +90,21 @@ public class EnemyBob : MonoBehaviour
             }
             direction = fleeDirection;
         }
+        else
+        {
+            if (playerDistance <= deathRange || golemDistance <= deathRange)
+            {
+                // Play animation
+                _animator.SetTrigger("Steal");
+                // Notify the player to stop the inputs
+                StartCoroutine(Restart());
+                rb.velocity = Vector2.zero;
+                rb.angularVelocity = 0.0f;
+                direction = 0.0f;
+            }
+        }
+
+        
     }
 
     private void FixedUpdate()
@@ -156,7 +156,7 @@ public class EnemyBob : MonoBehaviour
     private IEnumerator Restart()
     {
         yield return new WaitForSeconds(0.5f);
-        
+
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }

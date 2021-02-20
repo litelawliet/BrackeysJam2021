@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 473650684}
   - component: {fileID: 473650685}
   - component: {fileID: 1769701013}
-  - component: {fileID: 1769701019}
   - component: {fileID: 4710469039257156289}
   - component: {fileID: 1769701020}
+  - component: {fileID: 137042351}
+  - component: {fileID: 699978806}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 583525f82b724d0459556e1ecd78963d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,12 +109,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 51134fe45828731488cac7b99178e6d1, type: 3}
+  m_Sprite: {fileID: 3358541013563233973, guid: 41769f0ebce2bcd44a09fe2eb81598c3,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.2521994}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -136,7 +138,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -253,10 +255,8 @@ MonoBehaviour:
   togetherMass: 2
   aloneMass: 2
   liftForce: 13
-  togetherSprite: {fileID: 21300000, guid: 51134fe45828731488cac7b99178e6d1, type: 3}
-  alonePlayerSprite: {fileID: 21300000, guid: 12851dc143d1f804b96975710aa43121, type: 3}
-  aloneStaySprite: {fileID: 21300000, guid: 35c846a66accebe4fb0386cabed0c261, type: 3}
   aloneStayGO: {fileID: 0}
+  interactionTargetScript: {fileID: 0}
   interactionTarget: {fileID: 0}
   objectsInRange: []
 --- !u!61 &1769701013
@@ -272,35 +272,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.15288019}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.2521994}
+    newSize: {x: 1, y: 1.2521994}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.88759214, y: 0.4565115}
+  m_Size: {x: 0.49713182, y: 0.8235141}
   m_EdgeRadius: 0
---- !u!58 &1769701019
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948196019617477467}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.06321517}
-  serializedVersion: 2
-  m_Radius: 0.44872472
 --- !u!95 &4710469039257156289
 Animator:
   serializedVersion: 3
@@ -332,5 +316,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0539000d16272de4593971de7f441cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeSplitBeforeDeath: 15
   timerText: {fileID: 0}
+--- !u!70 &137042351
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948196019617477467}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 0.9885254}
+  m_Direction: 0
+--- !u!114 &699978806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948196019617477467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.9433962, g: 0.46745986, b: 0.06674972, a: 1}
+  m_Intensity: 2
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000a305fb20
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
