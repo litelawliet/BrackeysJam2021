@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{847F86D6-60C3-4280-BA9B-859C81B7D687}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{847F86D6-60C3-4280-BA9B-859C81B7D687}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="HandTimer" ID="{AA82E324-A74D-414F-8722-F053FD4D5263}">
+					<ChildrenList>
+						<Switch Name="On" ID="{78C99AAD-6B76-480C-A6F3-C1013EE0114D}"/>
+						<Switch Name="Off" ID="{2335D458-5A5C-43E5-B511-94C73734E614}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

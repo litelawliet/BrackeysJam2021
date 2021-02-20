@@ -2,18 +2,21 @@
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-public abstract class IInteractible : MonoBehaviour
+[RequireComponent(typeof(CircleCollider2D))]
+public class IInteractible : MonoBehaviour
 {
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _boxCollider2D = GetComponent<BoxCollider2D>();
+        _circleCollider2D = GetComponent<CircleCollider2D>();
 
         _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (Draggable)
         {
             _boxCollider2D.isTrigger = false;
+            _circleCollider2D.isTrigger = false;
             _rigidbody2D.isKinematic = false;
             transform.gameObject.layer = LayerMask.NameToLayer("Draggable");
             Reusable = false;
@@ -22,6 +25,7 @@ public abstract class IInteractible : MonoBehaviour
         else
         {
             _boxCollider2D.isTrigger = true;
+            _circleCollider2D.isTrigger = true;
             _rigidbody2D.isKinematic = true;
             transform.gameObject.layer = LayerMask.NameToLayer("Interactible");
         }
@@ -84,5 +88,6 @@ public abstract class IInteractible : MonoBehaviour
 
     protected Rigidbody2D _rigidbody2D;
     protected BoxCollider2D _boxCollider2D;
+    protected CircleCollider2D _circleCollider2D;
 }
 
