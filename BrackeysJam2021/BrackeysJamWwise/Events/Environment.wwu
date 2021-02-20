@@ -82,6 +82,68 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LeverActivate" ID="{C99F15A5-1235-4C0D-A782-4A204445A349}">
+					<ChildrenList>
+						<Action Name="" ID="{60B04725-AB10-4DF1-AA31-75F94599232F}" ShortID="624829203">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverActivation" ID="{48B9FC92-1692-4336-B884-F212E3EC8779}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlatformLoop_Start" ID="{43D69021-7856-4DAA-AF4F-58E5DBD8A119}">
+					<ChildrenList>
+						<Action Name="" ID="{7FD07758-5A2A-42C4-ADC0-27AE6895E91D}" ShortID="533976008">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlatformLoop" ID="{52C7034F-8589-4438-B259-8CBFF82C4639}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlatformLoop_Stop" ID="{2F3F7FC0-29E6-4D5A-9069-471F7B56155E}">
+					<ChildrenList>
+						<Action Name="" ID="{A6DB883A-390D-467C-A515-0212F3FC7DE9}" ShortID="449032720">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlatformLoop" ID="{52C7034F-8589-4438-B259-8CBFF82C4639}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Woodbreak" ID="{2066B9CE-05B9-4AD2-A2B9-0E3C4060A6AB}">
+					<ChildrenList>
+						<Action Name="" ID="{AF6E0357-5A9B-4B8C-9E0D-9AE10E4373DA}" ShortID="754334618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woodbreak" ID="{72F4ED1C-35E8-4027-92FA-E1E5FD3A1569}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BulbExplode" ID="{EFE1FB25-0AD5-457B-9748-19559B86DF53}">
+					<ChildrenList>
+						<Action Name="" ID="{9E317A1A-A538-4076-9525-8BBE4D8AE9AE}" ShortID="163394532">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BulbExplode" ID="{5A3AAFF0-321A-41F6-AF47-2892ECCB015A}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

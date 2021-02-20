@@ -126,6 +126,8 @@
 						<Effect Name="One_Tap_One_Second" ID="{5B5883FA-85A1-45CA-8A52-9DBBCF3B0A03}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
 								<Property Name="DelayTime" Type="Real32" Value="1"/>
+								<Property Name="Feedback" Type="Real32" Value="12.5"/>
+								<Property Name="WetDryMix" Type="Real32" Value="8"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
