@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX" Hash="154638060">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1036091807" Name="Bob_Trigger" ObjectPath="\Events\Default Work Unit\Music\Bob_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1515293495" Name="Hand_Trigger" ObjectPath="\Events\Default Work Unit\Music\Hand_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="704035397" Name="LogCrack" ObjectPath="\Events\Default Work Unit\SFX\Environment\LogCrack" DurationType="OneShot" DurationMin="2.809708" DurationMax="3.277542">
+					<IncludedMemoryFiles>
+						<File Id="15717042" Language="SFX">
+							<ShortName>LogFallCrack4.wav</ShortName>
+							<Path>SFX\LogFallCrack4_10C4C929.wem</Path>
+						</File>
+						<File Id="426170569" Language="SFX">
+							<ShortName>LogFallCrack1.wav</ShortName>
+							<Path>SFX\LogFallCrack1_10C4C929.wem</Path>
+						</File>
+						<File Id="635761647" Language="SFX">
+							<ShortName>LogFallCrack2.wav</ShortName>
+							<Path>SFX\LogFallCrack2_10C4C929.wem</Path>
+						</File>
+						<File Id="651102870" Language="SFX">
+							<ShortName>LogFallCrack3.wav</ShortName>
+							<Path>SFX\LogFallCrack3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2152998613" Name="LogFallHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\LogFallHit" DurationType="OneShot" DurationMin="1.497021" DurationMax="1.500021">
+					<IncludedMemoryFiles>
+						<File Id="26210751" Language="SFX">
+							<ShortName>LogFallHit4.wav</ShortName>
+							<Path>SFX\LogFallHit4_10C4C929.wem</Path>
+						</File>
+						<File Id="591456587" Language="SFX">
+							<ShortName>LogFallHit2.wav</ShortName>
+							<Path>SFX\LogFallHit2_10C4C929.wem</Path>
+						</File>
+						<File Id="940983850" Language="SFX">
+							<ShortName>LogFallHit3.wav</ShortName>
+							<Path>SFX\LogFallHit3_10C4C929.wem</Path>
+						</File>
+						<File Id="1042459732" Language="SFX">
+							<ShortName>LogFallHit1.wav</ShortName>
+							<Path>SFX\LogFallHit1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2942474371" Name="MainAmbiance_Start" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="338816045" Language="SFX">
+							<ShortName>AmbianceCracks5.wav</ShortName>
+							<Path>SFX\AmbianceCracks5_10C4C929.wem</Path>
+						</File>
+						<File Id="653893533" Language="SFX">
+							<ShortName>AmbianceCracks3.wav</ShortName>
+							<Path>SFX\AmbianceCracks3_10C4C929.wem</Path>
+						</File>
+						<File Id="906293679" Language="SFX">
+							<ShortName>AmbianceCracks1.wav</ShortName>
+							<Path>SFX\AmbianceCracks1_10C4C929.wem</Path>
+						</File>
+						<File Id="921706949" Language="SFX">
+							<ShortName>AmbianceCracks2.wav</ShortName>
+							<Path>SFX\AmbianceCracks2_10C4C929.wem</Path>
+						</File>
+						<File Id="963889093" Language="SFX">
+							<ShortName>AmbianceCracks4.wav</ShortName>
+							<Path>SFX\AmbianceCracks4_10C4C929.wem</Path>
+						</File>
+						<File Id="1041325944" Language="SFX">
+							<ShortName>AmbianceCracks6.wav</ShortName>
+							<Path>SFX\AmbianceCracks6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="114140307" Language="SFX">
+							<ShortName>Bridge.wav</ShortName>
+							<Path>SFX\Bridge_D79FB2B7.wem</Path>
+						</File>
+						<File Id="206205029" Language="SFX">
+							<ShortName>Coda2.wav</ShortName>
+							<Path>SFX\Coda2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="316690344" Language="SFX">
+							<ShortName>SoloHautbois_1.wav</ShortName>
+							<Path>SFX\SoloHautbois_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="436540397" Language="SFX">
+							<ShortName>Hand_Trigger2.wav</ShortName>
+							<Path>SFX\Hand_Trigger2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="437107786" Language="SFX">
+							<ShortName>Bob_Trigger.wav</ShortName>
+							<Path>SFX\Bob_Trigger_D79FB2B7.wem</Path>
+						</File>
+						<File Id="449164058" Language="SFX">
+							<ShortName>Hand_Trigger3.wav</ShortName>
+							<Path>SFX\Hand_Trigger3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="523074337" Language="SFX">
+							<ShortName>Coda1.wav</ShortName>
+							<Path>SFX\Coda1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="602165710" Language="SFX">
+							<ShortName>Hand_Trigger4.wav</ShortName>
+							<Path>SFX\Hand_Trigger4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="697765994" Language="SFX">
+							<ShortName>Hand_Trigger1.wav</ShortName>
+							<Path>SFX\Hand_Trigger1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="748283284" Language="SFX">
+							<ShortName>SectionA_Lush.wav</ShortName>
+							<Path>SFX\SectionA_Lush_D79FB2B7.wem</Path>
+						</File>
+						<File Id="795909762" Language="SFX">
+							<ShortName>Thème Section A - Rhytmique.wav</ShortName>
+							<Path>SFX\Thème Section A - Rhytmique_D79FB2B7.wem</Path>
+						</File>
+						<File Id="847131327" Language="SFX">
+							<ShortName>SectionB_Winds.wav</ShortName>
+							<Path>SFX\SectionB_Winds_D79FB2B7.wem</Path>
+						</File>
+						<File Id="855369342" Language="SFX">
+							<ShortName>Intro.wav</ShortName>
+							<Path>SFX\Intro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="862627587" Language="SFX">
+							<ShortName>SectionB_Percu.wav</ShortName>
+							<Path>SFX\SectionB_Percu_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875139115" Language="SFX">
+							<ShortName>SoloHautbois_2.wav</ShortName>
+							<Path>SFX\SoloHautbois_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="940676883" Language="SFX">
+							<ShortName>SoloHorn_1.wav</ShortName>
+							<Path>SFX\SoloHorn_1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1593996020" Name="RockFallHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockFallHit" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="199363197" Language="SFX">
+							<ShortName>RockFall3.wav</ShortName>
+							<Path>SFX\RockFall3_10C4C929.wem</Path>
+						</File>
+						<File Id="308114260" Language="SFX">
+							<ShortName>RockFall1.wav</ShortName>
+							<Path>SFX\RockFall1_10C4C929.wem</Path>
+						</File>
+						<File Id="624328487" Language="SFX">
+							<ShortName>RockFall2.wav</ShortName>
+							<Path>SFX\RockFall2_10C4C929.wem</Path>
+						</File>
+						<File Id="690540011" Language="SFX">
+							<ShortName>RockFall4.wav</ShortName>
+							<Path>SFX\RockFall4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2149952867" Name="RockPush_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockPush_Start" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000">
+					<IncludedMemoryFiles>
+						<File Id="571351526" Language="SFX">
+							<ShortName>RockPushLoop2.wav</ShortName>
+							<Path>SFX\RockPushLoop2_10C4C929.wem</Path>
+						</File>
+						<File Id="892358579" Language="SFX">
+							<ShortName>RockPushLoop3.wav</ShortName>
+							<Path>SFX\RockPushLoop3_10C4C929.wem</Path>
+						</File>
+						<File Id="987499503" Language="SFX">
+							<ShortName>RockPushLoop1.wav</ShortName>
+							<Path>SFX\RockPushLoop1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3687707233" Name="RockPush_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockPush_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2481527869" Name="HandTimer" ObjectPath="\Game Parameters\Default Work Unit\HandTimer"/>
+			</GameParameters>
+			<Triggers>
+				<Trigger Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
+				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2532443636">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

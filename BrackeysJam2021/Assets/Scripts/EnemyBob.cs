@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(Animator))]
 public class EnemyBob : MonoBehaviour
 {
     private bool leftDirection = true;
@@ -13,6 +14,7 @@ public class EnemyBob : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private CircleCollider2D circleCollider;
+    private Animator _animator;
 
     private float distance = 0.0f;
     private float direction = 0.0f;
@@ -27,46 +29,40 @@ public class EnemyBob : MonoBehaviour
     [Tooltip("Range of death near Alone player")]
     private float deathRange = 1.0f;
 
-    GameObject aloneStayGolem = null;
+    public GameObject aloneStayGolem = null;
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
+    SpriteRenderer spriteRenderer = null;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
 
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
         aloneStayGolem = playerMovementScript.aloneStayGO;
-        
+
         distance = boxCollider.bounds.size.x / 2.0f + 0.1f;
         direction = leftDirection ? -1.0f : 1.0f;
+        transform.Rotate(0.0f, 180.0f, 0.0f);
     }
 
     private void Update()
     {
         float playerDistance = Vector2.Distance(transform.position, player.transform.position);
         float golemDistance = Vector2.Distance(transform.position, aloneStayGolem.transform.position);
-        if (playerDistance <= detectionRange)
+        if (playerDistance <= detectionRange || golemDistance <= detectionRange)
         {
-            // Could use another condition to tell if they virtually colide, in which case we can
-            // set the player to die
-           
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
                 afraid = true;
             }
             else
             {
-                if (playerDistance <= deathRange || golemDistance <= deathRange)
-                {
-                    Debug.Log("Player death");
-                    // Play animation
-                    Scene scene = SceneManager.GetActiveScene();
-                    SceneManager.LoadScene(scene.name);
-                }
                 afraid = false;
             }
         }
@@ -87,23 +83,49 @@ public class EnemyBob : MonoBehaviour
                 fleeDirection = 1.0f;
             }
 
+            if (direction != fleeDirection)
+            {
+                _animator.SetTrigger("Afraid");
+                transform.Rotate(0.0f, 180.0f, 0.0f);
+            }
             direction = fleeDirection;
         }
+        else
+        {
+            if (playerDistance <= deathRange || golemDistance <= deathRange)
+            {
+                // Play animation
+                _animator.SetTrigger("Steal");
+                // Notify the player to stop the inputs
+                StartCoroutine(Restart());
+                rb.velocity = Vector2.zero;
+                rb.angularVelocity = 0.0f;
+                direction = 0.0f;
+            }
+        }
+
+        
     }
 
     private void FixedUpdate()
     {
+        var previousDir = direction;
         int mask = ~(LayerMask.GetMask("Enemy") + LayerMask.GetMask("StayPlayer"));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * direction, distance, mask);
 
         if (hit.collider != null && !hit.collider.CompareTag("Player"))
         {
-            // more conditions with player so when we're together player gets eaten
+            // more conditions with player so when we're alone player gets eaten
             leftDirection = !leftDirection;
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
             rb.angularVelocity = 0.0f;
-            transform.Rotate(0.0f, 180.0f, 0.0f);
+            //transform.Rotate(0.0f, 180.0f, 0.0f);
             direction = leftDirection ? -1.0f : 1.0f;
+        }
+
+        if (direction != previousDir)
+        {
+            transform.Rotate(0.0f, 180.0f, 0.0f);
         }
 
         float acceleration = this.speed * direction * Time.fixedDeltaTime;
@@ -129,5 +151,13 @@ public class EnemyBob : MonoBehaviour
 
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, deathRange);
+    }
+
+    private IEnumerator Restart()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2AB53880-1399-41F7-8CCE-40540BC7C570}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{2AB53880-1399-41F7-8CCE-40540BC7C570}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{78F1E60E-9400-4EC3-8925-2BBCE675074D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MainMusic_Start" ID="{69472728-EB19-4C53-8F08-816DF718AD16}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hand_Trigger" ID="{4E83C0C0-3588-4FC0-81E9-AC097D37F854}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RockPush_Start" ID="{312D7D2A-F757-4E89-A5B0-910A66473207}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}"/>
+							<Value>15</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="On" ID="{78C99AAD-6B76-480C-A6F3-C1013EE0114D}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

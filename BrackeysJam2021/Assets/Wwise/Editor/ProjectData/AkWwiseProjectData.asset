@@ -1,0 +1,613 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c645b78d8fc26b46a7d4a3de1900f6a, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8fb5eb5b0066ee40ac3f5ddceb6255dd
+    GuidInternal: 
+    m_lastTime: -8585878137006361339
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Factory Reflect Acoustic Textures
+      ObjectType: 12
+    ParentPath: Factory Reflect Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8585878137006361339
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      Path: Factory Reflect Acoustic Textures\Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e26e56b81eec824da9e65835e73314ce
+    GuidInternal: 
+    m_lastTime: -8585878137019253672
+    List:
+    - name: Ambiance
+      guid: fef530c2c4e0464881d7e1981bf42282
+      id: 2981377429
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambiance
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Ambiance
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: eaea375805055e459e263d8199227278
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Music
+    - name: SFX
+      guid: da0233b082f803478dbd5c6b26778640
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\SFX
+    - name: Triggers
+      guid: 9fa1b2a6795c8e4b82b510b951bc662f
+      id: 2465693650
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Triggers
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Triggers
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 94c28c5a54b89b459d87e287a2fb9062
+    GuidInternal: 
+    m_lastTime: -8585878137006381342
+    List:
+    - name: MainSoundBank
+      guid: b2597d8d734723449a3ed13747caca79
+      id: 534561221
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainSoundBank
+        ObjectType: 7
+      Path: Default Work Unit\MainSoundBank
+  EventWwu:
+  - PhysicalPath: Events\Ambiance.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: SFX
+      ObjectType: 12
+    - ElementName: Ambiance
+      ObjectType: 12
+    ParentPath: Default Work Unit\SFX\Ambiance
+    guid: afb3917d4178874f92639eca0e745236
+    GuidInternal: 
+    m_lastTime: -8585878137023864710
+    List:
+    - name: MainAmbiance_Start
+      guid: 69399db6f6a4fa4ca8cea3c58f1f4625
+      id: 2942474371
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 12
+      - ElementName: MainAmbiance_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Ambiance\MainAmbiance_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 7fd3d7361788fe4f83bb27c9e0d2553f
+    GuidInternal: 
+    m_lastTime: -8585878137023864710
+    List: []
+  - PhysicalPath: Events\Environment.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: SFX
+      ObjectType: 12
+    - ElementName: Environment
+      ObjectType: 12
+    ParentPath: Default Work Unit\SFX\Environment
+    guid: 5e57fe9cb210044585b604ec16b85f83
+    GuidInternal: 
+    m_lastTime: -8585878137023854711
+    List:
+    - name: LogCrack
+      guid: c57e23ec1ba4ff4c93f7ca3834d33ded
+      id: 704035397
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: LogCrack
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\LogCrack
+      maxAttenuation: 0
+      maxDuration: 3.277542
+      minDuration: 2.809708
+    - name: LogFallHit
+      guid: a6103c49caff55418c61e6b488ee40e6
+      id: 2152998613
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: LogFallHit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\LogFallHit
+      maxAttenuation: 0
+      maxDuration: 1.500021
+      minDuration: 1.497021
+    - name: RockFallHit
+      guid: f7946bdd7e62e74698fbb141ea98ffcf
+      id: 1593996020
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: RockFallHit
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\RockFallHit
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
+    - name: RockPush_Start
+      guid: 2a7d2d3157f7894ea5b0910a66473207
+      id: 2149952867
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: RockPush_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\RockPush_Start
+      maxAttenuation: 0
+      maxDuration: 5
+      minDuration: 5
+    - name: RockPush_Stop
+      guid: 1d34edf63348ef42bae179f8f3520c03
+      id: 3687707233
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: RockPush_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\RockPush_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit\Music
+    guid: e415c6d9f6d3ae4cbd69124ce78a4656
+    GuidInternal: 
+    m_lastTime: -8585878137023854711
+    List:
+    - name: Bob_Trigger
+      guid: b59c5905949d0f47a7202eadf35cfe3f
+      id: 1036091807
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Bob_Trigger
+        ObjectType: 3
+      Path: Default Work Unit\Music\Bob_Trigger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Hand_Trigger
+      guid: c0c0834e8835c04f81e9ac097d37f854
+      id: 1515293495
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Hand_Trigger
+        ObjectType: 3
+      Path: Default Work Unit\Music\Hand_Trigger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: HandTimer_Start
+      guid: fc90c42d760f574192705dbc3a0795b9
+      id: 563379772
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: HandTimer_Start
+        ObjectType: 3
+      Path: Default Work Unit\Music\HandTimer_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: HandTimer_Stop
+      guid: 3ecc4714a5de474c9afac51b945d26cc
+      id: 2488500112
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: HandTimer_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Music\HandTimer_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MainMusic_Start
+      guid: 2827476919eb534c8f08816df718ad16
+      id: 4088375194
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: MainMusic_Start
+        ObjectType: 3
+      Path: Default Work Unit\Music\MainMusic_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: SFX
+      ObjectType: 12
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\SFX\Player
+    guid: 4587dac9a16bb746b96f6bdaf5d21df0
+    GuidInternal: 
+    m_lastTime: -8585878137023854711
+    List: []
+  - PhysicalPath: Events\SFX.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: SFX
+      ObjectType: 12
+    ParentPath: Default Work Unit\SFX
+    guid: a29460938b0531449efa465d2ddfb39d
+    GuidInternal: 
+    m_lastTime: -8585878137023844708
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f73d42214730624cb4f51881177cba4a
+    GuidInternal: 
+    m_lastTime: -8585878137023844708
+    List:
+    - name: HandTimer
+      guid: 5a0fb74f0896ca46a9eeea5b1ebea71f
+      id: 2481527869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HandTimer
+        ObjectType: 13
+      Path: Default Work Unit\HandTimer
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2ccbbf3e64ac4645a14dd3f776dddbab
+    GuidInternal: 
+    m_lastTime: -8585878137006371347
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d6867f84c3608042ba9b859c81b7d687
+    GuidInternal: 
+    m_lastTime: -8585878137006371347
+    List:
+    - name: HandTimer
+      guid: 24e382aa4da74f418722f053fd4d5263
+      id: 2481527869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HandTimer
+        ObjectType: 11
+      Path: Default Work Unit\HandTimer
+      values:
+      - name: Off
+        guid: 58d435235c5ae543b51194c73734e614
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Off
+          ObjectType: 10
+      - name: On
+        guid: ad9ac978766b0c48a6f3c1013ee0114d
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: On
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: fec1f150b84c1b4fb9b0b4c44c4c3d43
+    GuidInternal: 
+    m_lastTime: -8585878137006371347
+    List:
+    - name: Bob
+      guid: 5b56d82aac69374e9aad4dc332a2ff3e
+      id: 546945306
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 14
+      Path: Default Work Unit\Bob
+    - name: Hand
+      guid: 25754ed07e77fb449f4e82a82923d266
+      id: 3666971986
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hand
+        ObjectType: 14
+      Path: Default Work Unit\Hand
+  ExpandedItems:
+  - /BrackeysJamWwise
+  - /BrackeysJamWwise/SoundBanks
+  - /BrackeysJamWwise/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

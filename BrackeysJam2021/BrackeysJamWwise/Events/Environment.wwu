@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" SchemaVersion="97" RootDocumentID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}">
+	<Events>
+		<WorkUnit Name="Environment" ID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" OwnerID="{936094A2-058B-4431-9EFA-465D2DDFB39D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}">
+					<ChildrenList>
+						<Action Name="" ID="{8F482195-22A7-4904-874A-4DF0805E6594}" ShortID="254270606">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{A16C6D2F-ADD3-4BF2-B90A-996B06694AC8}" ShortID="667354132">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockFall" ID="{B6AE31D2-6A8F-49F1-8F4E-4F0A4ADDE6C0}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RockPush_Start" ID="{312D7D2A-F757-4E89-A5B0-910A66473207}">
+					<ChildrenList>
+						<Action Name="" ID="{1CFA06B8-8573-4D18-B074-63BC9CB34F12}" ShortID="94113816">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockPushLoop" ID="{DBBB9679-2714-4F7A-BC68-6537903531BB}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}">
+					<ChildrenList>
+						<Action Name="" ID="{F2B457A1-E5B9-4DF9-A58B-04395D60A676}" ShortID="538922756">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockPushLoop" ID="{DBBB9679-2714-4F7A-BC68-6537903531BB}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}">
+					<ChildrenList>
+						<Action Name="" ID="{A630CBBE-51E8-4665-98B6-5F1473DC7DA3}" ShortID="461811913">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LogCrack" ID="{B4E26F27-CF02-4089-A04A-AF702E9B65A7}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4E6B9A35-6DBF-48A3-8967-CDF5A3071C98}" ShortID="560947373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LogFallHit" ID="{FB158A84-9128-4F3E-8C91-9969A1A578BC}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}">
+					<ChildrenList>
+						<Action Name="" ID="{1ED420EB-0E33-4023-8EBB-159F9F3EC9AD}" ShortID="338146594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LogCrack" ID="{B4E26F27-CF02-4089-A04A-AF702E9B65A7}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

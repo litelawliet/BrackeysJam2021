@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}" SchemaVersion="97" RootDocumentID="{B3A5757F-5652-4806-972A-8556D185FFB0}">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}" OwnerID="{B3A5757F-5652-4806-972A-8556D185FFB0}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Player" ID="{9A65D700-31FD-4993-918C-ABD40D2E114B}" ShortID="913669600">
+					<ChildrenList>
+						<RandomSequenceContainer Name="GolemSeparation" ID="{47684F00-D7D5-4274-8C9D-70D4E44B54B1}" ShortID="745212313">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GolemSeparation1" ID="{C78E6A6A-59AB-462C-A843-AE6EFE953F0D}" ShortID="626805619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemSeparation1" ID="{E4FBAF69-2B6B-4AB0-B2FD-F4B126F7FD88}">
+											<Language>SFX</Language>
+											<AudioFile>GolemSeparation1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653190372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemSeparation1" ID="{E4FBAF69-2B6B-4AB0-B2FD-F4B126F7FD88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemSeparation2" ID="{C0BE8949-F3F4-495D-97C2-B383AB290141}" ShortID="825643621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemSeparation2" ID="{8E8CADD9-9A06-4F56-9EBB-4751B7ADA052}">
+											<Language>SFX</Language>
+											<AudioFile>GolemSeparation2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="294228061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemSeparation2" ID="{8E8CADD9-9A06-4F56-9EBB-4751B7ADA052}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemSeparation3" ID="{9D3FE3B7-09A3-43C1-987A-4FA7718CC582}" ShortID="698984144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemSeparation3" ID="{0967B55B-0A07-400E-A0AF-786CA18774E3}">
+											<Language>SFX</Language>
+											<AudioFile>GolemSeparation3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="229751176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemSeparation3" ID="{0967B55B-0A07-400E-A0AF-786CA18774E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemSeparation4" ID="{D8FBB803-0C1E-4C05-9419-5B2A47AD0A0A}" ShortID="51523160">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemSeparation4" ID="{440E8393-50A4-45F6-880B-8A6A485470DF}">
+											<Language>SFX</Language>
+											<AudioFile>GolemSeparation4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="644233243"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemSeparation4" ID="{440E8393-50A4-45F6-880B-8A6A485470DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemSeparation5" ID="{655BA912-60F3-45FF-9B72-7D6AA1100B26}" ShortID="234670728">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemSeparation5" ID="{F1FCACA9-0376-4762-B7FB-4F1E2269DF8F}">
+											<Language>SFX</Language>
+											<AudioFile>GolemSeparation5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991388617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemSeparation5" ID="{F1FCACA9-0376-4762-B7FB-4F1E2269DF8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GolemUnification" ID="{DDC89993-7A40-4218-9E5A-24D449DFBF0D}" ShortID="481334511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GolemUnification1" ID="{DC30223F-B44D-480C-A4A3-36F7406AA79A}" ShortID="919219073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemUnification1" ID="{90A90ADE-9221-40CB-8E94-93C47D732E2A}">
+											<Language>SFX</Language>
+											<AudioFile>GolemUnification1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032085161"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemUnification1" ID="{90A90ADE-9221-40CB-8E94-93C47D732E2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemUnification2" ID="{19A8B294-8EE7-4F8F-B0D4-9AC42CCAC82F}" ShortID="977765205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemUnification2" ID="{F796AC56-23CC-4217-B85C-595BF61308E8}">
+											<Language>SFX</Language>
+											<AudioFile>GolemUnification2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040137198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemUnification2" ID="{F796AC56-23CC-4217-B85C-595BF61308E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemUnification3" ID="{4EF9C9B0-DF4F-43BF-BE5E-B813416113C2}" ShortID="1045438799">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemUnification3" ID="{91EFE58F-3BED-4F35-AD28-7194AEA498E5}">
+											<Language>SFX</Language>
+											<AudioFile>GolemUnification3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="699238984"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemUnification3" ID="{91EFE58F-3BED-4F35-AD28-7194AEA498E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemUnification4" ID="{190784A7-61B5-4BFA-9FE2-24F8F65318AD}" ShortID="577200922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemUnification4" ID="{51D00952-E485-4F7D-BDED-11504D25922B}">
+											<Language>SFX</Language>
+											<AudioFile>GolemUnification4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442727397"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemUnification4" ID="{51D00952-E485-4F7D-BDED-11504D25922B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GolemUnification5" ID="{798DE910-7B6A-48EE-BA09-87F4205A8A05}" ShortID="224957011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GolemUnification5" ID="{2157FF96-1648-432E-96D6-BEFB4A28715E}">
+											<Language>SFX</Language>
+											<AudioFile>GolemUnification5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="536191787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GolemUnification5" ID="{2157FF96-1648-432E-96D6-BEFB4A28715E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{888F46C7-074D-4C37-ACBC-464B747C7D2A}" ShortID="518456821">
+					<ChildrenList>
+						<Folder Name="Rocks" ID="{2A862D04-1909-4E6E-9066-05FF0E48F15E}" ShortID="204721711">
+							<ChildrenList>
+								<RandomSequenceContainer Name="RockPushLoop" ID="{DBBB9679-2714-4F7A-BC68-6537903531BB}" ShortID="498352327">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RockPushLoop1" ID="{5A05CC79-56C3-4D74-A2DF-677687DF2E6B}" ShortID="45217394">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockPushLoop1" ID="{CC9C341F-DE64-4821-97A5-562CB1E947E1}">
+													<Language>SFX</Language>
+													<AudioFile>RockPushLoop1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="987499503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockPushLoop1" ID="{CC9C341F-DE64-4821-97A5-562CB1E947E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RockPushLoop2" ID="{64DD1855-8DE3-4A4C-91C1-053F15E6E671}" ShortID="347021210">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockPushLoop2" ID="{D713D99B-FA72-49D2-9924-9C434525F1DA}">
+													<Language>SFX</Language>
+													<AudioFile>RockPushLoop2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571351526"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockPushLoop2" ID="{D713D99B-FA72-49D2-9924-9C434525F1DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RockPushLoop3" ID="{8819A368-580A-4408-9A91-3973DFF68D1B}" ShortID="386826912">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockPushLoop3" ID="{CAE9C044-87B5-458B-AD3D-14D02C746E6D}">
+													<Language>SFX</Language>
+													<AudioFile>RockPushLoop3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="892358579"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockPushLoop3" ID="{CAE9C044-87B5-458B-AD3D-14D02C746E6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RockFall" ID="{B6AE31D2-6A8F-49F1-8F4E-4F0A4ADDE6C0}" ShortID="895358713">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RockFall1" ID="{3A1D56BB-7212-41F3-89B3-A1E8CF0802F7}" ShortID="148871710">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockFall1" ID="{A270759F-15D7-4477-975D-D40BF44B0E7F}">
+													<Language>SFX</Language>
+													<AudioFile>RockFall1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="308114260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockFall1" ID="{A270759F-15D7-4477-975D-D40BF44B0E7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RockFall2" ID="{29184100-E962-4CD6-8543-294D55CE505B}" ShortID="140676910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockFall2" ID="{7D7B895E-1E61-4CA2-967D-D26F3CD81766}">
+													<Language>SFX</Language>
+													<AudioFile>RockFall2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624328487"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockFall2" ID="{7D7B895E-1E61-4CA2-967D-D26F3CD81766}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RockFall3" ID="{6B8D7ED1-B2CF-41D4-A926-D3F1813D585C}" ShortID="533098908">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockFall3" ID="{B0F5FC7E-EA9F-4A91-A50C-6C693999643C}">
+													<Language>SFX</Language>
+													<AudioFile>RockFall3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199363197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockFall3" ID="{B0F5FC7E-EA9F-4A91-A50C-6C693999643C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RockFall4" ID="{6DF96735-0970-4D46-97FA-8FFDB66D0FD1}" ShortID="316280358">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockFall4" ID="{8874CF00-C70B-468A-B230-EAFB2B0DF673}">
+													<Language>SFX</Language>
+													<AudioFile>RockFall4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="690540011"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockFall4" ID="{8874CF00-C70B-468A-B230-EAFB2B0DF673}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Logs" ID="{763B4C3F-0A43-4864-B035-EA6C0971D569}" ShortID="636161123">
+							<ChildrenList>
+								<RandomSequenceContainer Name="LogCrack" ID="{B4E26F27-CF02-4089-A04A-AF702E9B65A7}" ShortID="859474884">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="LogFallCrack1" ID="{44F77479-D72F-48DA-97A2-1FA8018B72EE}" ShortID="24071354">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallCrack1" ID="{B6932B46-9DE4-4459-8C07-B7DD009727FB}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallCrack1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="426170569"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallCrack1" ID="{B6932B46-9DE4-4459-8C07-B7DD009727FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallCrack2" ID="{57B4F7F3-F0EF-4651-B697-3DD664AAA47D}" ShortID="117373224">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallCrack2" ID="{3EB92694-BA52-48A5-9EE5-9AC5827F2228}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallCrack2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="635761647"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallCrack2" ID="{3EB92694-BA52-48A5-9EE5-9AC5827F2228}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallCrack3" ID="{281D7F2D-82A4-49A2-B718-D8540B0F34DE}" ShortID="645182421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallCrack3" ID="{D382A389-B520-4C70-8E35-7FCDFF7229E6}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallCrack3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="651102870"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallCrack3" ID="{D382A389-B520-4C70-8E35-7FCDFF7229E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallCrack4" ID="{B6CEFB80-5717-4E82-AD39-8E1260C75094}" ShortID="834238586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallCrack4" ID="{35DCCAD3-8FFB-4613-B27B-34EA2873470B}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallCrack4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="15717042"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallCrack4" ID="{35DCCAD3-8FFB-4613-B27B-34EA2873470B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="LogFallHit" ID="{FB158A84-9128-4F3E-8C91-9969A1A578BC}" ShortID="332834249">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="LogFallHit1" ID="{28820FBC-93F2-4C60-8A83-DEE2553BB5D0}" ShortID="979721536">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallHit1" ID="{E4BD96F2-1DD0-409C-B477-7A7F0F269B9E}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallHit1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1042459732"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallHit1" ID="{E4BD96F2-1DD0-409C-B477-7A7F0F269B9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallHit2" ID="{AB738EFB-DE6F-4AF6-9AB9-FA5583C32B74}" ShortID="37200041">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallHit2" ID="{8C7EC91A-5695-4585-A1EC-77BB6B95321B}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallHit2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="591456587"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallHit2" ID="{8C7EC91A-5695-4585-A1EC-77BB6B95321B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallHit3" ID="{2838D9AB-AED4-466C-962A-D9DCF07384AC}" ShortID="892912770">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallHit3" ID="{203F10C1-34E3-4DA8-9D76-0AF581D2F940}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallHit3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="940983850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallHit3" ID="{203F10C1-34E3-4DA8-9D76-0AF581D2F940}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="LogFallHit4" ID="{36628E5B-7317-4336-8A91-14CE220E5A08}" ShortID="657718167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LogFallHit4" ID="{B4537852-FC6B-4230-B036-CE9E8B797752}">
+													<Language>SFX</Language>
+													<AudioFile>LogFallHit4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26210751"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="LogFallHit4" ID="{B4537852-FC6B-4230-B036-CE9E8B797752}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiance" ID="{33EB8A09-EBCB-442B-8540-77A9B4BFB4FB}" ShortID="145949805">
+					<ChildrenList>
+						<BlendContainer Name="WorldAmbiance" ID="{1A73C05D-0FE7-4AEF-904A-6D2279D5221C}" ShortID="604268371">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambiance" ID="{C230F5FE-E0C4-4846-81D7-E1981BF42282}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="BranchesCracks" ID="{B4AF5D4C-C178-4E96-A6BA-A7BEF11A4DD3}" ShortID="291509034">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E37BBE68-3017-4BAC-9BB5-3EB05B902A21}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3FA97D5-7E24-4F7A-8A7F-D16044AFE406}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9108F8B-5086-4FD6-81D7-2F12D67FE003}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-9"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AmbianceCracks1" ID="{BD5A9A7B-2CAC-40CF-9221-563320C321CB}" ShortID="462390375">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks1" ID="{D8434C12-C6A5-4901-A705-22722C2207C1}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="906293679"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks1" ID="{D8434C12-C6A5-4901-A705-22722C2207C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmbianceCracks2" ID="{B6EE1303-4321-4482-812C-A89C823AF813}" ShortID="396013440">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks2" ID="{3B08B215-35BB-45C5-B58A-F196C793FE8E}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="921706949"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks2" ID="{3B08B215-35BB-45C5-B58A-F196C793FE8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmbianceCracks3" ID="{BA86DDB7-9639-446F-B185-AA29DC740FD3}" ShortID="289566399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks3" ID="{40F58FDC-F704-4FA2-9AE4-111AFB04C421}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="653893533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks3" ID="{40F58FDC-F704-4FA2-9AE4-111AFB04C421}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmbianceCracks4" ID="{A9265F6C-20EE-41B6-9C9F-B0A8538172A5}" ShortID="899231607">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks4" ID="{A0AD878B-2604-456D-A5FD-B36E58DDA330}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="963889093"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks4" ID="{A0AD878B-2604-456D-A5FD-B36E58DDA330}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmbianceCracks5" ID="{18BB1776-CA58-4B4D-832F-9325CD0B0258}" ShortID="592201213">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks5" ID="{4A6D2A65-7232-42FF-8EEB-8E16F4187906}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338816045"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks5" ID="{4A6D2A65-7232-42FF-8EEB-8E16F4187906}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmbianceCracks6" ID="{F5165643-B9A4-4A18-B36F-ABC36239262A}" ShortID="366194571">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbianceCracks6" ID="{04323AC3-E24C-4226-9077-D82B190CA387}">
+													<Language>SFX</Language>
+													<AudioFile>AmbianceCracks6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1041325944"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmbianceCracks6" ID="{04323AC3-E24C-4226-9077-D82B190CA387}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{5A1BCEF5-5BEA-43A6-A403-228A742F6161}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="BranchesCracks_Path" ID="{A2DF9A32-CA13-4820-8AA3-0EEBA6B21DB8}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="100"/>
+														<Property Name="RandomY" Type="Real64" Value="100"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{9FA1F021-A6CA-4E3A-AFD4-C1D4DBA8ABCE}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="WorldAmbiance_Path" ID="{C5854A51-3CF8-49F3-B0F3-2E8D63BC2E13}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="100"/>
+												<Property Name="RandomY" Type="Real64" Value="100"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
