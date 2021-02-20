@@ -127,6 +127,14 @@ public partial class PlayerMovement : MonoBehaviour
         JumpAction();
         PopulateInteractiblesInRange();
     }
+
+    private void LateUpdate()
+    {
+        if (!aloneStayGO.activeSelf)
+        {
+            aloneStayGO.transform.position = transform.position;
+        }
+    }
     #endregion
 
     private void MoveAction()

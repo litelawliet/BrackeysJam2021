@@ -851,6 +851,18 @@ PrefabInstance:
       propertyPath: aloneStayGO
       value: 
       objectReference: {fileID: 55352044}
+    - target: {fileID: 699978806, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 699978806, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 699978806, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
+      propertyPath: m_AlphaBlendOnOverlap
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1769701020, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
       propertyPath: timerText
       value: 
@@ -863,7 +875,7 @@ PrefabInstance:
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.53
+      value: 4.53
       objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}

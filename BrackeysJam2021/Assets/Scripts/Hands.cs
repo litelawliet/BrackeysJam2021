@@ -18,7 +18,8 @@ public class Hands : MonoBehaviour
     private float speed = 0.0f;
     private bool beginChase = false;
     private Vector3 initialPosition = Vector3.zero;
-
+    private bool isLeft = false;
+    private Vector2 direction;
     private float currentSpeed = 0.0f;
 
     private void OnDestroy()
@@ -50,13 +51,13 @@ public class Hands : MonoBehaviour
     {
         if (beginChase)
         {
-            var newRotation = Quaternion.LookRotation(transform.position - aloneGolemTransform.position, Vector3.right);
+            var newRotation = Quaternion.LookRotation(transform.position - aloneGolemTransform.position, direction);
             newRotation.x = 0.0f;
-            newRotation.y = transform.rotation.y;
+            newRotation.y = 0.0f;
             transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.fixedDeltaTime * 2.0f);
 
-            currentSpeed += speed;
-            transform.position = Vector3.Lerp(initialPosition, aloneGolemTransform.position, currentSpeed * speed * Time.fixedDeltaTime);
+            currentSpeed += Time.fixedDeltaTime / (GameManager.timeSplitBeforeDeath + 1.0f);
+            transform.position = Vector3.Lerp(initialPosition, aloneGolemTransform.position, currentSpeed);
         }
     }
 
@@ -66,15 +67,20 @@ public class Hands : MonoBehaviour
         {
             _spriteRenderer.enabled = true;
             beginChase = true;
-            speed = Vector3.Distance(transform.position, aloneGolemTransform.position) /
-                ((float)GameManager.timeSplitBeforeDeath + 0x2);
-            // 0x2 is a special constant, please don't touch or it could break this entire damn game
-
-            if (transform.position.x < _cameraRef.transform.position.x)
-            {
-                transform.Rotate(0.0f, 180.0f, 0.0f);
-            }
             currentSpeed = 0.0f;
+            
+            if (aloneGolemTransform.position.x < _cameraRef.transform.position.x)
+            {
+                _spriteRenderer.flipX = true;
+                direction = -Vector2.right;
+                isLeft = true;
+            }
+            else
+            {
+                _spriteRenderer.flipX = false;
+                direction = Vector2.right;
+                isLeft = false;
+            }
         }
         else
         {
@@ -99,6 +105,8 @@ public class Hands : MonoBehaviour
         initialPosition = transform.position;
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
         _spriteRenderer.enabled = false;
+        _spriteRenderer.flipX = false;
         currentSpeed = 0.0f;
+        isLeft = false;
     }
 }
