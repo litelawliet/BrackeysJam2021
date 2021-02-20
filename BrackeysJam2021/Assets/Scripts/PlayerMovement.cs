@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -75,7 +76,9 @@ public partial class PlayerMovement : MonoBehaviour
     public Sprite alonePlayerSprite;
     public Sprite aloneStaySprite;
     public GameObject aloneStayGO;
+    public Image infoBulle;
     public GameObject interactionTarget;
+    private IInteractible interactionTargetScript;
     [SerializeField]
     [Tooltip("Objects in range. Updated at each physic tick.")]
     private List<GameObject> objectsInRange;
@@ -102,6 +105,7 @@ public partial class PlayerMovement : MonoBehaviour
         playerTopCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
+        infoBulle = GetComponent<Image>();
         OnPlayerStateChange += UpdatePlayerState;
         OnUseInteractible += UseInteractibleTarget;
         PlayerState = EPlayerState.TOGETHER;

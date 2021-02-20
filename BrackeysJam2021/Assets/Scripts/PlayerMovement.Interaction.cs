@@ -41,6 +41,8 @@ public partial class PlayerMovement
 
         if (interactionTarget != null && !objectsInRange.Contains(interactionTarget))
         {
+            interactionTargetScript.outline.enabled = false;
+            interactionTargetScript = null;
             interactionTarget = null;
         }
 
@@ -57,6 +59,8 @@ public partial class PlayerMovement
             {
                 target.Use();
                 target.Used = true;
+                interactionTargetScript.outline.enabled = false;
+                interactionTargetScript = null;
                 interactionTarget = null;
             }
         }
@@ -73,6 +77,8 @@ public partial class PlayerMovement
             {
                 shortest = currentDistance;
                 interactionTarget = collider.gameObject;
+                GameManager.interactibles.TryGetValue(interactionTarget, out interactionTargetScript);
+                interactionTargetScript.outline.enabled = true;
             }
         }
     }

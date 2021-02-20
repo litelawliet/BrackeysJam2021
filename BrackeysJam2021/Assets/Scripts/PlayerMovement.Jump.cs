@@ -72,9 +72,9 @@ public partial class PlayerMovement
                         + LayerMask.GetMask("StayPlayer"));
 
         float rayDistance = playerGroundCollider.bounds.extents.y;
-        Vector2 boxCastSize = playerGroundCollider.bounds.size;
+        Vector2 boxCastSize = new Vector2(playerGroundCollider.bounds.size.x - 0.1f, playerGroundCollider.bounds.extents.y);
 
-        hit = Physics2D.BoxCast(playerGroundCollider.bounds.center, boxCastSize, 0.0f, Vector2.up, rayDistance, layerMask);
+        hit = Physics2D.BoxCast(playerGroundCollider.bounds.center, boxCastSize, 0.0f, Vector2.down, rayDistance, layerMask);
 
         Debug.DrawLine(playerGroundCollider.bounds.center, Vector3.down * hit.distance);
         
@@ -84,10 +84,12 @@ public partial class PlayerMovement
             rayColor = Color.red;
         }
 
-        Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
-        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
-        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, rayDistance), Vector2.right * playerGroundCollider.bounds.size.x, rayColor);
-        Debug.Log(hit.collider);
+        Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, rayDistance), Vector2.right * (playerGroundCollider.bounds.size.x - 0.01f), rayColor);
+        
+        //Debug.Log(hit.collider);
+
         return hit.collider != null;
     }
 }
