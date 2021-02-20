@@ -265,8 +265,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585879170862000281
-    List: []
+    m_lastTime: -8585878195005471603
+    List:
+    - name: MainSoundBank
+      guid: b2597d8d734723449a3ed13747caca79
+      id: 534561221
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainSoundBank
+        ObjectType: 7
+      Path: Default Work Unit\MainSoundBank
   EventWwu:
   - PhysicalPath: Events\Ambiance.wwu
     PathAndIcons:
@@ -279,7 +288,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585878257822708949
+    m_lastTime: -8585878200023642905
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -596,6 +605,9 @@ MonoBehaviour:
       - ElementName: Hand
         ObjectType: 14
       Path: Default Work Unit\Hand
-  ExpandedItems: []
+  ExpandedItems:
+  - /BrackeysJamWwise
+  - /BrackeysJamWwise/SoundBanks
+  - /BrackeysJamWwise/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

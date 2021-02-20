@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" SchemaVersion="97" RootDocumentID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}">
+	<Events>
+		<WorkUnit Name="Music" ID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" OwnerID="{36D7D37F-8817-4FFE-83BB-27C9E0D2553F}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="MainMusic_Start" ID="{69472728-EB19-4C53-8F08-816DF718AD16}">
+					<ChildrenList>
+						<Action Name="" ID="{D660B51B-1FDF-48C3-BE0C-B57DC6698D0E}" ShortID="233069976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}" WorkUnitID="{21423DF7-3047-4C62-B4F5-1881177CBA4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D0ED65F-2ED6-49BE-B483-8B7AB172638B}" ShortID="941014040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{89B4B609-26C1-4A10-9AC2-0E6BDF6A18ED}" ShortID="196164769">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Triggers" ID="{F346EFC1-74E7-478A-BD47-A84DDBE8A45E}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hand_Trigger" ID="{4E83C0C0-3588-4FC0-81E9-AC097D37F854}">
+					<ChildrenList>
+						<Action Name="" ID="{025F14B4-C05E-40B3-A09E-F5F71CDE4B6D}" ShortID="325318481">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hand" ID="{D04E7525-777E-44FB-9F4E-82A82923D266}" WorkUnitID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A686457D-CF88-4B2F-A810-0DEFC1FBB49D}" ShortID="811334251">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F85645C2-5810-451F-866A-15995DCD8C1D}" ShortID="261686824">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Lowpass" Type="int16" Value="25"/>
+								<Property Name="Volume" Type="Real64" Value="-3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D809DFFD-C2DA-47F8-8811-41676BFED25B}" ShortID="722291679">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FD81091-6F5F-443E-ACC2-6A5ADB13E8AD}" ShortID="913214323">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Lowpass" Type="int16" Value="-25"/>
+								<Property Name="Volume" Type="Real64" Value="-3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}">
+					<ChildrenList>
+						<Action Name="" ID="{14BDDD55-597C-4794-8971-7731D8FB2ECF}" ShortID="775982974">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bob" ID="{2AD8565B-69AC-4E37-9AAD-4DC332A2FF3E}" WorkUnitID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}">
+					<ChildrenList>
+						<Action Name="" ID="{C494AAB5-5B69-442C-B8BC-A4E79C3BD237}" ShortID="191493789">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}" WorkUnitID="{21423DF7-3047-4C62-B4F5-1881177CBA4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}">
+					<ChildrenList>
+						<Action Name="" ID="{4E7D35B0-FEC0-4B19-91E4-DAA4FA8FA492}" ShortID="977411622">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}" WorkUnitID="{21423DF7-3047-4C62-B4F5-1881177CBA4A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
