@@ -253,10 +253,8 @@ MonoBehaviour:
   togetherMass: 2
   aloneMass: 2
   liftForce: 13
-  togetherSprite: {fileID: 21300000, guid: 51134fe45828731488cac7b99178e6d1, type: 3}
-  alonePlayerSprite: {fileID: 21300000, guid: 12851dc143d1f804b96975710aa43121, type: 3}
-  aloneStaySprite: {fileID: 21300000, guid: 35c846a66accebe4fb0386cabed0c261, type: 3}
   aloneStayGO: {fileID: 0}
+  interactionTargetScript: {fileID: 0}
   interactionTarget: {fileID: 0}
   objectsInRange: []
 --- !u!61 &1769701013

@@ -71,22 +71,22 @@ public partial class PlayerMovement
         int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker")
                         + LayerMask.GetMask("StayPlayer"));
 
-        float rayDistance = playerGroundCollider.bounds.extents.y;
-        Vector2 boxCastSize = playerGroundCollider.bounds.size;
+        float rayDistance = playerGroundCollider.bounds.extents.y + 0.05f;
+        Vector2 boxCastSize = new Vector2(playerGroundCollider.bounds.size.x - 0.1f, playerGroundCollider.bounds.extents.y);
 
-        hit = Physics2D.BoxCast(playerGroundCollider.bounds.center, boxCastSize, 0.0f, Vector2.up, rayDistance, layerMask);
+        hit = Physics2D.BoxCast(playerGroundCollider.bounds.center, boxCastSize, 0.0f, Vector2.down, rayDistance, layerMask);
 
         Debug.DrawLine(playerGroundCollider.bounds.center, Vector3.down * hit.distance);
-        
+
         Color rayColor = Color.green;
         if (hit.collider == null)
         {
             rayColor = Color.red;
         }
 
-        Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
-        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
-        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, rayDistance), Vector2.right * playerGroundCollider.bounds.size.x, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, rayDistance), Vector2.right * (playerGroundCollider.bounds.size.x - 0.01f), rayColor);
         Debug.Log(hit.collider);
         return hit.collider != null;
     }
