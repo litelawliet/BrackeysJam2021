@@ -851,10 +851,6 @@ PrefabInstance:
       propertyPath: aloneStayGO
       value: 
       objectReference: {fileID: 55352044}
-    - target: {fileID: 1769701019, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 719f1f0d4952e844baf07eb1475eb76d, type: 2}
     - target: {fileID: 1769701020, guid: b2ce81f6e1758d84ab765318316691e5, type: 3}
       propertyPath: timerText
       value: 
@@ -867,12 +863,12 @@ PrefabInstance:
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.46
+      value: -5.53
       objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.41
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 1948196019617477446, guid: b2ce81f6e1758d84ab765318316691e5,
         type: 3}
@@ -1566,6 +1562,15 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: -3, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 2, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -1810,15 +1815,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: -7, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -6, y: 2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -2072,6 +2068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: interactible_png
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
+        type: 3}
+      propertyPath: Reusable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6455386267977451430, guid: dbecd6d111d11d64b9c651f2565b9861,
         type: 3}
@@ -2456,6 +2457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bob
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191818187014360976, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360979, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}

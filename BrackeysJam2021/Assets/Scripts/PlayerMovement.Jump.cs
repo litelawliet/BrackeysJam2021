@@ -26,13 +26,9 @@ public partial class PlayerMovement
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1.0f) * Time.fixedDeltaTime;
         }
 
-        if (jumpCalledInput && !isJumping)
+        if (jumpCalledInput)
         {
-            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker")
-                + LayerMask.GetMask("StayPlayer"));
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, layerMask);
-
-            if (hit.collider != null)
+            if (IsGrounded(out RaycastHit2D hit))
             {
                 // Calculate the distance from the surface and the "error" relative
                 // to the floating height.
@@ -53,14 +49,9 @@ public partial class PlayerMovement
         }
         else
         {
-            int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker")
-                + LayerMask.GetMask("StayPlayer"));
-            float rayDistance = playerGroundCollider.bounds.size.y / 2.0f + 0.05f;
-            RaycastHit2D hit = Physics2D.Raycast(playerGroundCollider.bounds.center, -Vector2.up, rayDistance, layerMask);
-            Debug.DrawLine(playerGroundCollider.bounds.center, transform.position - transform.up * rayDistance, Color.red);
-
-            if (hit.collider != null)
+            if (IsGrounded(out _))
             {
+                jumpCalledInput = false;
                 isJumping = false;
                 playerAnimator.SetBool("IsJumping", false);
             }
@@ -73,5 +64,30 @@ public partial class PlayerMovement
         {
             jumpCalledInput = jumpingState;
         }
+    }
+
+    private bool IsGrounded(out RaycastHit2D hit)
+    {
+        int layerMask = ~(LayerMask.GetMask("Player") + LayerMask.GetMask("Interactible") + LayerMask.GetMask("DraggableBlocker")
+                        + LayerMask.GetMask("StayPlayer"));
+
+        float rayDistance = playerGroundCollider.bounds.extents.y;
+        Vector2 boxCastSize = playerGroundCollider.bounds.size;
+
+        hit = Physics2D.BoxCast(playerGroundCollider.bounds.center, boxCastSize, 0.0f, Vector2.up, rayDistance, layerMask);
+
+        Debug.DrawLine(playerGroundCollider.bounds.center, Vector3.down * hit.distance);
+        
+        Color rayColor = Color.green;
+        if (hit.collider == null)
+        {
+            rayColor = Color.red;
+        }
+
+        Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, 0.0f), Vector3.down * rayDistance, rayColor);
+        Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x, rayDistance), Vector2.right * playerGroundCollider.bounds.size.x, rayColor);
+        Debug.Log(hit.collider);
+        return hit.collider != null;
     }
 }
