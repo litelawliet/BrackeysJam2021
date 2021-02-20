@@ -845,6 +845,20 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Bob" ID="{F03FDB54-86A6-4C14-87F8-6B3EDBEFA349}" ShortID="972943985">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footsteps" ID="{24E3A6BC-543A-461C-90F6-1AD68DE3175B}" ShortID="924766563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambiance" ID="{7562B6A5-F14D-4EE1-92C1-AB2FDCF69CC5}" ShortID="929263601">
