@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -53,29 +52,6 @@ public class BreakableGround : MonoBehaviour
             }
         }
         // TODO: add another if case for Enemy Tag
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Draggable"))
-        {
-            var draggableObject = collision.gameObject;
-            var boxColliderDraggable = draggableObject.GetComponent<BoxCollider2D>();
-            List<ContactPoint2D> contactList = new List<ContactPoint2D>();
-            var contactsCount = boxColliderDraggable.GetContacts(contactList);
-            foreach (var contact in contactList)
-            {
-                if (contact.collider.gameObject.CompareTag("Player"))
-                {
-                    var playerState = contact.collider.gameObject.GetComponent<PlayerMovement>().PlayerState;
-                    if (playerState == PlayerMovement.EPlayerState.TOGETHER)
-                    {
-                        _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-                        _rigidbody2D.mass = 100.0f;
-                    }
-                }
-            }
-        }
     }
 
     protected Rigidbody2D _rigidbody2D;
