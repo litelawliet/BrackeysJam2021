@@ -108,6 +108,12 @@ public partial class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        var outline = gameObject.AddComponent<Outline>();
+
+        outline.OutlineMode = Outline.Mode.OutlineAndSilhouette;
+        outline.OutlineColor = Color.yellow;
+        outline.OutlineWidth = 5f;
+        outline.enabled = true;
     }
 
     private void Update()
