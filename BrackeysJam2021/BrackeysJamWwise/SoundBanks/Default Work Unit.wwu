@@ -30,8 +30,8 @@
 						<ObjectRef Name="PlatformLoop_Start" ID="{43D69021-7856-4DAA-AF4F-58E5DBD8A119}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GolemSeparation" ID="{B647B92D-E7F6-4DBA-97A2-1A4636468423}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockPush_Start" ID="{312D7D2A-F757-4E89-A5B0-910A66473207}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BobAttack" ID="{AC99EA88-C72A-4F8F-BA2B-2E2E19F1C583}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hand_Trigger" ID="{4E83C0C0-3588-4FC0-81E9-AC097D37F854}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LeverDeactivate" ID="{8A1EDF6C-5AA2-4FD0-B423-38F2EAE6823A}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

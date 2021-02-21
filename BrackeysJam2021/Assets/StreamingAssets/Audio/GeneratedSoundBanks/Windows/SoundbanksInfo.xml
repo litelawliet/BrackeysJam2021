@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="3448528927">
+		<SoundBank Id="534561221" Language="SFX" Hash="3701830201">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -21,7 +21,15 @@
 						<ActionTriggerEntry Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="338068975" Name="BobFootsteps" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobFootsteps" DurationType="OneShot" DurationMin="0.174105" DurationMax="0.226946">
+				<Event Id="1951062574" Name="BobAttack" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobAttack" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.737251" DurationMax="0.781090">
+					<IncludedMemoryFiles>
+						<File Id="479475619" Language="SFX">
+							<ShortName>BobAttack1.wav</ShortName>
+							<Path>SFX\BobAttack1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="338068975" Name="BobFootsteps" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobFootsteps" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.174105" DurationMax="0.226946">
 					<IncludedMemoryFiles>
 						<File Id="86085799" Language="SFX">
 							<ShortName>BobFootsteps2.wav</ShortName>
@@ -41,7 +49,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="256977061" Name="BobIdle_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Start" DurationType="Infinite">
+				<Event Id="256977061" Name="BobIdle_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Start" MaxAttenuation="12.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1025834572" Language="SFX">
 							<ShortName>BobIdle1.wav</ShortName>
@@ -50,7 +58,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="56052423" Name="BobIdle_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3210918479" Name="BobMunch" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobMunch" DurationType="OneShot" DurationMin="0.698491" DurationMax="0.764000">
+				<Event Id="3210918479" Name="BobMunch" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobMunch" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.698491" DurationMax="0.764000">
 					<IncludedMemoryFiles>
 						<File Id="646469666" Language="SFX">
 							<ShortName>BobMunch3.wav</ShortName>
@@ -66,7 +74,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3941751596" Name="BobSeePlayer" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobSeePlayer" DurationType="OneShot" DurationMin="0.525585" DurationMax="0.626303">
+				<Event Id="3941751596" Name="BobSeePlayer" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobSeePlayer" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.525585" DurationMax="0.626303">
 					<IncludedMemoryFiles>
 						<File Id="386603561" Language="SFX">
 							<ShortName>BobSeePlayer2.wav</ShortName>

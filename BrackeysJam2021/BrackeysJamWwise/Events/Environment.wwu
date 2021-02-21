@@ -204,6 +204,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="BobAttack" ID="{AC99EA88-C72A-4F8F-BA2B-2E2E19F1C583}">
+							<ChildrenList>
+								<Action Name="" ID="{32485CD8-A2A8-4742-8432-0AB9EA2BAF5B}" ShortID="189754763">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{C22AA0AF-96EB-40E0-91DA-F29032AA08FE}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
