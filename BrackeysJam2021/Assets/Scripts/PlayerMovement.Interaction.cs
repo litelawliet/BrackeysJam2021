@@ -9,7 +9,7 @@ public partial class PlayerMovement
     {
         OnUseInteractible?.Invoke();
     }
-    
+
     /// <summary>
     /// Physic tick that updates the available objects around the player
     /// </summary>
@@ -18,6 +18,16 @@ public partial class PlayerMovement
         var hitColliders = Physics2D.OverlapCircleAll(transform.position, interactionRange);
         if (hitColliders != null)
         {
+            foreach (var go in objectsInRange)
+            {
+                IInteractible interactionScript;
+                GameManager.interactibles.TryGetValue(go, out interactionScript);
+                if (interactionScript != null)
+                {
+                    interactionScript.outline.enabled = false;
+                }
+            }
+
             objectsInRange.Clear();
         }
 
@@ -68,6 +78,7 @@ public partial class PlayerMovement
     private void SelectClosest()
     {
         float shortest = Mathf.Infinity;
+
         foreach (var collider in objectsInRange)
         {
             float currentDistance = (transform.position - collider.transform.position).sqrMagnitude;
@@ -78,6 +89,20 @@ public partial class PlayerMovement
                 GameManager.interactibles.TryGetValue(interactionTarget, out interactionTargetScript);
                 interactionTargetScript.outline.enabled = true;
             }
+        }
+
+        foreach (var go in objectsInRange)
+        {
+            if (go != interactionTarget)
+            {
+                IInteractible interactionScript;
+                GameManager.interactibles.TryGetValue(interactionTarget, out interactionScript);
+                if (interactionScript != null)
+                {
+                    interactionScript.outline.enabled = false;
+                }
+            }
+
         }
     }
 

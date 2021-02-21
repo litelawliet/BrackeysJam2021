@@ -186,7 +186,12 @@ public class EnemyBob : MonoBehaviour
 
     private IEnumerator Restart()
     {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInput>().enabled = false;
+        var player = GameObject.FindGameObjectWithTag("Player");
+        var playerInput = player.GetComponent<PlayerInput>();
+        var playerRigidbody = player.GetComponent<Rigidbody2D>();
+        playerInput.enabled = false;
+        playerRigidbody.velocity = Vector2.zero;
+
         yield return new WaitForSeconds(0.6f);
 
         // Save level via SaveSystem
