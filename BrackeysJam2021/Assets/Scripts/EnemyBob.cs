@@ -160,6 +160,8 @@ public class EnemyBob : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
 
+        // Save level via SaveSystem
+        GameManager.levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
         levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8fb5eb5b0066ee40ac3f5ddceb6255dd
     GuidInternal: 
-    m_lastTime: -8585877405537352468
+    m_lastTime: -8585877308279657652
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585877405537352468
+    m_lastTime: -8585877308279647678
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877339939213363
+    m_lastTime: -8585877307680064843
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -215,6 +215,17 @@ MonoBehaviour:
       - ElementName: Ambiance
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\Ambiance
+    - name: Environment
+      guid: e32ff2f9760f6a4eb1b074cac39ed2cc
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Environment
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -235,17 +246,17 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\Music
-    - name: SFX
-      guid: da0233b082f803478dbd5c6b26778640
-      id: 393239870
+    - name: Player
+      guid: b83b7cd8e76e10419a691f458d906138
+      id: 1069431850
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
-      - ElementName: SFX
+      - ElementName: Player
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\SFX
+      Path: Default Work Unit\Master Audio Bus\Player
     - name: Triggers
       guid: 9fa1b2a6795c8e4b82b510b951bc662f
       id: 2465693650
@@ -265,7 +276,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877339938575073
+    m_lastTime: -8585877307676713805
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -288,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877339939253254
+    m_lastTime: -8585877307680104741
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -313,7 +324,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7fd3d7361788fe4f83bb27c9e0d2553f
     GuidInternal: 
-    m_lastTime: -8585877405557668564
+    m_lastTime: -8585877308301364826
     List: []
   - PhysicalPath: Events\Environment.wwu
     PathAndIcons:
@@ -326,8 +337,146 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877339939243278
+    m_lastTime: -8585877307680104741
     List:
+    - name: Bob
+      guid: 888ce37367ada44f9497e5d27e1a1687
+      id: 546945306
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      Path: Default Work Unit\SFX\Environment\Bob
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobFootsteps
+      guid: aa1b780655956e44906648d537a75232
+      id: 338068975
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobIdle_Start
+      guid: 953467466d0fbd4793fe13fd8f9fc14f
+      id: 256977061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobIdle_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobIdle_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobIdle_Stop
+      guid: 84b849d6595f7144946bd08c25bf51d5
+      id: 56052423
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobIdle_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobIdle_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobMunch
+      guid: bfd57bf6f2bd36479fc35c11dec730bd
+      id: 3210918479
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobMunch
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobMunch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobSeePlayer
+      guid: 5109c81b62960d4d966627f0dd1879d2
+      id: 3941751596
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobSeePlayer
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobSeePlayer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BulbExplode
+      guid: 25fbe1efd50a7b45974819559b86df53
+      id: 221347139
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: BulbExplode
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\BulbExplode
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LeverActivate
+      guid: a5159fc935120d4ca7824a204445a349
+      id: 236780564
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: LeverActivate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\LeverActivate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: LogCrack
       guid: c57e23ec1ba4ff4c93f7ca3834d33ded
       id: 704035397
@@ -357,6 +506,38 @@ MonoBehaviour:
       - ElementName: LogFallHit
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogFallHit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlatformLoop_Start
+      guid: 2190d6435678aa4daf4f58e5dbd8a119
+      id: 1999309403
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: PlatformLoop_Start
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\PlatformLoop_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlatformLoop_Stop
+      guid: c07f3f2fe6295a4d9069471f7b56155e
+      id: 2070386233
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: PlatformLoop_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\PlatformLoop_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -408,6 +589,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Woodbreak
+      guid: ceb96620b905d24aa2b90e3c4060a6ab
+      id: 3901853815
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Woodbreak
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Woodbreak
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -417,7 +614,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877339939233308
+    m_lastTime: -8585877307680094769
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -500,8 +697,56 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585877339939223335
-    List: []
+    m_lastTime: -8585877307680084785
+    List:
+    - name: Footsteps
+      guid: 7cfac9da84504e42ad1e3bbfcc3488b9
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GolemSeparation
+      guid: 2db947b6f6e7ba4d97a21a4636468423
+      id: 2906615607
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: GolemSeparation
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\GolemSeparation
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GolemUnification
+      guid: c161eccedb2ea14db1b0b24704a4a279
+      id: 2695150546
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: GolemUnification
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\GolemUnification
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -511,7 +756,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX
     guid: a29460938b0531449efa465d2ddfb39d
     GuidInternal: 
-    m_lastTime: -8585877405557658596
+    m_lastTime: -8585877308301314958
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -521,7 +766,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f73d42214730624cb4f51881177cba4a
     GuidInternal: 
-    m_lastTime: -8585877405557648621
+    m_lastTime: -8585877308301304995
     List:
     - name: HandTimer
       guid: 5a0fb74f0896ca46a9eeea5b1ebea71f
@@ -540,7 +785,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2ccbbf3e64ac4645a14dd3f776dddbab
     GuidInternal: 
-    m_lastTime: -8585877405537362443
+    m_lastTime: -8585877308279687571
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -550,7 +795,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d6867f84c3608042ba9b859c81b7d687
     GuidInternal: 
-    m_lastTime: -8585877405537362443
+    m_lastTime: -8585877308279667619
     List:
     - name: HandTimer
       guid: 24e382aa4da74f418722f053fd4d5263
@@ -585,7 +830,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fec1f150b84c1b4fb9b0b4c44c4c3d43
     GuidInternal: 
-    m_lastTime: -8585877405537352468
+    m_lastTime: -8585877308279667619
     List:
     - name: Bob
       guid: 5b56d82aac69374e9aad4dc332a2ff3e

@@ -18,14 +18,26 @@ public class GameManager : MonoBehaviour
     [Tooltip("Level loader of the game")]
     public LevelLoader levelLoader;
 
+    [Tooltip("Save file system data")]
+    [SerializeField]
+    public GameObject saveSystemPrefab;
+
+    public static LevelDataComponent levelDataComponentScript;
+
     private void OnDestroy()
     {
         interactibles.Clear();
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     private void Start()
     {
         levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
+        levelDataComponentScript = saveSystemPrefab.GetComponent<LevelDataComponent>();
 
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
         foreach(var go in gos)
@@ -41,9 +53,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (player.transform.position.y <= deathLimit)
+        if (player != null)
         {
-            levelLoader.LoadNextLevel("GameOver");
+            if (player.transform.position.y <= deathLimit)
+            {
+                levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
+                levelLoader.LoadNextLevel("GameOver");
+            }
         }
     }
 }

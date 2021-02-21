@@ -14,6 +14,9 @@ public class TryAgainController : MonoBehaviour
     public void Retry()
     {
         Debug.Log("Retry");
-        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
+        GameManager.levelDataComponentScript.LoadLevel();
+
+        var previousLevelIndex = GameManager.levelDataComponentScript.indexLevel;
+        levelLoader.LoadNextLevel(previousLevelIndex);
     }
 }
