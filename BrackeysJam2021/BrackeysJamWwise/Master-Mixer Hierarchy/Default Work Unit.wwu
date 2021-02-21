@@ -19,7 +19,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{5837EAEA-0505-455E-9E26-3D8199227278}"/>
+						<Bus Name="Music" ID="{5837EAEA-0505-455E-9E26-3D8199227278}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="Triggers" ID="{A6B2A19F-5C79-4B8E-82B5-10B951BC662F}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
