@@ -59,7 +59,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Level_Activation_Reverse
+  m_Name: Lever_Activation_Reverse
   m_Speed: -2
   m_CycleOffset: 0
   m_Transitions: []

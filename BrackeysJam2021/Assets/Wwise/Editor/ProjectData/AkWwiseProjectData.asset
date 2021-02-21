@@ -299,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877307680104741
+    m_lastTime: -8585877221734445359
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -314,6 +314,22 @@ MonoBehaviour:
       - ElementName: MainAmbiance_Start
         ObjectType: 3
       Path: Default Work Unit\SFX\Ambiance\MainAmbiance_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainAmbiance_Stop
+      guid: 97ac0c13ef999344a41c1a444bbf1a64
+      id: 3235398401
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 12
+      - ElementName: MainAmbiance_Stop
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Ambiance\MainAmbiance_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -337,7 +353,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877307680104741
+    m_lastTime: -8585877221734435384
     List:
     - name: Bob
       guid: 888ce37367ada44f9497e5d27e1a1687
@@ -474,6 +490,22 @@ MonoBehaviour:
       - ElementName: LeverActivate
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LeverActivate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LeverDeactivate
+      guid: 6cdf1e8aa25ad04fb42338f2eae6823a
+      id: 261050725
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: LeverDeactivate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\LeverDeactivate
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -614,7 +646,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877307680094769
+    m_lastTime: -8585877221734425412
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -683,6 +715,20 @@ MonoBehaviour:
       - ElementName: MainMusic_Start
         ObjectType: 3
       Path: Default Work Unit\Music\MainMusic_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMusic_Stop
+      guid: f2aa62b6dd60c043910428ec8eb83b3d
+      id: 3439190578
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: MainMusic_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Music\MainMusic_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
