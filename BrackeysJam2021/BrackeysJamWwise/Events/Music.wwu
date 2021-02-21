@@ -159,6 +159,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainMusic_Stop" ID="{B662AAF2-60DD-43C0-9104-28EC8EB83B3D}">
+					<ChildrenList>
+						<Action Name="" ID="{0F1B5C03-B4C1-4921-A044-BC47172C4235}" ShortID="724273506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore" ID="{46B813C4-C156-48C7-B727-9F410DFA6ED6}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{514A186A-216B-4EC3-9A8E-9D0E5A7EA45D}" ShortID="738524454">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Triggers" ID="{F346EFC1-74E7-478A-BD47-A84DDBE8A45E}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

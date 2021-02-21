@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="1774294729">
+		<SoundBank Id="534561221" Language="SFX" Hash="1340173494">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -177,8 +177,48 @@
 				</Event>
 				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="1.109732" DurationMax="1.283368">
+				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="1.759732" DurationMax="1.933368">
 					<IncludedMemoryFiles>
+						<File Id="23203796" Language="SFX">
+							<ShortName>LeverClicks1.wav</ShortName>
+							<Path>SFX\LeverClicks1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="142737507" Language="SFX">
+							<ShortName>LeverClicks2.wav</ShortName>
+							<Path>SFX\LeverClicks2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="412420031" Language="SFX">
+							<ShortName>MushroomLever3.wav</ShortName>
+							<Path>SFX\MushroomLever3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="494963845" Language="SFX">
+							<ShortName>MushroomLever1.wav</ShortName>
+							<Path>SFX\MushroomLever1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="665250887" Language="SFX">
+							<ShortName>MushroomLever4.wav</ShortName>
+							<Path>SFX\MushroomLever4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="697306841" Language="SFX">
+							<ShortName>MushroomLever5.wav</ShortName>
+							<Path>SFX\MushroomLever5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1006418607" Language="SFX">
+							<ShortName>MushroomLever2.wav</ShortName>
+							<Path>SFX\MushroomLever2_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="261050725" Name="LeverDeactivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverDeactivate" DurationType="OneShot" DurationMin="1.434732" DurationMax="1.608368">
+					<IncludedMemoryFiles>
+						<File Id="23203796" Language="SFX">
+							<ShortName>LeverClicks1.wav</ShortName>
+							<Path>SFX\LeverClicks1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="142737507" Language="SFX">
+							<ShortName>LeverClicks2.wav</ShortName>
+							<Path>SFX\LeverClicks2_0F6A32B0.wem</Path>
+						</File>
 						<File Id="412420031" Language="SFX">
 							<ShortName>MushroomLever3.wav</ShortName>
 							<Path>SFX\MushroomLever3_0F6A32B0.wem</Path>
@@ -309,6 +349,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3235398401" Name="MainAmbiance_Stop" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="114140307" Language="SFX">
@@ -351,10 +392,6 @@
 							<ShortName>SectionA_Lush.wav</ShortName>
 							<Path>SFX\SectionA_Lush_07E195FA.wem</Path>
 						</File>
-						<File Id="795909762" Language="SFX">
-							<ShortName>Thème Section A - Rhytmique.wav</ShortName>
-							<Path>SFX\Thème Section A - Rhytmique_07E195FA.wem</Path>
-						</File>
 						<File Id="847131327" Language="SFX">
 							<ShortName>SectionB_Winds.wav</ShortName>
 							<Path>SFX\SectionB_Winds_07E195FA.wem</Path>
@@ -375,8 +412,13 @@
 							<ShortName>SoloHorn_1.wav</ShortName>
 							<Path>SFX\SoloHorn_1_07E195FA.wem</Path>
 						</File>
+						<File Id="961277201" Language="SFX">
+							<ShortName>SectionA_Rtm.wav</ShortName>
+							<Path>SFX\SectionA_Rtm_07E195FA.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3439190578" Name="MainMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1999309403" Name="PlatformLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\PlatformLoop_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="214489674" Language="SFX">

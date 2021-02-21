@@ -84,7 +84,17 @@
 				</Event>
 				<Event Name="LeverActivate" ID="{C99F15A5-1235-4C0D-A782-4A204445A349}">
 					<ChildrenList>
+						<Action Name="" ID="{76A89B6C-114C-495D-A193-4D36CDE1A664}" ShortID="174899327">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverClicks" ID="{EF85E574-F852-45E3-9711-16BE50696EB8}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{60B04725-AB10-4DF1-AA31-75F94599232F}" ShortID="624829203">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.65"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LeverActivation" ID="{48B9FC92-1692-4336-B884-F212E3EC8779}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
@@ -206,6 +216,39 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="LeverDeactivate" ID="{8A1EDF6C-5AA2-4FD0-B423-38F2EAE6823A}">
+					<ChildrenList>
+						<Action Name="" ID="{7F27BDF1-C953-4955-805D-E103D3A404B8}" ShortID="499750407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverClicks" ID="{EF85E574-F852-45E3-9711-16BE50696EB8}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4060FEF9-F92C-47FB-83C0-DBB46E668EF8}" ShortID="720981141">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.325"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverClicks" ID="{EF85E574-F852-45E3-9711-16BE50696EB8}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7148B1C-B1BC-4569-BB22-B92E3E64A9EA}" ShortID="780135005">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.325"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverActivation" ID="{48B9FC92-1692-4336-B884-F212E3EC8779}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
