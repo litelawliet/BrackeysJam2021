@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -749,30 +749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3900015684945721915, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900015684945721915, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900015684945721915, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 2083189073
-      objectReference: {fileID: 0}
     - target: {fileID: 3963425206907491791, guid: 64f36c83842943e4fafd0b98aa888568,
         type: 3}
       propertyPath: m_Name
       value: aloneStay_png
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963425206907491791, guid: 64f36c83842943e4fafd0b98aa888568,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64f36c83842943e4fafd0b98aa888568, type: 3}
@@ -4030,6 +4010,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bob
       objectReference: {fileID: 0}
+    - target: {fileID: 9191818187014360976, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360978, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}
       propertyPath: m_Offset.y
@@ -4046,6 +4031,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8616823238385786248, guid: 6a37ce37f5a364b4c9ab0d55e2fffb4e,
         type: 3}
+    - target: {fileID: 9191818187014360980, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191818187014360980, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191818187014360980, guid: e5d8f71e92136f549b4a13c7cac814ea,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2083189073
+      objectReference: {fileID: 0}
     - target: {fileID: 9191818187014360982, guid: e5d8f71e92136f549b4a13c7cac814ea,
         type: 3}
       propertyPath: m_Offset.y
