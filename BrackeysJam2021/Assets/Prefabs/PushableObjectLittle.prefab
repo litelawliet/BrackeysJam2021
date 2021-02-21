@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 464197581907950372, guid: e3e53bfb6903c3b49af17ec16bc37234,
         type: 3}
       propertyPath: m_Name
-      value: PushableObject_01
+      value: PushableObjectLittle
       objectReference: {fileID: 0}
     - target: {fileID: 464197581907950374, guid: e3e53bfb6903c3b49af17ec16bc37234,
         type: 3}
@@ -107,6 +107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 2083189073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6849466736552787262, guid: e3e53bfb6903c3b49af17ec16bc37234,
+        type: 3}
+      propertyPath: AloneCanDrag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3e53bfb6903c3b49af17ec16bc37234, type: 3}

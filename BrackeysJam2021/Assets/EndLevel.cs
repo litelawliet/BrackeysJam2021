@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class EndLevel : MonoBehaviour
 {
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public LevelLoader levelLoader;
+    [SerializeField]
+    [Tooltip("Level name to load when reaching")]
+    private string LevelName = null;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,18 +18,17 @@ public class EndLevel : MonoBehaviour
 
             if (playerState == PlayerMovement.EPlayerState.TOGETHER)
             {
-                SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1));
+                //if (LevelName == null)
+                {
+                    levelLoader.LoadNextLevel();
+                }
+                /*else
+                {
+                    levelLoader.LoadNextLevel(LevelName);
+                }*/
             }
 
         }
     }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
 }
 

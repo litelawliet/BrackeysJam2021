@@ -87,7 +87,8 @@ public partial class PlayerMovement
         Debug.DrawRay(playerGroundCollider.bounds.center + new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
         Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, 0.0f), Vector3.down * rayDistance, rayColor);
         Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, rayDistance), Vector2.right * (playerGroundCollider.bounds.size.x - 0.01f), rayColor);
-        Debug.Log(hit.collider);
+        //Debug.Log(hit.collider);
+
         return hit.collider != null;
     }
 }

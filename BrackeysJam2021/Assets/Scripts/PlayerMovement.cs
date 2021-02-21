@@ -106,21 +106,6 @@ public partial class PlayerMovement : MonoBehaviour
         playerAnimator.SetBool("IsTogether", true);
     }
 
-    private void Start()
-    {
-        var outline = gameObject.AddComponent<Outline>();
-
-        outline.OutlineMode = Outline.Mode.OutlineAndSilhouette;
-        outline.OutlineColor = Color.yellow;
-        outline.OutlineWidth = 5f;
-        outline.enabled = true;
-    }
-
-    private void Update()
-    {
-        // TODO: Maybe handle some states in here ?
-    }
-
     private void FixedUpdate()
     {
         MoveAction();
