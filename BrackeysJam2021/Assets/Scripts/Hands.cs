@@ -15,12 +15,11 @@ public class Hands : MonoBehaviour
     Camera _cameraRef;
     #endregion
 
-    private float speed = 0.0f;
     private bool beginChase = false;
     private Vector3 initialPosition = Vector3.zero;
-    private bool isLeft = false;
     private Vector2 direction;
     private float currentSpeed = 0.0f;
+    private LevelLoader levelLoader;
 
     private void OnDestroy()
     {
@@ -38,6 +37,8 @@ public class Hands : MonoBehaviour
 
     private void Start()
     {
+        levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
+
         var player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovement>();
         aloneGolem = playerMovementScript.aloneStayGO;
@@ -73,13 +74,11 @@ public class Hands : MonoBehaviour
             {
                 _spriteRenderer.flipX = true;
                 direction = -Vector2.right;
-                isLeft = true;
             }
             else
             {
                 _spriteRenderer.flipX = false;
                 direction = Vector2.right;
-                isLeft = false;
             }
         }
         else
@@ -93,8 +92,7 @@ public class Hands : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AloneStay"))
         {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+            levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
@@ -107,6 +105,5 @@ public class Hands : MonoBehaviour
         _spriteRenderer.enabled = false;
         _spriteRenderer.flipX = false;
         currentSpeed = 0.0f;
-        isLeft = false;
     }
 }
