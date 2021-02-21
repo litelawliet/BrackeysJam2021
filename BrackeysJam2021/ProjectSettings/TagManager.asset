@@ -6,8 +6,7 @@ TagManager:
   tags:
   - AloneStay
   - Interactible
-  - Ground
-  - SoundManager
+  - EndLevel
   layers:
   - Default
   - TransparentFX
@@ -21,8 +20,8 @@ TagManager:
   - Interactible
   - DraggableBlocker
   - Draggable
-  - Enemy
-  - StayPlayer
+  - 
+  - 
   - 
   - 
   - 
@@ -45,9 +44,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 352046633
+  - name: BackGround
+    uniqueID: 2299008081
     locked: 0
-  - name: Player
-    uniqueID: 553321891
+  - name: ForeGround
+    uniqueID: 2083189073
+    locked: 0
+  - name: InteractibleObject
+    uniqueID: 3282196689
     locked: 0
