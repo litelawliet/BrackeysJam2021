@@ -14,8 +14,19 @@ public class GameManager : MonoBehaviour
     [Tooltip("Time in second before the alone player dies")]
     public static int timeSplitBeforeDeath = 15;
 
+    [SerializeField]
+    [Tooltip("Level loader of the game")]
+    public LevelLoader levelLoader;
+
+    private void OnDestroy()
+    {
+        interactibles.Clear();
+    }
+
     private void Start()
     {
+        levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
+
         var gos = GameObject.FindGameObjectsWithTag("Interactible");
         foreach(var go in gos)
         {
@@ -32,8 +43,7 @@ public class GameManager : MonoBehaviour
     {
         if (player.transform.position.y <= deathLimit)
         {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+            levelLoader.LoadNextLevel("GameOver");
         }
     }
 }

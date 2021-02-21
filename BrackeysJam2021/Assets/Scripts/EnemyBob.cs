@@ -15,6 +15,7 @@ public class EnemyBob : MonoBehaviour
     private BoxCollider2D boxCollider;
     private CircleCollider2D circleCollider;
     private Animator _animator;
+    private LevelLoader levelLoader;
 
     private float distance = 0.0f;
     private float direction = 0.0f;
@@ -36,6 +37,8 @@ public class EnemyBob : MonoBehaviour
 
     private void Start()
     {
+        levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
+        
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
@@ -157,7 +160,6 @@ public class EnemyBob : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
 
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
     }
 }
