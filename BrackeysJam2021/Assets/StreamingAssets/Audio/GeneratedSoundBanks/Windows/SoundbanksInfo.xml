@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="856076695">
+		<SoundBank Id="534561221" Language="SFX" Hash="877434084">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -318,6 +318,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3235398401" Name="MainAmbiance_Stop" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3306624374" Name="MainMenu_Start" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="122997816" Language="SFX">
+							<ShortName>MainMenu.wav</ShortName>
+							<Path>SFX\MainMenu_07E195FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2747674870" Name="MainMenu_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="114140307" Language="SFX">

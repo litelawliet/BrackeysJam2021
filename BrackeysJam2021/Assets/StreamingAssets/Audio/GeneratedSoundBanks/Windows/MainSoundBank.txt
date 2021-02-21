@@ -17,10 +17,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\SFX\Player\Footsteps	
 	2488500112	HandTimer_Stop			\Default Work Unit\Music\HandTimer_Stop	
 	2695150546	GolemUnification			\Default Work Unit\SFX\Player\GolemUnification	
+	2747674870	MainMenu_Stop			\Default Work Unit\Music\MainMenu_Stop	
 	2906615607	GolemSeparation			\Default Work Unit\SFX\Player\GolemSeparation	
 	2942474371	MainAmbiance_Start			\Default Work Unit\SFX\Ambiance\MainAmbiance_Start	
 	3210918479	BobMunch			\Default Work Unit\SFX\Environment\Bob\BobMunch	
 	3235398401	MainAmbiance_Stop			\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop	
+	3306624374	MainMenu_Start			\Default Work Unit\Music\MainMenu_Start	
 	3439190578	MainMusic_Stop			\Default Work Unit\Music\MainMusic_Stop	
 	3687707233	RockPush_Stop			\Default Work Unit\SFX\Environment\RockPush_Stop	
 	3901853815	Woodbreak			\Default Work Unit\SFX\Environment\Woodbreak	
@@ -42,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	86085799	BobFootsteps2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\BobFootsteps2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Bob_AM\Bob\Footsteps\BobFootsteps2		37992
 	103918532	Crickets3	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\Crickets3_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\Crickets\Crickets3		604884
 	114140307	Bridge	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\Bridge_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Bridge\Bridge		6610348
+	122997816	MainMenu	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\MainMenu_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMenu\MainMenu\MainMenu		5500232
 	131377489	BobFootsteps4	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\BobFootsteps4_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Bob_AM\Bob\Footsteps\BobFootsteps4		38936
 	163141204	WoodBreak1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\WoodBreak1_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Woodbreak\Woodbreak\WoodBreak1		541872
 	199363197	RockFall3	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\RockFall3_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall3		192064
