@@ -183,6 +183,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainMenu_Start" ID="{8B8D7FE9-3908-4212-97EA-BCD4D061E7CD}">
+					<ChildrenList>
+						<Action Name="" ID="{57EE332F-A7FF-44E0-9C03-35523A6E98E9}" ShortID="1042774016">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{14DD9FF5-BBAB-4140-A090-070CB0CABFC1}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MainMenu_Stop" ID="{F7E62A6C-9E91-4C5B-B978-336C75408235}">
+					<ChildrenList>
+						<Action Name="" ID="{787A691D-C2FD-417D-A465-D7CCA9FB6D39}" ShortID="434940747">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu" ID="{14DD9FF5-BBAB-4140-A090-070CB0CABFC1}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
