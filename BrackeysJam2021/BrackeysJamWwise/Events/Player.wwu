@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="GolemSeparation" ID="{B647B92D-E7F6-4DBA-97A2-1A4636468423}">
+					<ChildrenList>
+						<Action Name="" ID="{75F5C397-DAF7-4352-BDC9-F18454C5C40A}" ShortID="216352665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GolemSeparation" ID="{47684F00-D7D5-4274-8C9D-70D4E44B54B1}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GolemUnification" ID="{CEEC61C1-2EDB-4DA1-B1B0-B24704A4A279}">
+					<ChildrenList>
+						<Action Name="" ID="{164AD95A-D78D-4183-95B8-B9E846AF5C9C}" ShortID="352694261">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GolemUnification" ID="{DDC89993-7A40-4218-9E5A-24D449DFBF0D}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

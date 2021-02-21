@@ -144,6 +144,68 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Bob" ID="{73E38C88-AD67-4FA4-9497-E5D27E1A1687}" ShortID="744352015">
+					<ChildrenList>
+						<Event Name="BobFootsteps" ID="{06781BAA-9555-446E-9066-48D537A75232}">
+							<ChildrenList>
+								<Action Name="" ID="{F6CFAE50-ED4C-4832-9B1F-7ED31BB397B3}" ShortID="667452209">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{24E3A6BC-543A-461C-90F6-1AD68DE3175B}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BobMunch" ID="{F67BD5BF-BDF2-4736-9FC3-5C11DEC730BD}">
+							<ChildrenList>
+								<Action Name="" ID="{F2FE0675-FC7B-4AD3-A773-84AAA47A7C88}" ShortID="593301913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Munch" ID="{9EF353BA-6306-4346-9812-AE2C44DDFBBE}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BobIdle_Start" ID="{46673495-0F6D-47BD-93FE-13FD8F9FC14F}">
+							<ChildrenList>
+								<Action Name="" ID="{5253276C-F279-4969-BBE1-90836331FB7F}" ShortID="859770911">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle" ID="{F284709F-4BB7-499C-8DF7-7C0660C2CD84}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BobIdle_Stop" ID="{D649B884-5F59-4471-946B-D08C25BF51D5}">
+							<ChildrenList>
+								<Action Name="" ID="{D56A206A-8B69-45BA-BFED-531E9CDB600B}" ShortID="46558834">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle" ID="{F284709F-4BB7-499C-8DF7-7C0660C2CD84}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BobSeePlayer" ID="{1BC80951-9662-4D0D-9666-27F0DD1879D2}">
+							<ChildrenList>
+								<Action Name="" ID="{DC2AF6C1-420B-490C-8665-EBF5F7F6F0AB}" ShortID="298641926">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SeePlayer" ID="{EF8BA4C4-9C73-4018-BE4C-CEC3AD4D8BDD}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

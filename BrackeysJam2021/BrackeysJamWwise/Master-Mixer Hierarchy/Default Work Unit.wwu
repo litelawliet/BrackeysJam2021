@@ -19,16 +19,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{5837EAEA-0505-455E-9E26-3D8199227278}">
+						<Bus Name="Music" ID="{5837EAEA-0505-455E-9E26-3D8199227278}"/>
+						<Bus Name="Triggers" ID="{A6B2A19F-5C79-4B8E-82B5-10B951BC662F}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 						</Bus>
-						<Bus Name="Triggers" ID="{A6B2A19F-5C79-4B8E-82B5-10B951BC662F}"/>
 						<Bus Name="Ambiance" ID="{C230F5FE-E0C4-4846-81D7-E1981BF42282}"/>
 						<Bus Name="Environment" ID="{F9F22FE3-0F76-4E6A-B1B0-74CAC39ED2CC}"/>
 						<Bus Name="Player" ID="{D87C3BB8-6EE7-4110-9A69-1F458D906138}"/>

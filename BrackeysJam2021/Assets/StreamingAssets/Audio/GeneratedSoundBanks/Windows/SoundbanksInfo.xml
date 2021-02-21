@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="2335807128">
+		<SoundBank Id="534561221" Language="SFX" Hash="1774294729">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -21,7 +21,64 @@
 						<ActionTriggerEntry Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="221347139" Name="BulbExplode" ObjectPath="\Events\Default Work Unit\SFX\Environment\BulbExplode" DurationType="OneShot" DurationMin="1.947896" DurationMax="2.179083">
+				<Event Id="338068975" Name="BobFootsteps" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobFootsteps" DurationType="OneShot" DurationMin="0.174105" DurationMax="0.226946">
+					<IncludedMemoryFiles>
+						<File Id="86085799" Language="SFX">
+							<ShortName>BobFootsteps2.wav</ShortName>
+							<Path>SFX\BobFootsteps2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="131377489" Language="SFX">
+							<ShortName>BobFootsteps4.wav</ShortName>
+							<Path>SFX\BobFootsteps4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="426636576" Language="SFX">
+							<ShortName>BobFootsteps1.wav</ShortName>
+							<Path>SFX\BobFootsteps1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="764038577" Language="SFX">
+							<ShortName>BobFootsteps3.wav</ShortName>
+							<Path>SFX\BobFootsteps3_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="256977061" Name="BobIdle_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1025834572" Language="SFX">
+							<ShortName>BobIdle1.wav</ShortName>
+							<Path>SFX\BobIdle1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="56052423" Name="BobIdle_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3210918479" Name="BobMunch" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobMunch" DurationType="OneShot" DurationMin="0.698491" DurationMax="0.764000">
+					<IncludedMemoryFiles>
+						<File Id="646469666" Language="SFX">
+							<ShortName>BobMunch3.wav</ShortName>
+							<Path>SFX\BobMunch3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="672235953" Language="SFX">
+							<ShortName>BobMunch2.wav</ShortName>
+							<Path>SFX\BobMunch2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="686449394" Language="SFX">
+							<ShortName>BobMunch1.wav</ShortName>
+							<Path>SFX\BobMunch1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3941751596" Name="BobSeePlayer" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobSeePlayer" DurationType="OneShot" DurationMin="0.525585" DurationMax="0.626303">
+					<IncludedMemoryFiles>
+						<File Id="386603561" Language="SFX">
+							<ShortName>BobSeePlayer2.wav</ShortName>
+							<Path>SFX\BobSeePlayer2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1055376573" Language="SFX">
+							<ShortName>BobSeePlayer1.wav</ShortName>
+							<Path>SFX\BobSeePlayer1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="221347139" Name="BulbExplode" ObjectPath="\Events\Default Work Unit\SFX\Environment\BulbExplode" DurationType="OneShot" DurationMin="1.865312" DurationMax="2.275559">
 					<IncludedMemoryFiles>
 						<File Id="6999688" Language="SFX">
 							<ShortName>BulbExplode3.wav</ShortName>
@@ -65,6 +122,54 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2906615607" Name="GolemSeparation" ObjectPath="\Events\Default Work Unit\SFX\Player\GolemSeparation" DurationType="OneShot" DurationMin="1.134750" DurationMax="1.372146">
+					<IncludedMemoryFiles>
+						<File Id="229751176" Language="SFX">
+							<ShortName>GolemSeparation3.wav</ShortName>
+							<Path>SFX\GolemSeparation3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="294228061" Language="SFX">
+							<ShortName>GolemSeparation2.wav</ShortName>
+							<Path>SFX\GolemSeparation2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="644233243" Language="SFX">
+							<ShortName>GolemSeparation4.wav</ShortName>
+							<Path>SFX\GolemSeparation4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="653190372" Language="SFX">
+							<ShortName>GolemSeparation1.wav</ShortName>
+							<Path>SFX\GolemSeparation1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="991388617" Language="SFX">
+							<ShortName>GolemSeparation5.wav</ShortName>
+							<Path>SFX\GolemSeparation5_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2695150546" Name="GolemUnification" ObjectPath="\Events\Default Work Unit\SFX\Player\GolemUnification" DurationType="OneShot" DurationMin="1.513333" DurationMax="1.667250">
+					<IncludedMemoryFiles>
+						<File Id="442727397" Language="SFX">
+							<ShortName>GolemUnification4.wav</ShortName>
+							<Path>SFX\GolemUnification4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="536191787" Language="SFX">
+							<ShortName>GolemUnification5.wav</ShortName>
+							<Path>SFX\GolemUnification5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="699238984" Language="SFX">
+							<ShortName>GolemUnification3.wav</ShortName>
+							<Path>SFX\GolemUnification3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1032085161" Language="SFX">
+							<ShortName>GolemUnification1.wav</ShortName>
+							<Path>SFX\GolemUnification1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1040137198" Language="SFX">
+							<ShortName>GolemUnification2.wav</ShortName>
+							<Path>SFX\GolemUnification2_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1515293495" Name="Hand_Trigger" ObjectPath="\Events\Default Work Unit\Music\Hand_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionTrigger>
 						<ActionTriggerEntry Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
@@ -72,7 +177,7 @@
 				</Event>
 				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="0.659589" DurationMax="0.774143">
+				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="1.109732" DurationMax="1.283368">
 					<IncludedMemoryFiles>
 						<File Id="412420031" Language="SFX">
 							<ShortName>MushroomLever3.wav</ShortName>
@@ -355,7 +460,7 @@
 				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3915876038">
+		<SoundBank Id="1355168291" Language="SFX" Hash="678025630">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

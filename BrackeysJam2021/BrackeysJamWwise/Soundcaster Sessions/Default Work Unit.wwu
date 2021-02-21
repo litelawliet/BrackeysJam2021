@@ -42,16 +42,20 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
+							<ObjectRef Name="GolemSeparation" ID="{B647B92D-E7F6-4DBA-97A2-1A4636468423}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<ObjectRef Name="LogCrack" ID="{EC237EC5-A41B-4CFF-93F7-CA3834D33DED}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
 							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
@@ -68,6 +72,10 @@
 						<Module>
 							<ObjectRef Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GolemUnification" ID="{CEEC61C1-2EDB-4DA1-B1B0-B24704A4A279}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
