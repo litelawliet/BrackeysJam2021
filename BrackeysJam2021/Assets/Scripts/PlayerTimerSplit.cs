@@ -39,7 +39,7 @@ public class PlayerTimerSplit : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             currentSecondsTimer += Time.deltaTime;
-            timerText.text = countDown.ToString();
+            //timerText.text = countDown.ToString();
             
             if (currentSecondsTimer >= second)
             {
@@ -61,7 +61,7 @@ public class PlayerTimerSplit : MonoBehaviour
         }
         else
         {
-            timerText.text = "Safe";
+            //timerText.text = "Safe";
         }
 
     }

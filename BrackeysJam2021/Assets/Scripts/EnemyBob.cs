@@ -35,6 +35,11 @@ public class EnemyBob : MonoBehaviour
     PlayerMovement playerMovementScript = null;
     SpriteRenderer spriteRenderer = null;
 
+    private void OnDestroy()
+    {
+        AkSoundEngine.PostEvent("BobIdle_Stop", gameObject); // Probably not used because we never destroy Bob
+    }
+
     private void Start()
     {
         levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
@@ -52,6 +57,8 @@ public class EnemyBob : MonoBehaviour
         distance = boxCollider.bounds.size.x / 2.0f + 0.1f;
         direction = leftDirection ? -1.0f : 1.0f;
         transform.Rotate(0.0f, 180.0f, 0.0f);
+
+        AkSoundEngine.PostEvent("BobIdle_Start", gameObject);
     }
 
     private void Update()
@@ -63,6 +70,7 @@ public class EnemyBob : MonoBehaviour
             if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.TOGETHER)
             {
                 afraid = true;
+                AkSoundEngine.PostEvent("BobSeePlayer", gameObject);
             }
             else
             {
@@ -99,6 +107,7 @@ public class EnemyBob : MonoBehaviour
             {
                 // Play animation
                 _animator.SetTrigger("Steal");
+                AkSoundEngine.PostEvent("BobMunch", gameObject);
                 // Notify the player to stop the inputs
                 StartCoroutine(Restart());
                 rb.velocity = Vector2.zero;
@@ -106,8 +115,6 @@ public class EnemyBob : MonoBehaviour
                 direction = 0.0f;
             }
         }
-
-        
     }
 
     private void FixedUpdate()
@@ -151,6 +158,9 @@ public class EnemyBob : MonoBehaviour
             Gizmos.color = Color.green;
         }
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+        
+        //Gizmos.color = Color.blue;
+        //Gizmos.DrawWireSphere(transform.position, 10.0f); // Potential check of enemy in range of player for sounds
 
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, deathRange);
@@ -158,10 +168,15 @@ public class EnemyBob : MonoBehaviour
 
     private IEnumerator Restart()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
 
         // Save level via SaveSystem
         GameManager.levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
         levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void PlayFootsteps()
+    {
+        AkSoundEngine.PostEvent("BobFootsteps", gameObject);
     }
 }

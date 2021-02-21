@@ -149,11 +149,13 @@ public partial class PlayerMovement : MonoBehaviour
         {
             PlayerState = EPlayerState.ALONE;
             playerAnimator.SetBool("IsTogether", false);
+            AkSoundEngine.PostEvent("GolemSeparation", gameObject);
         }
         else
         {
             PlayerState = EPlayerState.TOGETHER;
             playerAnimator.SetBool("IsTogether", true);
+            AkSoundEngine.PostEvent("GolemUnification", gameObject);
         }
     }
 

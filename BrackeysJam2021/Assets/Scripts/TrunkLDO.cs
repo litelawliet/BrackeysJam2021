@@ -7,5 +7,10 @@ public class TrunkLDO : MonoBehaviour
     public void OnFall()
     {
         AkSoundEngine.PostEvent("LogCrack", gameObject);
-    }   
+    }
+
+    public void OnHit()
+    {
+        AkSoundEngine.PostEvent("LogFallHit", gameObject);
+    }
 }
