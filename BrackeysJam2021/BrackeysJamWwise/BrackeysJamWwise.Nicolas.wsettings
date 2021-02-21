@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{8778865C-248E-4C3C-B069-4E7754FA156D}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_SoundDesign\export\Bob\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_SoundDesign\export\MushroomLever\"/>
 				<Property Name="Event Action List\{05599CB5-9D94-470F-A720-2EADF35CFE3F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{06781BAA-9555-446E-9066-48D537A75232}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}\x64_Expand States" Type="string" Value=""/>
@@ -18,8 +18,10 @@
 				<Property Name="Event Action List\{4DAD9585-38F0-4913-A662-667F12FEAA73}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4E83C0C0-3588-4FC0-81E9-AC097D37F854}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{69472728-EB19-4C53-8F08-816DF718AD16}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B647B92D-E7F6-4DBA-97A2-1A4636468423}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B69D3969-A4F6-4CFA-A8CE-A3C58F1F4625}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C99F15A5-1235-4C0D-A782-4A204445A349}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CEEC61C1-2EDB-4DA1-B1B0-B24704A4A279}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D649B884-5F59-4471-946B-D08C25BF51D5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}\x64_Expand States" Type="string" Value=""/>

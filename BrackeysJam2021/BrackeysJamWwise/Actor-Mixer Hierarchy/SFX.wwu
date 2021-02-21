@@ -19,7 +19,12 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>20</Value>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -101,6 +106,18 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="RockFall" ID="{B6AE31D2-6A8F-49F1-8F4E-4F0A4ADDE6C0}" ShortID="895358713">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
@@ -406,7 +423,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Mushroom" ID="{3C35B0A0-F376-40A7-911F-92A31ED6D15C}" ShortID="849736146">
+						<Folder Name="Lever" ID="{3C35B0A0-F376-40A7-911F-92A31ED6D15C}" ShortID="849736146">
 							<ChildrenList>
 								<RandomSequenceContainer Name="LeverActivation" ID="{48B9FC92-1692-4336-B884-F212E3EC8779}" ShortID="341332677">
 									<PropertyList>
@@ -422,6 +439,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -677,6 +699,13 @@
 						<Folder Name="Woodbreak" ID="{9C0A8593-232E-435E-8201-C78DED6C176C}" ShortID="1016099294">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Woodbreak" ID="{72F4ED1C-35E8-4027-92FA-E1E5FD3A1569}" ShortID="1000604853">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
@@ -760,10 +789,18 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="BulbExplode" ID="{5A3AAFF0-321A-41F6-AF47-2892ECCB015A}" ShortID="44530224">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{92DDC3CD-1C37-4CD5-A4DA-33CB30411097}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1308,6 +1345,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2327,7 +2369,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2453,6 +2495,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="GolemUnification" ID="{DDC89993-7A40-4218-9E5A-24D449DFBF0D}" ShortID="481334511">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>

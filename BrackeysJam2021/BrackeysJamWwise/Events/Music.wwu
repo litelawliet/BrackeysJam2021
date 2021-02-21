@@ -39,6 +39,7 @@
 						<Action Name="" ID="{025F14B4-C05E-40B3-A09E-F5F71CDE4B6D}" ShortID="325318481">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -50,8 +51,10 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-6"/>
+								<Property Name="Volume" Type="Real64" Value="-4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -63,8 +66,10 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Lowpass" Type="int16" Value="25"/>
+								<Property Name="Lowpass" Type="int16" Value="20"/>
 								<Property Name="Volume" Type="Real64" Value="-3"/>
 							</PropertyList>
 							<ReferenceList>
@@ -77,9 +82,10 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="12"/>
-								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="6"/>
+								<Property Name="Volume" Type="Real64" Value="4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -91,9 +97,10 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="26"/>
-								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2.5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Lowpass" Type="int16" Value="-25"/>
+								<Property Name="Lowpass" Type="int16" Value="-20"/>
 								<Property Name="Volume" Type="Real64" Value="-3"/>
 							</PropertyList>
 							<ReferenceList>
