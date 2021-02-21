@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877307680064843
+    m_lastTime: -8585877144940604816
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -276,7 +276,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877161954918502
+    m_lastTime: -8585877145884624133
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -299,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877221734445359
+    m_lastTime: -8585877145892687638
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -353,7 +353,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877161954928467
+    m_lastTime: -8585877145892677674
     List:
     - name: Bob
       guid: 888ce37367ada44f9497e5d27e1a1687
@@ -648,7 +648,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877221734425412
+    m_lastTime: -8585877145892667692
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f

@@ -18,14 +18,14 @@ public class EndLevel : MonoBehaviour
 
             if (playerState == PlayerMovement.EPlayerState.TOGETHER)
             {
-                //if (LevelName == null)
+                if (LevelName == null)
                 {
                     levelLoader.LoadNextLevel();
                 }
-                /*else
+                else
                 {
                     levelLoader.LoadNextLevel(LevelName);
-                }*/
+                }
             }
 
         }

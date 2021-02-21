@@ -3,7 +3,6 @@
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(CircleCollider2D))]
-[RequireComponent(typeof(Animator))]
 public class IInteractible : MonoBehaviour
 {
     private void Awake()
@@ -41,7 +40,10 @@ public class IInteractible : MonoBehaviour
         outline.OutlineColor = Color.yellow;
         outline.OutlineWidth = 5f;
         outline.enabled = false;
-        _animator.enabled = false;
+        if (_animator != null)
+        {
+            _animator.enabled = false;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -71,8 +73,11 @@ public class IInteractible : MonoBehaviour
     public virtual void Use()
     {
         Debug.Log("IInteracble interaction");
-        _animator.enabled = true;
-        _animator.Play("Bulb_Explosion");
+        if (_animator != null)
+        {
+            _animator.enabled = true;
+            _animator.Play("Bulb_Explosion");
+        }
         // Bulbe sound
         AkSoundEngine.PostEvent("BulbExplode", gameObject);
     }

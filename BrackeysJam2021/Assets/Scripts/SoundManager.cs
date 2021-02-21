@@ -4,18 +4,35 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private static SoundManager _instance;
+
+    public static SoundManager Instance { get { return _instance; } }
+
+    public static bool startedEvent = false;
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+
+        DontDestroyOnLoad(Instance);
+    }
+
     private void Start()
     {
         // Sound test
-        AkSoundEngine.PostEvent("MainMusic_Start", gameObject);
+        if (!startedEvent)
+        {
+            AkSoundEngine.PostEvent("MainMusic_Start", Instance.gameObject);
 
-        AkSoundEngine.PostEvent("MainAmbiance_Start", gameObject);
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        
+            AkSoundEngine.PostEvent("MainAmbiance_Start", Instance.gameObject);
+            startedEvent = true;
+        }
     }
 }

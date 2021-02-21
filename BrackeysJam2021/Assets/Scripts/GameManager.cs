@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     [Tooltip("Time in second before the alone player dies")]
-    public static int timeSplitBeforeDeath = 15;
+    public static int timeSplitBeforeDeath = 20;
 
     [SerializeField]
     [Tooltip("Level loader of the game")]
