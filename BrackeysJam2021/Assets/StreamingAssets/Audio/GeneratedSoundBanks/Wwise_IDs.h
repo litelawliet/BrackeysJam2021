@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BOB_TRIGGER = 1036091807U;
+        static const AkUniqueID BOBATTACK = 1951062574U;
         static const AkUniqueID BOBFOOTSTEPS = 338068975U;
         static const AkUniqueID BOBIDLE_START = 256977061U;
         static const AkUniqueID BOBIDLE_STOP = 56052423U;

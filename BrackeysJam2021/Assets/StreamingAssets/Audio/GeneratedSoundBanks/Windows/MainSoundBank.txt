@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1036091807	Bob_Trigger			\Default Work Unit\Music\Bob_Trigger	
 	1515293495	Hand_Trigger			\Default Work Unit\Music\Hand_Trigger	
 	1593996020	RockFallHit			\Default Work Unit\SFX\Environment\RockFallHit	
+	1951062574	BobAttack			\Default Work Unit\SFX\Environment\Bob\BobAttack	
 	1999309403	PlatformLoop_Start			\Default Work Unit\SFX\Environment\PlatformLoop_Start	
 	2070386233	PlatformLoop_Stop			\Default Work Unit\SFX\Environment\PlatformLoop_Stop	
 	2149952867	RockPush_Start			\Default Work Unit\SFX\Environment\RockPush_Start	
@@ -66,6 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	442727397	GolemUnification4	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\GolemUnification4_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\GolemUnification\GolemUnification4		290624
 	449164058	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\Hand_Trigger3_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
 	469036071	FootstepsWalkForest07	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\FootstepsWalkForest07_8EE21B35.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\FootstepsWalk\FootstepsWalkForest07		61542
+	479475619	BobAttack1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\BobAttack1_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Bob\Attack\BobAttack1		145764
 	494963845	MushroomLever1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\MushroomLever1_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Lever\LeverActivation\MushroomLever1		306512
 	523074337	Coda1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\Coda1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Coda1\Coda1		4086920
 	536191787	GolemUnification5	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\SFX\GolemUnification5_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\GolemUnification\GolemUnification5		320176
