@@ -73,6 +73,8 @@ public class IInteractible : MonoBehaviour
         Debug.Log("IInteracble interaction");
         _animator.enabled = true;
         _animator.Play("Bulb_Explosion");
+        // Bulbe sound
+        AkSoundEngine.PostEvent("BulbExplode", gameObject);
     }
 
     [SerializeField]
