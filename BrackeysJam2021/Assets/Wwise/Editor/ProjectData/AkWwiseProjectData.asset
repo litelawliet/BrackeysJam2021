@@ -648,7 +648,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877116635672633
+    m_lastTime: -8585877092445387495
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -662,8 +662,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Bob_Trigger
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Hand_Trigger
       guid: c0c0834e8835c04f81e9ac097d37f854
       id: 1515293495
@@ -676,8 +676,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Hand_Trigger
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: HandTimer_Start
       guid: fc90c42d760f574192705dbc3a0795b9
       id: 563379772
@@ -690,8 +690,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Start
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: HandTimer_Stop
       guid: 3ecc4714a5de474c9afac51b945d26cc
       id: 2488500112
@@ -704,8 +704,36 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMenu_Start
+      guid: e97f8d8b0839124297eabcd4d061e7cd
+      id: 3306624374
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: MainMenu_Start
+        ObjectType: 3
+      Path: Default Work Unit\Music\MainMenu_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMenu_Stop
+      guid: 6c2ae6f7919e5b4cb978336c75408235
+      id: 2747674870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: MainMenu_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Music\MainMenu_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MainMusic_Start
       guid: 2827476919eb534c8f08816df718ad16
       id: 4088375194
@@ -732,8 +760,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\MainMusic_Stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Default Work Unit

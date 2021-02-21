@@ -191,7 +191,7 @@ public class EnemyBob : MonoBehaviour
 
         // Save level via SaveSystem
         GameManager.levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
-        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
+        levelLoader.LoadNextLevel("GameOver");
     }
 
     public void PlayFootsteps()

@@ -110,7 +110,7 @@ public class Hands : MonoBehaviour
         if (collision.gameObject.CompareTag("AloneStay"))
         {
             GameManager.levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
-            levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
+            levelLoader.LoadNextLevel("GameOver");
         }
     }
 

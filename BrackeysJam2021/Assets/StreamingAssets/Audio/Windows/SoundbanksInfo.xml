@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX" Hash="856076695">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1036091807" Name="Bob_Trigger" ObjectPath="\Events\Default Work Unit\Music\Bob_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1951062574" Name="BobAttack" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobAttack" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.737251" DurationMax="0.781090">
+					<IncludedMemoryFiles>
+						<File Id="479475619" Language="SFX">
+							<ShortName>BobAttack1.wav</ShortName>
+							<Path>SFX\BobAttack1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="338068975" Name="BobFootsteps" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobFootsteps" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.174105" DurationMax="0.226946">
+					<IncludedMemoryFiles>
+						<File Id="86085799" Language="SFX">
+							<ShortName>BobFootsteps2.wav</ShortName>
+							<Path>SFX\BobFootsteps2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="131377489" Language="SFX">
+							<ShortName>BobFootsteps4.wav</ShortName>
+							<Path>SFX\BobFootsteps4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="426636576" Language="SFX">
+							<ShortName>BobFootsteps1.wav</ShortName>
+							<Path>SFX\BobFootsteps1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="764038577" Language="SFX">
+							<ShortName>BobFootsteps3.wav</ShortName>
+							<Path>SFX\BobFootsteps3_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="256977061" Name="BobIdle_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Start" MaxAttenuation="12.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1025834572" Language="SFX">
+							<ShortName>BobIdle1.wav</ShortName>
+							<Path>SFX\BobIdle1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="56052423" Name="BobIdle_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobIdle_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3210918479" Name="BobMunch" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobMunch" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.698491" DurationMax="0.764000">
+					<IncludedMemoryFiles>
+						<File Id="646469666" Language="SFX">
+							<ShortName>BobMunch3.wav</ShortName>
+							<Path>SFX\BobMunch3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="672235953" Language="SFX">
+							<ShortName>BobMunch2.wav</ShortName>
+							<Path>SFX\BobMunch2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="686449394" Language="SFX">
+							<ShortName>BobMunch1.wav</ShortName>
+							<Path>SFX\BobMunch1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3941751596" Name="BobSeePlayer" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobSeePlayer" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.525585" DurationMax="0.626303">
+					<IncludedMemoryFiles>
+						<File Id="386603561" Language="SFX">
+							<ShortName>BobSeePlayer2.wav</ShortName>
+							<Path>SFX\BobSeePlayer2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1055376573" Language="SFX">
+							<ShortName>BobSeePlayer1.wav</ShortName>
+							<Path>SFX\BobSeePlayer1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="221347139" Name="BulbExplode" ObjectPath="\Events\Default Work Unit\SFX\Environment\BulbExplode" DurationType="OneShot" DurationMin="1.865312" DurationMax="2.275559">
+					<IncludedMemoryFiles>
+						<File Id="6999688" Language="SFX">
+							<ShortName>BulbExplode3.wav</ShortName>
+							<Path>SFX\BulbExplode3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="316690972" Language="SFX">
+							<ShortName>BulbExplode2.wav</ShortName>
+							<Path>SFX\BulbExplode2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="919175758" Language="SFX">
+							<ShortName>BulbExplode1.wav</ShortName>
+							<Path>SFX\BulbExplode1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\SFX\Player\Footsteps" DurationType="OneShot" DurationMin="0.434652" DurationMax="0.798565">
+					<IncludedMemoryFiles>
+						<File Id="232226598" Language="SFX">
+							<ShortName>FootstepsWalkForest09.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest09_8EE21B35.wem</Path>
+						</File>
+						<File Id="469036071" Language="SFX">
+							<ShortName>FootstepsWalkForest07.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest07_8EE21B35.wem</Path>
+						</File>
+						<File Id="872218194" Language="SFX">
+							<ShortName>FootstepsWalkForest06.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest06_8EE21B35.wem</Path>
+						</File>
+						<File Id="895044552" Language="SFX">
+							<ShortName>FootstepsWalkForest04.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest04_8EE21B35.wem</Path>
+						</File>
+						<File Id="897367241" Language="SFX">
+							<ShortName>FootstepsWalkForest02.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest02_8EE21B35.wem</Path>
+						</File>
+						<File Id="1031872274" Language="SFX">
+							<ShortName>FootstepsWalkForest05.wav</ShortName>
+							<Path>SFX\FootstepsWalkForest05_8EE21B35.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2906615607" Name="GolemSeparation" ObjectPath="\Events\Default Work Unit\SFX\Player\GolemSeparation" DurationType="OneShot" DurationMin="1.134750" DurationMax="1.372146">
+					<IncludedMemoryFiles>
+						<File Id="229751176" Language="SFX">
+							<ShortName>GolemSeparation3.wav</ShortName>
+							<Path>SFX\GolemSeparation3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="294228061" Language="SFX">
+							<ShortName>GolemSeparation2.wav</ShortName>
+							<Path>SFX\GolemSeparation2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="644233243" Language="SFX">
+							<ShortName>GolemSeparation4.wav</ShortName>
+							<Path>SFX\GolemSeparation4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="653190372" Language="SFX">
+							<ShortName>GolemSeparation1.wav</ShortName>
+							<Path>SFX\GolemSeparation1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="991388617" Language="SFX">
+							<ShortName>GolemSeparation5.wav</ShortName>
+							<Path>SFX\GolemSeparation5_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2695150546" Name="GolemUnification" ObjectPath="\Events\Default Work Unit\SFX\Player\GolemUnification" DurationType="OneShot" DurationMin="1.513333" DurationMax="1.667250">
+					<IncludedMemoryFiles>
+						<File Id="442727397" Language="SFX">
+							<ShortName>GolemUnification4.wav</ShortName>
+							<Path>SFX\GolemUnification4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="536191787" Language="SFX">
+							<ShortName>GolemUnification5.wav</ShortName>
+							<Path>SFX\GolemUnification5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="699238984" Language="SFX">
+							<ShortName>GolemUnification3.wav</ShortName>
+							<Path>SFX\GolemUnification3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1032085161" Language="SFX">
+							<ShortName>GolemUnification1.wav</ShortName>
+							<Path>SFX\GolemUnification1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1040137198" Language="SFX">
+							<ShortName>GolemUnification2.wav</ShortName>
+							<Path>SFX\GolemUnification2_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1515293495" Name="Hand_Trigger" ObjectPath="\Events\Default Work Unit\Music\Hand_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="1.449040" DurationMax="1.642852">
+					<IncludedMemoryFiles>
+						<File Id="412420031" Language="SFX">
+							<ShortName>MushroomLever3.wav</ShortName>
+							<Path>SFX\MushroomLever3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="494963845" Language="SFX">
+							<ShortName>MushroomLever1.wav</ShortName>
+							<Path>SFX\MushroomLever1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="665250887" Language="SFX">
+							<ShortName>MushroomLever4.wav</ShortName>
+							<Path>SFX\MushroomLever4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="697306841" Language="SFX">
+							<ShortName>MushroomLever5.wav</ShortName>
+							<Path>SFX\MushroomLever5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1006418607" Language="SFX">
+							<ShortName>MushroomLever2.wav</ShortName>
+							<Path>SFX\MushroomLever2_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="704035397" Name="LogCrack" ObjectPath="\Events\Default Work Unit\SFX\Environment\LogCrack" DurationType="OneShot" DurationMin="2.809708" DurationMax="3.277542">
+					<IncludedMemoryFiles>
+						<File Id="15717042" Language="SFX">
+							<ShortName>LogFallCrack4.wav</ShortName>
+							<Path>SFX\LogFallCrack4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="426170569" Language="SFX">
+							<ShortName>LogFallCrack1.wav</ShortName>
+							<Path>SFX\LogFallCrack1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="635761647" Language="SFX">
+							<ShortName>LogFallCrack2.wav</ShortName>
+							<Path>SFX\LogFallCrack2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="651102870" Language="SFX">
+							<ShortName>LogFallCrack3.wav</ShortName>
+							<Path>SFX\LogFallCrack3_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2152998613" Name="LogFallHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\LogFallHit" DurationType="OneShot" DurationMin="1.497021" DurationMax="1.500021">
+					<IncludedMemoryFiles>
+						<File Id="26210751" Language="SFX">
+							<ShortName>LogFallHit4.wav</ShortName>
+							<Path>SFX\LogFallHit4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="591456587" Language="SFX">
+							<ShortName>LogFallHit2.wav</ShortName>
+							<Path>SFX\LogFallHit2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="940983850" Language="SFX">
+							<ShortName>LogFallHit3.wav</ShortName>
+							<Path>SFX\LogFallHit3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="1042459732" Language="SFX">
+							<ShortName>LogFallHit1.wav</ShortName>
+							<Path>SFX\LogFallHit1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2942474371" Name="MainAmbiance_Start" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="4459968" Language="SFX">
+							<ShortName>Crickets4.wav</ShortName>
+							<Path>SFX\Crickets4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="103918532" Language="SFX">
+							<ShortName>Crickets3.wav</ShortName>
+							<Path>SFX\Crickets3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="338816045" Language="SFX">
+							<ShortName>AmbianceCracks5.wav</ShortName>
+							<Path>SFX\AmbianceCracks5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="425814435" Language="SFX">
+							<ShortName>Crickets2.wav</ShortName>
+							<Path>SFX\Crickets2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="536674883" Language="SFX">
+							<ShortName>Owl1.wav</ShortName>
+							<Path>SFX\Owl1_78154BD8.wem</Path>
+						</File>
+						<File Id="653893533" Language="SFX">
+							<ShortName>AmbianceCracks3.wav</ShortName>
+							<Path>SFX\AmbianceCracks3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="658790917" Language="SFX">
+							<ShortName>ScopsOwl1.wav</ShortName>
+							<Path>SFX\ScopsOwl1_78154BD8.wem</Path>
+						</File>
+						<File Id="722131285" Language="SFX">
+							<ShortName>Crickets1.wav</ShortName>
+							<Path>SFX\Crickets1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="808817377" Language="SFX">
+							<ShortName>ScopsOwl3.wav</ShortName>
+							<Path>SFX\ScopsOwl3_78154BD8.wem</Path>
+						</File>
+						<File Id="840196647" Language="SFX">
+							<ShortName>Owl3.wav</ShortName>
+							<Path>SFX\Owl3_78154BD8.wem</Path>
+						</File>
+						<File Id="901366895" Language="SFX">
+							<ShortName>ScopsOwl2.wav</ShortName>
+							<Path>SFX\ScopsOwl2_78154BD8.wem</Path>
+						</File>
+						<File Id="906293679" Language="SFX">
+							<ShortName>AmbianceCracks1.wav</ShortName>
+							<Path>SFX\AmbianceCracks1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="921706949" Language="SFX">
+							<ShortName>AmbianceCracks2.wav</ShortName>
+							<Path>SFX\AmbianceCracks2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="963889093" Language="SFX">
+							<ShortName>AmbianceCracks4.wav</ShortName>
+							<Path>SFX\AmbianceCracks4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="984594604" Language="SFX">
+							<ShortName>Owl2.wav</ShortName>
+							<Path>SFX\Owl2_78154BD8.wem</Path>
+						</File>
+						<File Id="1041325944" Language="SFX">
+							<ShortName>AmbianceCracks6.wav</ShortName>
+							<Path>SFX\AmbianceCracks6_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3235398401" Name="MainAmbiance_Stop" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="114140307" Language="SFX">
+							<ShortName>Bridge.wav</ShortName>
+							<Path>SFX\Bridge_07E195FA.wem</Path>
+						</File>
+						<File Id="206205029" Language="SFX">
+							<ShortName>Coda2.wav</ShortName>
+							<Path>SFX\Coda2_07E195FA.wem</Path>
+						</File>
+						<File Id="316690344" Language="SFX">
+							<ShortName>SoloHautbois_1.wav</ShortName>
+							<Path>SFX\SoloHautbois_1_07E195FA.wem</Path>
+						</File>
+						<File Id="436540397" Language="SFX">
+							<ShortName>Hand_Trigger2.wav</ShortName>
+							<Path>SFX\Hand_Trigger2_07E195FA.wem</Path>
+						</File>
+						<File Id="437107786" Language="SFX">
+							<ShortName>Bob_Trigger.wav</ShortName>
+							<Path>SFX\Bob_Trigger_07E195FA.wem</Path>
+						</File>
+						<File Id="449164058" Language="SFX">
+							<ShortName>Hand_Trigger3.wav</ShortName>
+							<Path>SFX\Hand_Trigger3_07E195FA.wem</Path>
+						</File>
+						<File Id="523074337" Language="SFX">
+							<ShortName>Coda1.wav</ShortName>
+							<Path>SFX\Coda1_07E195FA.wem</Path>
+						</File>
+						<File Id="602165710" Language="SFX">
+							<ShortName>Hand_Trigger4.wav</ShortName>
+							<Path>SFX\Hand_Trigger4_07E195FA.wem</Path>
+						</File>
+						<File Id="697765994" Language="SFX">
+							<ShortName>Hand_Trigger1.wav</ShortName>
+							<Path>SFX\Hand_Trigger1_07E195FA.wem</Path>
+						</File>
+						<File Id="748283284" Language="SFX">
+							<ShortName>SectionA_Lush.wav</ShortName>
+							<Path>SFX\SectionA_Lush_07E195FA.wem</Path>
+						</File>
+						<File Id="847131327" Language="SFX">
+							<ShortName>SectionB_Winds.wav</ShortName>
+							<Path>SFX\SectionB_Winds_07E195FA.wem</Path>
+						</File>
+						<File Id="855369342" Language="SFX">
+							<ShortName>Intro.wav</ShortName>
+							<Path>SFX\Intro_07E195FA.wem</Path>
+						</File>
+						<File Id="862627587" Language="SFX">
+							<ShortName>SectionB_Percu.wav</ShortName>
+							<Path>SFX\SectionB_Percu_07E195FA.wem</Path>
+						</File>
+						<File Id="875139115" Language="SFX">
+							<ShortName>SoloHautbois_2.wav</ShortName>
+							<Path>SFX\SoloHautbois_2_07E195FA.wem</Path>
+						</File>
+						<File Id="940676883" Language="SFX">
+							<ShortName>SoloHorn_1.wav</ShortName>
+							<Path>SFX\SoloHorn_1_07E195FA.wem</Path>
+						</File>
+						<File Id="961277201" Language="SFX">
+							<ShortName>SectionA_Rtm.wav</ShortName>
+							<Path>SFX\SectionA_Rtm_07E195FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3439190578" Name="MainMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1999309403" Name="PlatformLoop_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\PlatformLoop_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="214489674" Language="SFX">
+							<ShortName>PlatformMove3.wav</ShortName>
+							<Path>SFX\PlatformMove3_07E195FA.wem</Path>
+						</File>
+						<File Id="287871937" Language="SFX">
+							<ShortName>PlatformMove4.wav</ShortName>
+							<Path>SFX\PlatformMove4_07E195FA.wem</Path>
+						</File>
+						<File Id="794872611" Language="SFX">
+							<ShortName>PlatformMove1.wav</ShortName>
+							<Path>SFX\PlatformMove1_07E195FA.wem</Path>
+						</File>
+						<File Id="997270142" Language="SFX">
+							<ShortName>PlatformMove2.wav</ShortName>
+							<Path>SFX\PlatformMove2_07E195FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2070386233" Name="PlatformLoop_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\PlatformLoop_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1593996020" Name="RockFallHit" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockFallHit" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="199363197" Language="SFX">
+							<ShortName>RockFall3.wav</ShortName>
+							<Path>SFX\RockFall3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="308114260" Language="SFX">
+							<ShortName>RockFall1.wav</ShortName>
+							<Path>SFX\RockFall1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="624328487" Language="SFX">
+							<ShortName>RockFall2.wav</ShortName>
+							<Path>SFX\RockFall2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="690540011" Language="SFX">
+							<ShortName>RockFall4.wav</ShortName>
+							<Path>SFX\RockFall4_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2149952867" Name="RockPush_Start" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockPush_Start" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000">
+					<IncludedMemoryFiles>
+						<File Id="571351526" Language="SFX">
+							<ShortName>RockPushLoop2.wav</ShortName>
+							<Path>SFX\RockPushLoop2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="892358579" Language="SFX">
+							<ShortName>RockPushLoop3.wav</ShortName>
+							<Path>SFX\RockPushLoop3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="987499503" Language="SFX">
+							<ShortName>RockPushLoop1.wav</ShortName>
+							<Path>SFX\RockPushLoop1_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3687707233" Name="RockPush_Stop" ObjectPath="\Events\Default Work Unit\SFX\Environment\RockPush_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3901853815" Name="Woodbreak" ObjectPath="\Events\Default Work Unit\SFX\Environment\Woodbreak" DurationType="OneShot" DurationMin="2.628813" DurationMax="2.821917">
+					<IncludedMemoryFiles>
+						<File Id="163141204" Language="SFX">
+							<ShortName>WoodBreak1.wav</ShortName>
+							<Path>SFX\WoodBreak1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="282098987" Language="SFX">
+							<ShortName>WoodBreak2.wav</ShortName>
+							<Path>SFX\WoodBreak2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="301090536" Language="SFX">
+							<ShortName>WoodBreak3.wav</ShortName>
+							<Path>SFX\WoodBreak3_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2481527869" Name="HandTimer" ObjectPath="\Game Parameters\Default Work Unit\HandTimer"/>
+			</GameParameters>
+			<Triggers>
+				<Trigger Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
+				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2903912663">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
