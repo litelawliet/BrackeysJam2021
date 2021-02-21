@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8fb5eb5b0066ee40ac3f5ddceb6255dd
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877405537352468
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877405537352468
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877532339935471
+    m_lastTime: -8585877405297784635
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -276,7 +276,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877768632706306
+    m_lastTime: -8585877405294144226
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -299,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877532339955418
+    m_lastTime: -8585877405297844463
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -324,7 +324,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7fd3d7361788fe4f83bb27c9e0d2553f
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877405557668564
     List: []
   - PhysicalPath: Events\Environment.wwu
     PathAndIcons:
@@ -337,7 +337,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877532339955418
+    m_lastTime: -8585877405297824527
     List:
     - name: BulbExplode
       guid: 25fbe1efd50a7b45974819559b86df53
@@ -508,7 +508,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877768693374082
+    m_lastTime: -8585877405297804579
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -591,7 +591,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585877532339945446
+    m_lastTime: -8585877405297804579
     List:
     - name: Footsteps
       guid: 7cfac9da84504e42ad1e3bbfcc3488b9
@@ -618,7 +618,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX
     guid: a29460938b0531449efa465d2ddfb39d
     GuidInternal: 
-    m_lastTime: -8585877768693354136
+    m_lastTime: -8585877405557658596
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -628,7 +628,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f73d42214730624cb4f51881177cba4a
     GuidInternal: 
-    m_lastTime: -8585877768693354136
+    m_lastTime: -8585877405557648621
     List:
     - name: HandTimer
       guid: 5a0fb74f0896ca46a9eeea5b1ebea71f
@@ -647,7 +647,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2ccbbf3e64ac4645a14dd3f776dddbab
     GuidInternal: 
-    m_lastTime: -8585877768632696332
+    m_lastTime: -8585877405537362443
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -657,7 +657,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d6867f84c3608042ba9b859c81b7d687
     GuidInternal: 
-    m_lastTime: -8585877768632696332
+    m_lastTime: -8585877405537362443
     List:
     - name: HandTimer
       guid: 24e382aa4da74f418722f053fd4d5263
@@ -692,7 +692,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fec1f150b84c1b4fb9b0b4c44c4c3d43
     GuidInternal: 
-    m_lastTime: -8585877768632686358
+    m_lastTime: -8585877405537352468
     List:
     - name: Bob
       guid: 5b56d82aac69374e9aad4dc332a2ff3e
