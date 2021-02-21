@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public partial class PlayerMovement
 {
@@ -68,6 +69,15 @@ public partial class PlayerMovement
                     aloneStayGO.SetActive(true);
                 }
             }
+        }
+    }
+
+    public void Reset(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            // Reset level
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     #endregion
