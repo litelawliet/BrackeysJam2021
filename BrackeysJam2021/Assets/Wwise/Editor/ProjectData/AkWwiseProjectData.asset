@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585877399051009284
+    m_lastTime: -8585877362339407041
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -276,7 +276,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877399050550516
+    m_lastTime: -8585877362334789286
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -299,7 +299,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Ambiance
     guid: afb3917d4178874f92639eca0e745236
     GuidInternal: 
-    m_lastTime: -8585877405297844463
+    m_lastTime: -8585877362339446721
     List:
     - name: MainAmbiance_Start
       guid: 69399db6f6a4fa4ca8cea3c58f1f4625
@@ -337,7 +337,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877399051039208
+    m_lastTime: -8585877362339441761
     List:
     - name: Bob
       guid: 888ce37367ada44f9497e5d27e1a1687
@@ -371,8 +371,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\Bob\BobFootsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.226946
+      minDuration: 0.174105
     - name: BobIdle_Start
       guid: 953467466d0fbd4793fe13fd8f9fc14f
       id: 256977061
@@ -407,8 +407,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\Bob\BobIdle_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: BobMunch
       guid: bfd57bf6f2bd36479fc35c11dec730bd
       id: 3210918479
@@ -425,8 +425,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\Bob\BobMunch
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.764
+      minDuration: 0.698491
     - name: BobSeePlayer
       guid: 5109c81b62960d4d966627f0dd1879d2
       id: 3941751596
@@ -443,8 +443,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\Bob\BobSeePlayer
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.626303
+      minDuration: 0.525585
     - name: BulbExplode
       guid: 25fbe1efd50a7b45974819559b86df53
       id: 221347139
@@ -459,8 +459,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\BulbExplode
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.275559
+      minDuration: 1.865312
     - name: LeverActivate
       guid: a5159fc935120d4ca7824a204445a349
       id: 236780564
@@ -475,8 +475,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LeverActivate
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.283368
+      minDuration: 1.109732
     - name: LogCrack
       guid: c57e23ec1ba4ff4c93f7ca3834d33ded
       id: 704035397
@@ -491,8 +491,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogCrack
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.277542
+      minDuration: 2.809708
     - name: LogFallHit
       guid: a6103c49caff55418c61e6b488ee40e6
       id: 2152998613
@@ -507,8 +507,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\LogFallHit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.500021
+      minDuration: 1.497021
     - name: PlatformLoop_Start
       guid: 2190d6435678aa4daf4f58e5dbd8a119
       id: 1999309403
@@ -539,8 +539,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\PlatformLoop_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: RockFallHit
       guid: f7946bdd7e62e74698fbb141ea98ffcf
       id: 1593996020
@@ -555,8 +555,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockFallHit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1
+      minDuration: 1
     - name: RockPush_Start
       guid: 2a7d2d3157f7894ea5b0910a66473207
       id: 2149952867
@@ -571,8 +571,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockPush_Start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5
+      minDuration: 5
     - name: RockPush_Stop
       guid: 1d34edf63348ef42bae179f8f3520c03
       id: 3687707233
@@ -587,8 +587,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\RockPush_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Woodbreak
       guid: ceb96620b905d24aa2b90e3c4060a6ab
       id: 3901853815
@@ -603,8 +603,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Environment\Woodbreak
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.821917
+      minDuration: 2.628813
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -614,7 +614,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585877399051029232
+    m_lastTime: -8585877362339431837
     List:
     - name: Bob_Trigger
       guid: b59c5905949d0f47a7202eadf35cfe3f
@@ -628,8 +628,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Bob_Trigger
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Hand_Trigger
       guid: c0c0834e8835c04f81e9ac097d37f854
       id: 1515293495
@@ -642,8 +642,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\Hand_Trigger
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: HandTimer_Start
       guid: fc90c42d760f574192705dbc3a0795b9
       id: 563379772
@@ -656,8 +656,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: HandTimer_Stop
       guid: 3ecc4714a5de474c9afac51b945d26cc
       id: 2488500112
@@ -670,8 +670,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Music\HandTimer_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: MainMusic_Start
       guid: 2827476919eb534c8f08816df718ad16
       id: 4088375194
@@ -697,7 +697,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585877399051029232
+    m_lastTime: -8585877362339426889
     List:
     - name: Footsteps
       guid: 7cfac9da84504e42ad1e3bbfcc3488b9
@@ -713,8 +713,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Player\Footsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.798565
+      minDuration: 0.434652
     - name: GolemSeparation
       guid: 2db947b6f6e7ba4d97a21a4636468423
       id: 2906615607
@@ -729,8 +729,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Player\GolemSeparation
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.372146
+      minDuration: 1.13475
     - name: GolemUnification
       guid: c161eccedb2ea14db1b0b24704a4a279
       id: 2695150546
@@ -745,8 +745,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\SFX\Player\GolemUnification
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.66725
+      minDuration: 1.513333
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
