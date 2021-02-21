@@ -2,6 +2,8 @@
 
 public partial class PlayerMovement
 {
+    private bool jumpingSoundStarted = false;
+
     #region Jump settings
     [Header("Jumping settings", order = 1)]
     [SerializeField]
@@ -45,6 +47,7 @@ public partial class PlayerMovement
                 jumpCalledInput = false;
                 isJumping = true;
                 playerAnimator.SetBool("IsJumping", true);
+                jumpingSoundStarted = false;
             }
         }
         else
@@ -54,6 +57,11 @@ public partial class PlayerMovement
                 jumpCalledInput = false;
                 isJumping = false;
                 playerAnimator.SetBool("IsJumping", false);
+                if (!jumpingSoundStarted && !playerAnimator.GetBool("IsJumping"))
+                {
+                    AkSoundEngine.PostEvent("Footsteps", gameObject);
+                    jumpingSoundStarted = true;
+                }
             }
         }
     }

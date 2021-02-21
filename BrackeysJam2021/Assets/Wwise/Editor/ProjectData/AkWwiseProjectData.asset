@@ -276,7 +276,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585877190181008534
+    m_lastTime: -8585877161954918502
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -353,7 +353,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585877190181227952
+    m_lastTime: -8585877161954928467
     List:
     - name: Bob
       guid: 888ce37367ada44f9497e5d27e1a1687
@@ -368,6 +368,24 @@ MonoBehaviour:
       - ElementName: Bob
         ObjectType: 4
       Path: Default Work Unit\SFX\Environment\Bob
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BobAttack
+      guid: 88ea99ac2ac78f4fba2b2e2e19f1c583
+      id: 1951062574
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Bob
+        ObjectType: 4
+      - ElementName: BobAttack
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Environment\Bob\BobAttack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

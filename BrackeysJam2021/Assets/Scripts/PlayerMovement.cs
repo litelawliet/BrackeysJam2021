@@ -179,4 +179,9 @@ public partial class PlayerMovement : MonoBehaviour
         }
     }
     #endregion
+
+    public void PlayFootsteps()
+    {
+        AkSoundEngine.PostEvent("Footsteps", gameObject);
+    }
 }

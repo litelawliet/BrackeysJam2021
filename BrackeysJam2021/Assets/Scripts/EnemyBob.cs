@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -34,6 +35,9 @@ public class EnemyBob : MonoBehaviour
     GameObject player = null;
     PlayerMovement playerMovementScript = null;
     SpriteRenderer spriteRenderer = null;
+
+    private bool AttackStarted = false;
+    private bool StealStarted = false;
 
     private void OnDestroy()
     {
@@ -75,6 +79,15 @@ public class EnemyBob : MonoBehaviour
             else
             {
                 afraid = false;
+                if (!AttackStarted)
+                {
+                    AkSoundEngine.PostEvent("BobAttack", gameObject);
+                    AttackStarted = true;
+                }
+                else
+                {
+                    AttackStarted = false;
+                }
             }
         }
         else
@@ -106,8 +119,13 @@ public class EnemyBob : MonoBehaviour
             if (playerDistance <= deathRange || golemDistance <= deathRange)
             {
                 // Play animation
-                _animator.SetTrigger("Steal");
-                AkSoundEngine.PostEvent("BobMunch", gameObject);
+                if (!StealStarted)
+                {
+                    _animator.SetTrigger("Steal");
+                    AkSoundEngine.PostEvent("BobMunch", gameObject);
+                    StealStarted = true;
+                }
+
                 // Notify the player to stop the inputs
                 StartCoroutine(Restart());
                 rb.velocity = Vector2.zero;
@@ -168,7 +186,8 @@ public class EnemyBob : MonoBehaviour
 
     private IEnumerator Restart()
     {
-        yield return new WaitForSeconds(0.8f);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInput>().enabled = false;
+        yield return new WaitForSeconds(0.6f);
 
         // Save level via SaveSystem
         GameManager.levelDataComponentScript.SaveLevel(SceneManager.GetActiveScene().buildIndex);
