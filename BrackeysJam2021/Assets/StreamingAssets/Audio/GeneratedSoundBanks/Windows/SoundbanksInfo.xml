@@ -470,7 +470,7 @@
 				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="678025630">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2903912663">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
