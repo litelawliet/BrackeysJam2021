@@ -8,6 +8,7 @@ TagManager:
   - Interactible
   - Ground
   - LevelLoader
+  - SoundManager
   layers:
   - Default
   - TransparentFX
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 553321891
+    locked: 0
+  - name: ForeGround
+    uniqueID: 630323025
     locked: 0

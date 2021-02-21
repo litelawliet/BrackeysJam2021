@@ -3,6 +3,7 @@
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(Animator))]
 public class IInteractible : MonoBehaviour
 {
     private void Awake()
@@ -10,6 +11,7 @@ public class IInteractible : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _boxCollider2D = GetComponent<BoxCollider2D>();
         _circleCollider2D = GetComponent<CircleCollider2D>();
+        _animator = GetComponent<Animator>();
 
         _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
 
@@ -39,6 +41,7 @@ public class IInteractible : MonoBehaviour
         outline.OutlineColor = Color.yellow;
         outline.OutlineWidth = 5f;
         outline.enabled = false;
+        _animator.enabled = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -68,6 +71,8 @@ public class IInteractible : MonoBehaviour
     public virtual void Use()
     {
         Debug.Log("IInteracble interaction");
+        _animator.enabled = true;
+        _animator.Play("Bulb_Explosion");
     }
 
     [SerializeField]
@@ -99,6 +104,7 @@ public class IInteractible : MonoBehaviour
     protected Rigidbody2D _rigidbody2D;
     protected BoxCollider2D _boxCollider2D;
     protected CircleCollider2D _circleCollider2D;
+    protected Animator _animator;
     public Outline outline;
 }
 

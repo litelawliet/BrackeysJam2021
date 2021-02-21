@@ -27,6 +27,7 @@ public class Lever : IInteractible
     private float movingTime = 0.0f;
     private bool moving = false;
     private bool back = true;
+    private bool alreadyPlayedLeverAnimation = false;
 
     private void Update()
     {
@@ -82,11 +83,26 @@ public class Lever : IInteractible
             {
                 if (Reusable)
                 {
+                    _animator.enabled = true;
+                    if (!alreadyPlayedLeverAnimation)
+                    {
+                        alreadyPlayedLeverAnimation = true;
+                        _animator.Play("Lever_Activation");
+                    }
+                    else
+                    {
+                        alreadyPlayedLeverAnimation = false;
+                        _animator.Play("Lever_Activation_Reverse");
+                    }
+                    
                     // Lever sound
                     AkSoundEngine.PostEvent("LeverActivate", gameObject);
                 }
                 else
                 {
+                    _animator.enabled = true;
+                    _animator.Play("Bulb_Explosion");
+
                     // Bulbe sound
                     AkSoundEngine.PostEvent("BulbExplode", gameObject);
                 }
