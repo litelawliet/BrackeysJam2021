@@ -76,6 +76,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aloneGolem: {fileID: 0}
   playerMovementScript: {fileID: 0}
+  handSoundTimer: 5
+  handSoundCurrentTime: 0
 --- !u!95 &231656158151715421
 Animator:
   serializedVersion: 3
@@ -131,8 +133,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 630323025
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1624108181874779714, guid: 1fb87e8d626fe3a45b4d5c57c04a551e,
     type: 3}
