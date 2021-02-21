@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Triggers\Default Work Unit.wwu" DateLow="1613709470" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Switches\Default Work Unit.wwu" DateLow="1613709470" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\States\Default Work Unit.wwu" DateLow="1613712811" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\SoundBanks\Default Work Unit.wwu" DateLow="1613787384" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Queries\Factory Queries.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Queries\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Presets\Factory Spatial Audio.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Presets\Factory Reflect.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Presets\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Modulators\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1613780683" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Interactive Music Hierarchy\Music.wwu" DateLow="1613716046" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1613691322" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Game Parameters\Default Work Unit.wwu" DateLow="1613712568" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\SFX.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\Player.wwu" DateLow="1613780726" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\Music.wwu" DateLow="1613716046" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\Environment.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\Default Work Unit.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Events\Ambiance.wwu" DateLow="1613786883" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Reflect.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory McDSP Effects.wwu" DateLow="1609898336" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Mastering Suite.wwu" DateLow="1609898145" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Filters.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Delay.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Effects.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Factory Auro Headphone.wwu" DateLow="1609898265" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Effects\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\BrackeysJamWwise.wproj" DateLow="1613787384" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\BrackeysJamWwise.Nicolas.wsettings" DateLow="1613790121" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Audio Devices\Default Work Unit.wwu" DateLow="1613691322" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Attenuations\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1613779707" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Triggers\Default Work Unit.wwu" DateLow="1613709470" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Switches\Default Work Unit.wwu" DateLow="1613709470" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\States\Default Work Unit.wwu" DateLow="1613712811" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\SoundBanks\Default Work Unit.wwu" DateLow="1613787384" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Queries\Factory Queries.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Queries\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Presets\Factory Spatial Audio.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Presets\Factory Reflect.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Presets\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Modulators\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1613780683" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Interactive Music Hierarchy\Music.wwu" DateLow="1613716046" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1613691322" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1609898245" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Game Parameters\Factory Motion.wwu" DateLow="1609898224" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Game Parameters\Default Work Unit.wwu" DateLow="1613712568" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\SFX.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\Player.wwu" DateLow="1613780726" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\Music.wwu" DateLow="1613716046" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\Environment.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\Default Work Unit.wwu" DateLow="1613781103" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Events\Ambiance.wwu" DateLow="1613786883" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Reflect.wwu" DateLow="1609898243" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory McDSP Effects.wwu" DateLow="1609898336" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Mastering Suite.wwu" DateLow="1609898145" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Filters.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Delay.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1609898303" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Effects.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Factory Auro Headphone.wwu" DateLow="1609898265" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Effects\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1609897917" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\BrackeysJamWwise.wproj" DateLow="1613787384" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\BrackeysJamWwise.Nicolas.wsettings" DateLow="1613788376" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Audio Devices\Default Work Unit.wwu" DateLow="1613691322" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Attenuations\Default Work Unit.wwu" DateLow="1613689799" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1613786868" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1609897918" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1609898245" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1613712794" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1613779707" DateHigh="0"/>
+</ValidationCache>

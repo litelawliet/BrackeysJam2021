@@ -1,0 +1,59 @@
+Event	ID	Name			Wwise Object Path	Notes
+	563379772	HandTimer_Start			\Default Work Unit\Music\HandTimer_Start	
+	704035397	LogCrack			\Default Work Unit\SFX\Environment\LogCrack	
+	1036091807	Bob_Trigger			\Default Work Unit\Music\Bob_Trigger	
+	1515293495	Hand_Trigger			\Default Work Unit\Music\Hand_Trigger	
+	1593996020	RockFallHit			\Default Work Unit\SFX\Environment\RockFallHit	
+	2149952867	RockPush_Start			\Default Work Unit\SFX\Environment\RockPush_Start	
+	2152998613	LogFallHit			\Default Work Unit\SFX\Environment\LogFallHit	
+	2488500112	HandTimer_Stop			\Default Work Unit\Music\HandTimer_Stop	
+	2942474371	MainAmbiance_Start			\Default Work Unit\SFX\Ambiance\MainAmbiance_Start	
+	3687707233	RockPush_Stop			\Default Work Unit\SFX\Environment\RockPush_Stop	
+	4088375194	MainMusic_Start			\Default Work Unit\Music\MainMusic_Start	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2481527869	HandTimer			\Default Work Unit\HandTimer	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	546945306	Bob			\Default Work Unit\Bob	
+	3666971986	Hand			\Default Work Unit\Hand	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15717042	LogFallCrack4	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallCrack4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogCrack\LogFallCrack4		539528
+	26210751	LogFallHit4	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallHit4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogFallHit\LogFallHit4		288064
+	114140307	Bridge	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Bridge_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Bridge\Bridge		5191264
+	199363197	RockFall3	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockFall3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall3		192064
+	206205029	Coda2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Coda2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Coda2\Coda2		3578464
+	308114260	RockFall1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockFall1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall1		192064
+	316690344	SoloHautbois_1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SoloHautbois_1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHautbois_1\SoloHautbois_1		3578464
+	338816045	AmbianceCracks5	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks5		616480
+	426170569	LogFallCrack1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallCrack1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogCrack\LogFallCrack1		629352
+	436540397	Hand_Trigger	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Hand_Trigger2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1152064
+	437107786	Bob_Trigger	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Bob_Trigger_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Bob_Trigger\Bob_Trigger		957664
+	449164058	Hand_Trigger	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Hand_Trigger3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1042348
+	523074337	Coda1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Coda1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Coda1\Coda1		3578464
+	571351526	RockPushLoop2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockPushLoop2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockPushLoop\RockPushLoop2		960064
+	591456587	LogFallHit2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallHit2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogFallHit\LogFallHit2		288068
+	602165710	Hand_Trigger	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Hand_Trigger4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1042348
+	624328487	RockFall2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockFall2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall2		192064
+	635761647	LogFallCrack2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallCrack2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogCrack\LogFallCrack2		550016
+	651102870	LogFallCrack3	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallCrack3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogCrack\LogFallCrack3		562256
+	653893533	AmbianceCracks3	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks3		946256
+	690540011	RockFall4	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockFall4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall4		192064
+	697765994	Hand_Trigger	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Hand_Trigger1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1371492
+	748283284	SectionA_Lush	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SectionA_Lush_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionA_Lush\SectionA_Lush		6804064
+	795909762	Thème Section A - Rhytmique	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Thème Section A - Rhytmique_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionA_Rtm\Thème Section A - Rhytmique		6804064
+	847131327	SectionB_Winds	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SectionB_Winds_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionB_Winds\SectionB_Winds		5191264
+	855369342	Intro	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Intro\Intro		1965664
+	862627587	SectionB_Percu	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SectionB_Percu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionB_Percu\SectionB_Percu		5191264
+	875139115	SoloHautbois_2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SoloHautbois_2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHautbois_2\SoloHautbois_2		3578464
+	892358579	RockPushLoop3	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockPushLoop3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockPushLoop\RockPushLoop3		960064
+	906293679	AmbianceCracks1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks1		945140
+	921706949	AmbianceCracks2	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks2		764784
+	940676883	SoloHorn_1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\SoloHorn_1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHorn_1\SoloHorn_1		3578464
+	940983850	LogFallHit3	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallHit3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogFallHit\LogFallHit3		288048
+	963889093	AmbianceCracks4	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks4		914456
+	987499503	RockPushLoop1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\RockPushLoop1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockPushLoop\RockPushLoop1		960064
+	1041325944	AmbianceCracks6	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\AmbianceCracks6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks6		614936
+	1042459732	LogFallHit1	C:\Users\Nicolas\Documents\Games\Brackeys\BrackeysJamWwise\.cache\Windows\SFX\LogFallHit1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogFallHit\LogFallHit1		287492
+

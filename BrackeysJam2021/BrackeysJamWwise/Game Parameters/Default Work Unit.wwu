@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21423DF7-3047-4C62-B4F5-1881177CBA4A}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{21423DF7-3047-4C62-B4F5-1881177CBA4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="15"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
