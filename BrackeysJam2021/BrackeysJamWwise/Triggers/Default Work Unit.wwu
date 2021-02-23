@@ -4,7 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}" PersistMode="Standalone">
 			<ChildrenList>
 				<Trigger Name="Hand" ID="{D04E7525-777E-44FB-9F4E-82A82923D266}"/>
-				<Trigger Name="Bob" ID="{2AD8565B-69AC-4E37-9AAD-4DC332A2FF3E}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

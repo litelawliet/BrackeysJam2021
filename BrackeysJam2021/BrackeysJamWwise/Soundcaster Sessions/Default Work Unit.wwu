@@ -18,7 +18,7 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Footsteps" ID="{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}"/>
+							<ObjectRef Name="FootstepsSpirit" ID="{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -58,10 +58,6 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}"/>
 							<Position X="3" Y="1"/>
 						</Module>
@@ -81,7 +77,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="HandTimer" ID="{4FB70F5A-9608-46CA-A9EE-EA5B1EBEA71F}"/>
-							<Value>15</Value>
+							<Value>5</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

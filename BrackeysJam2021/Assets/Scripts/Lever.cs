@@ -89,15 +89,18 @@ public class Lever : IInteractible
                     {
                         alreadyPlayedLeverAnimation = true;
                         _animator.Play("Lever_Activation");
+                        // Lever sound
+                        AkSoundEngine.PostEvent("LeverActivate", gameObject);
                     }
                     else
                     {
                         alreadyPlayedLeverAnimation = false;
                         _animator.Play("Lever_Activation_Reverse");
+                        // Lever sound
+                        AkSoundEngine.PostEvent("LeverDeactivate", gameObject);
                     }
                     
-                    // Lever sound
-                    AkSoundEngine.PostEvent("LeverActivate", gameObject);
+                    
                 }
                 else
                 {

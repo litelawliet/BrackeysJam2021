@@ -7,9 +7,10 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="LogFallHit" ID="{493C10A6-FFCA-4155-8C61-E6B488EE40E6}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FootstepsGolem" ID="{5B22C891-16D9-41C8-BFC4-4F797CD89E88}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MenuItemMouseOver" ID="{864E80A3-0EE7-41D2-B92A-4ED2360F6EA6}" WorkUnitID="{77F3565F-3C46-48B4-8C17-A4CD956BA692}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMenu_Start" ID="{8B8D7FE9-3908-4212-97EA-BCD4D061E7CD}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Footsteps" ID="{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FootstepsSpirit" ID="{DAC9FA7C-5084-424E-AD1E-3BBFCC3488B9}" WorkUnitID="{C9DA8745-6BA1-46B7-B96F-6BDAF5D21DF0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockPush_Stop" ID="{F6ED341D-4833-42EF-BAE1-79F8F3520C03}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMusic_Stop" ID="{B662AAF2-60DD-43C0-9104-28EC8EB83B3D}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MenuItemClick" ID="{659B9921-07B9-4457-8A5E-915F20B466F7}" WorkUnitID="{77F3565F-3C46-48B4-8C17-A4CD956BA692}" Origin="Manual" Filter="7"/>
@@ -18,9 +19,9 @@
 						<ObjectRef Name="MainAmbiance_Stop" ID="{130CAC97-99EF-4493-A41C-1A444BBF1A64}" WorkUnitID="{7D91B3AF-7841-4F87-9263-9ECA0E745236}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BulbExplode" ID="{EFE1FB25-0AD5-457B-9748-19559B86DF53}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RockFallHit" ID="{DD6B94F7-627E-46E7-98FB-B141EA98FFCF}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BobMunch" ID="{F67BD5BF-BDF2-4736-9FC3-5C11DEC730BD}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BobIdle_Start" ID="{46673495-0F6D-47BD-93FE-13FD8F9FC14F}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LeverDeactivate" ID="{A10C6128-C30A-4A25-9294-52E591483F7E}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Woodbreak" ID="{2066B9CE-05B9-4AD2-A2B9-0E3C4060A6AB}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LeverActivate" ID="{C99F15A5-1235-4C0D-A782-4A204445A349}" WorkUnitID="{9CFE575E-10B2-4504-85B6-04EC16B85F83}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HandTimer_Stop" ID="{1447CC3E-DEA5-4C47-9AFA-C51B945D26CC}" WorkUnitID="{D9C615E4-D3F6-4CAE-BD69-124CE78A4656}" Origin="Manual" Filter="7"/>

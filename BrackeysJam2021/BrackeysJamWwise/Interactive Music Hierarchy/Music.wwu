@@ -143,12 +143,12 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>10</XPos>
+														<XPos>15.02909</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>15</XPos>
+														<XPos>20</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -179,12 +179,12 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>9.98753</XPos>
+														<XPos>15</XPos>
 														<YPos>0.01599</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>15</XPos>
+														<XPos>20</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -1833,7 +1833,7 @@
 								<Property Name="Tempo" Type="Real64" Value="105"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>8</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{E41B3104-6F8A-42AB-BF89-83070C23ECEC}" ShortID="33417757">
@@ -1849,12 +1849,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-3</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>15</XPos>
-														<YPos>-6.04404</YPos>
+														<XPos>20</XPos>
+														<YPos>-12</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2108,13 +2108,6 @@
 							</PropertyList>
 							<TriggerRef Name="Hand" ID="{D04E7525-777E-44FB-9F4E-82A82923D266}" WorkUnitID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}"/>
 							<SegmentRef Name="Hand_Trigger" ID="{AF8C7393-EC67-4CBB-815A-3B3E18863D57}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
-						</MusicStinger>
-						<MusicStinger Name="" ID="{399C8FD9-4BC5-44FA-807E-7377B2E9CB1B}">
-							<PropertyList>
-								<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
-							</PropertyList>
-							<TriggerRef Name="Bob" ID="{2AD8565B-69AC-4E37-9AAD-4DC332A2FF3E}" WorkUnitID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}"/>
-							<SegmentRef Name="Bob_Trigger" ID="{552270C9-ABFA-434D-A58A-88FF6C3704A9}" WorkUnitID="{F9C0555D-8D4F-4E13-9408-9478BA10A0FD}"/>
 						</MusicStinger>
 					</StingerList>
 					<Playlist>

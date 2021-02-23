@@ -9,7 +9,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -111,27 +111,13 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Bob_Trigger" ID="{05599CB5-9D94-470F-A720-2EADF35CFE3F}">
-					<ChildrenList>
-						<Action Name="" ID="{14BDDD55-597C-4794-8971-7731D8FB2ECF}" ShortID="775982974">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="35"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bob" ID="{2AD8565B-69AC-4E37-9AAD-4DC332A2FF3E}" WorkUnitID="{50F1C1FE-4CB8-4F1B-B9B0-B4C44C4C3D43}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="HandTimer_Start" ID="{2DC490FC-0F76-4157-9270-5DBC3A0795B9}">
 					<ChildrenList>
 						<Action Name="" ID="{C494AAB5-5B69-442C-B8BC-A4E79C3BD237}" ShortID="191493789">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -147,8 +133,8 @@
 						<Action Name="" ID="{4E7D35B0-FEC0-4B19-91E4-DAA4FA8FA492}" ShortID="977411622">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="20"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>

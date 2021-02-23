@@ -40,6 +40,7 @@
 						<Bus Name="Ambiance" ID="{C230F5FE-E0C4-4846-81D7-E1981BF42282}"/>
 						<Bus Name="Environment" ID="{F9F22FE3-0F76-4E6A-B1B0-74CAC39ED2CC}"/>
 						<Bus Name="Player" ID="{D87C3BB8-6EE7-4110-9A69-1F458D906138}"/>
+						<Bus Name="UI" ID="{4E9B3CBC-8D48-44F0-82DA-1CA632B74446}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

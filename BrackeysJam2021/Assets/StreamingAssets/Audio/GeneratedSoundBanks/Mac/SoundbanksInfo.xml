@@ -11,16 +11,11 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="1102411454">
+		<SoundBank Id="534561221" Language="SFX" Hash="1866874077">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1036091807" Name="Bob_Trigger" ObjectPath="\Events\Default Work Unit\Music\Bob_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionTrigger>
-						<ActionTriggerEntry Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
-					</ActionTrigger>
-				</Event>
 				<Event Id="1951062574" Name="BobAttack" ObjectPath="\Events\Default Work Unit\SFX\Environment\Bob\BobAttack" MaxAttenuation="12.000000" DurationType="OneShot" DurationMin="0.737251" DurationMax="0.781090">
 					<IncludedMemoryFiles>
 						<File Id="479475619" Language="SFX">
@@ -102,7 +97,39 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\SFX\Player\Footsteps" DurationType="OneShot" DurationMin="0.434652" DurationMax="0.798565">
+				<Event Id="3143130974" Name="FootstepsGolem" ObjectPath="\Events\Default Work Unit\SFX\Player\FootstepsGolem" DurationType="OneShot" DurationMin="0.322417" DurationMax="0.476542">
+					<IncludedMemoryFiles>
+						<File Id="107820098" Language="SFX">
+							<ShortName>GolemFootsteps3.wav</ShortName>
+							<Path>SFX\GolemFootsteps3_0F6A32B0.wem</Path>
+						</File>
+						<File Id="211822972" Language="SFX">
+							<ShortName>GolemFootsteps7.wav</ShortName>
+							<Path>SFX\GolemFootsteps7_0F6A32B0.wem</Path>
+						</File>
+						<File Id="319401254" Language="SFX">
+							<ShortName>GolemFootsteps4.wav</ShortName>
+							<Path>SFX\GolemFootsteps4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="626896976" Language="SFX">
+							<ShortName>GolemFootsteps6.wav</ShortName>
+							<Path>SFX\GolemFootsteps6_0F6A32B0.wem</Path>
+						</File>
+						<File Id="795098861" Language="SFX">
+							<ShortName>GolemFootsteps2.wav</ShortName>
+							<Path>SFX\GolemFootsteps2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="821426398" Language="SFX">
+							<ShortName>GolemFootsteps1.wav</ShortName>
+							<Path>SFX\GolemFootsteps1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="847576906" Language="SFX">
+							<ShortName>GolemFootsteps5.wav</ShortName>
+							<Path>SFX\GolemFootsteps5_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1817160233" Name="FootstepsSpirit" ObjectPath="\Events\Default Work Unit\SFX\Player\FootstepsSpirit" DurationType="OneShot" DurationMin="0.434652" DurationMax="0.798565">
 					<IncludedMemoryFiles>
 						<File Id="232226598" Language="SFX">
 							<ShortName>FootstepsWalkForest09.wav</ShortName>
@@ -206,6 +233,30 @@
 						<File Id="1006418607" Language="SFX">
 							<ShortName>MushroomLever2.wav</ShortName>
 							<Path>SFX\MushroomLever2_0F6A32B0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="261050725" Name="LeverDeactivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverDeactivate" DurationType="OneShot" DurationMin="1.488610" DurationMax="1.697534">
+					<IncludedMemoryFiles>
+						<File Id="221102494" Language="SFX">
+							<ShortName>LeverDeactivate4.wav</ShortName>
+							<Path>SFX\LeverDeactivate4_0F6A32B0.wem</Path>
+						</File>
+						<File Id="491569029" Language="SFX">
+							<ShortName>LeverDeactivate1.wav</ShortName>
+							<Path>SFX\LeverDeactivate1_0F6A32B0.wem</Path>
+						</File>
+						<File Id="612932536" Language="SFX">
+							<ShortName>LeverDeactivate2.wav</ShortName>
+							<Path>SFX\LeverDeactivate2_0F6A32B0.wem</Path>
+						</File>
+						<File Id="968155691" Language="SFX">
+							<ShortName>LeverDeactivate5.wav</ShortName>
+							<Path>SFX\LeverDeactivate5_0F6A32B0.wem</Path>
+						</File>
+						<File Id="989493051" Language="SFX">
+							<ShortName>LeverDeactivate3.wav</ShortName>
+							<Path>SFX\LeverDeactivate3_0F6A32B0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -491,11 +542,10 @@
 				<GameParameter Id="2481527869" Name="HandTimer" ObjectPath="\Game Parameters\Default Work Unit\HandTimer"/>
 			</GameParameters>
 			<Triggers>
-				<Trigger Id="546945306" Name="Bob" ObjectPath="\Triggers\Default Work Unit\Bob"/>
 				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4042937009">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1885187759">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

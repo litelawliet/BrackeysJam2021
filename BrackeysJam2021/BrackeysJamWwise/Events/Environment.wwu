@@ -217,6 +217,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="LeverDeactivate" ID="{A10C6128-C30A-4A25-9294-52E591483F7E}">
+					<ChildrenList>
+						<Action Name="" ID="{4F42A7A8-76E6-4F13-B2F0-2138F5E09B33}" ShortID="645930040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeverDeactivation" ID="{C53C6305-5092-4CA8-A27C-33CCFFFDECAF}" WorkUnitID="{1D929951-5A1B-4161-8ECF-279EE8BEA678}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -46,7 +46,10 @@ public partial class PlayerMovement
 
                 jumpCalledInput = false;
                 isJumping = true;
+                //Debug.Log("Jumping =" + isJumping);
                 playerAnimator.SetBool("IsJumping", true);
+                //Debug.Log("JumpingBool =" + playerAnimator.GetBool("IsJumping"));
+                //Debug.Log("WalkingBool =" + playerAnimator.GetBool("IsWalking"));
                 jumpingSoundStarted = false;
             }
         }
@@ -57,9 +60,10 @@ public partial class PlayerMovement
                 jumpCalledInput = false;
                 isJumping = false;
                 playerAnimator.SetBool("IsJumping", false);
+                //Debug.Log("stopped jumping");
                 if (!jumpingSoundStarted && !playerAnimator.GetBool("IsJumping"))
                 {
-                    AkSoundEngine.PostEvent("Footsteps", gameObject);
+                    AkSoundEngine.PostEvent("FootstepsSpirit", gameObject);
                     jumpingSoundStarted = true;
                 }
             }
