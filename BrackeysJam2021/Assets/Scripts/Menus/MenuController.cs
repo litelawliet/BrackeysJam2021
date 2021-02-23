@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class MenuController : MonoBehaviour
+public class MenuController : MonoBehaviour, IPointerEnterHandler
 {
     public LevelLoader levelLoader;
 
@@ -22,6 +23,7 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("We start game");
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         controlsPanel.enabled = false;
         creditsPanel.enabled = false;
         levelLoader.LoadNextLevel();
@@ -30,6 +32,7 @@ public class MenuController : MonoBehaviour
     public void CloseGame()
     {
         Debug.Log("we quit game");
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         controlsPanel.enabled = false;
         creditsPanel.enabled = false;
         Application.Quit();
@@ -38,6 +41,7 @@ public class MenuController : MonoBehaviour
     public void OpenCredits()
     {
         Debug.Log("Roll credits");
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         controlsPanel.enabled = false;
         creditsPanel.enabled = true;
     }
@@ -45,6 +49,7 @@ public class MenuController : MonoBehaviour
     public void OpenControls()
     {
         Debug.Log("Controls");
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         creditsPanel.enabled = false;
         controlsPanel.enabled = true;
     }
@@ -52,14 +57,19 @@ public class MenuController : MonoBehaviour
     public void CloseCredits()
     {
         Debug.Log("CLOSE credits");
-
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         creditsPanel.enabled = false;
     }
 
     public void CloseControls()
     {
         Debug.Log("CLOSE controls");
-
+        AkSoundEngine.PostEvent("MenuItemClick", gameObject);
         controlsPanel.enabled = false;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        AkSoundEngine.PostEvent("MenuItemMouseHover", gameObject);
     }
 }
