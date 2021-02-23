@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2070386233	PlatformLoop_Stop			\Default Work Unit\SFX\Environment\PlatformLoop_Stop	
 	2149952867	RockPush_Start			\Default Work Unit\SFX\Environment\RockPush_Start	
 	2152998613	LogFallHit			\Default Work Unit\SFX\Environment\LogFallHit	
+	2341309224	MenuItemMouseOver			\Default Work Unit\SFX\UI\MenuItemMouseOver	
 	2385628198	Footsteps			\Default Work Unit\SFX\Player\Footsteps	
 	2488500112	HandTimer_Stop			\Default Work Unit\Music\HandTimer_Stop	
 	2695150546	GolemUnification			\Default Work Unit\SFX\Player\GolemUnification	
@@ -23,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3210918479	BobMunch			\Default Work Unit\SFX\Environment\Bob\BobMunch	
 	3235398401	MainAmbiance_Stop			\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop	
 	3306624374	MainMenu_Start			\Default Work Unit\Music\MainMenu_Start	
+	3345932315	MenuItemClick			\Default Work Unit\SFX\UI\MenuItemClick	
 	3439190578	MainMusic_Stop			\Default Work Unit\Music\MainMusic_Stop	
 	3687707233	RockPush_Stop			\Default Work Unit\SFX\Environment\RockPush_Stop	
 	3901853815	Woodbreak			\Default Work Unit\SFX\Environment\Woodbreak	
@@ -60,6 +62,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	316690344	SoloHautbois_1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SoloHautbois_1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHautbois_1\SoloHautbois_1		4306348
 	316690972	BulbExplode2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\BulbExplode2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Bulb\BulbExplode\BulbExplode2		418448
 	338816045	AmbianceCracks5	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\AmbianceCracks5_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\BranchesCracks\AmbianceCracks5		616480
+	350439743	MenuSelect1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\MenuSelect1_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuSelect1		62672
 	386603561	BobSeePlayer2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\BobSeePlayer2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Bob_AM\Bob\SeePlayer\BobSeePlayer2		105444
 	412420031	MushroomLever3	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\MushroomLever3_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Lever\LeverActivation\MushroomLever3		291316
 	425814435	Crickets2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Crickets2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambiance\WorldAmbiance\Crickets\Crickets2		714864
@@ -78,6 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	571351526	RockPushLoop2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\RockPushLoop2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockPushLoop\RockPushLoop2		960064
 	591456587	LogFallHit2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\LogFallHit2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogFallHit\LogFallHit2		288068
 	602165710	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Hand_Trigger4_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
+	621144405	MenuClick1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\MenuClick1_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\MenuClick1		29064
 	624328487	RockFall2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\RockFall2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Rocks\RockFall\RockFall2		192064
 	635761647	LogFallCrack2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\LogFallCrack2_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environment\Logs\LogCrack\LogFallCrack2		550016
 	644233243	GolemSeparation4	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\GolemSeparation4_0F6A32B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\GolemSeparation\GolemSeparation4		262260
