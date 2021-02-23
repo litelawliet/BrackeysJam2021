@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e26e56b81eec824da9e65835e73314ce
     GuidInternal: 
-    m_lastTime: -8585875088290685579
+    m_lastTime: -8585874880896051167
     List:
     - name: Ambiance
       guid: fef530c2c4e0464881d7e1981bf42282
@@ -287,7 +287,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 94c28c5a54b89b459d87e287a2fb9062
     GuidInternal: 
-    m_lastTime: -8585875033784173089
+    m_lastTime: -8585874879383256963
     List:
     - name: MainSoundBank
       guid: b2597d8d734723449a3ed13747caca79
@@ -298,6 +298,15 @@ MonoBehaviour:
       - ElementName: MainSoundBank
         ObjectType: 7
       Path: Default Work Unit\MainSoundBank
+    - name: MusicSoundBank
+      guid: d2607e219c7d7e4cad770ccd1bd4ea84
+      id: 3427827313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicSoundBank
+        ObjectType: 7
+      Path: Default Work Unit\MusicSoundBank
   EventWwu:
   - PhysicalPath: Events\Ambiance.wwu
     PathAndIcons:
@@ -364,7 +373,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Environment
     guid: 5e57fe9cb210044585b604ec16b85f83
     GuidInternal: 
-    m_lastTime: -8585875040249450905
+    m_lastTime: -8585874880897065003
     List:
     - name: Bob
       guid: 888ce37367ada44f9497e5d27e1a1687
@@ -675,7 +684,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: e415c6d9f6d3ae4cbd69124ce78a4656
     GuidInternal: 
-    m_lastTime: -8585875098878314693
+    m_lastTime: -8585874880897054994
     List:
     - name: Hand_Trigger
       guid: c0c0834e8835c04f81e9ac097d37f854
@@ -786,7 +795,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\SFX\Player
     guid: 4587dac9a16bb746b96f6bdaf5d21df0
     GuidInternal: 
-    m_lastTime: -8585875040249575990
+    m_lastTime: -8585874880896086174
     List:
     - name: FootstepsGolem
       guid: 91c8225bd916c841bfc44f797cd89e88
@@ -916,7 +925,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f73d42214730624cb4f51881177cba4a
     GuidInternal: 
-    m_lastTime: -8585875100078354819
+    m_lastTime: -8585874880896081174
     List:
     - name: HandTimer
       guid: 5a0fb74f0896ca46a9eeea5b1ebea71f
@@ -980,7 +989,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fec1f150b84c1b4fb9b0b4c44c4c3d43
     GuidInternal: 
-    m_lastTime: -8585875100078294662
+    m_lastTime: -8585874880895655872
     List:
     - name: Hand
       guid: 25754ed07e77fb449f4e82a82923d266
