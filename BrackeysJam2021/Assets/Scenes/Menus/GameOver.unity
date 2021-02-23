@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 645968674}
   - component: {fileID: 645968673}
   - component: {fileID: 645968672}
+  - component: {fileID: 645968675}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -407,6 +408,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645968670}
   m_CullTransparentMesh: 0
+--- !u!114 &645968675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645968670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0afc8ad59089e414aab1df470094ae84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &842297984
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +432,7 @@ GameObject:
   - component: {fileID: 842297988}
   - component: {fileID: 842297987}
   - component: {fileID: 842297986}
+  - component: {fileID: 842297989}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -536,6 +550,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842297984}
   m_CullTransparentMesh: 0
+--- !u!114 &842297989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842297984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0afc8ad59089e414aab1df470094ae84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1383299314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -710,6 +736,7 @@ GameObject:
   - component: {fileID: 1624768337}
   - component: {fileID: 1624768341}
   - component: {fileID: 1624768342}
+  - component: {fileID: 1624768343}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -856,6 +883,31 @@ MonoBehaviour:
   player: {fileID: 0}
   levelLoader: {fileID: 484734408}
   saveSystemPrefab: {fileID: 1383299315}
+--- !u!114 &1624768343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624768336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd0c217b2b097343ab4a223a691ac62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0abf03edd5258f49b74a20d7871dedb,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1894178873
 GameObject:
   m_ObjectHideFlags: 0
