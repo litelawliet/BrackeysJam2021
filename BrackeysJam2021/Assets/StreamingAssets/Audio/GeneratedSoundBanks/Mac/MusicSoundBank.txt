@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	563379772	HandTimer_Start			\Default Work Unit\Music\HandTimer_Start	
+	1515293495	Hand_Trigger			\Default Work Unit\Music\Hand_Trigger	
+	2488500112	HandTimer_Stop			\Default Work Unit\Music\HandTimer_Stop	
+	2747674870	MainMenu_Stop			\Default Work Unit\Music\MainMenu_Stop	
+	3306624374	MainMenu_Start			\Default Work Unit\Music\MainMenu_Start	
+	3439190578	MainMusic_Stop			\Default Work Unit\Music\MainMusic_Stop	
+	4088375194	MainMusic_Start			\Default Work Unit\Music\MainMusic_Start	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2481527869	HandTimer			\Default Work Unit\HandTimer	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	3666971986	Hand			\Default Work Unit\Hand	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	114140307	Bridge	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Bridge_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Bridge\Bridge		6610348
+	122997816	MainMenu	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\MainMenu_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMenu\MainMenu\MainMenu		5500232
+	206205029	Coda2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Coda2_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Coda2\Coda2		4306348
+	316690344	SoloHautbois_1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SoloHautbois_1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHautbois_1\SoloHautbois_1		4306348
+	436540397	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Hand_Trigger2_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
+	437107786	Bob_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Bob_Trigger_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Bob_Trigger\Bob_Trigger		957664
+	449164058	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Hand_Trigger3_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
+	523074337	Coda1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Coda1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Coda1\Coda1		4086920
+	602165710	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Hand_Trigger4_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
+	697765994	Hand_Trigger	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Hand_Trigger1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Triggers\Hand_Trigger\Hand_Trigger		1563492
+	748283284	SectionA_Lush	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SectionA_Lush_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionA_Lush\SectionA_Lush		7597780
+	847131327	SectionB_Winds	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SectionB_Winds_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionB_Winds\SectionB_Winds		5842348
+	855369342	Intro	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\Intro_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\Intro\Intro		2331492
+	862627587	SectionB_Percu	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SectionB_Percu_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionB_Percu\SectionB_Percu		5952064
+	875139115	SoloHautbois_2	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SoloHautbois_2_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHautbois_2\SoloHautbois_2		4196636
+	940676883	SoloHorn_1	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SoloHorn_1_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SoloHorn_1\SoloHorn_1		4196636
+	961277201	SectionA_Rtm	C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Repo\BrackeysJam2021\BrackeysJam2021\BrackeysJamWwise\.cache\Mac\SFX\SectionA_Rtm_07E195FA.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitch\Explore\SectionA_Rtm\SectionA_Rtm		7597780
+

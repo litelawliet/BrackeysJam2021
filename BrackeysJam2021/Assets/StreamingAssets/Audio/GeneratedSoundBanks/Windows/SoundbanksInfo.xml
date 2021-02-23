@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="1866874077">
+		<SoundBank Id="534561221" Language="SFX" Hash="4057492567">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
@@ -205,13 +205,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1515293495" Name="Hand_Trigger" ObjectPath="\Events\Default Work Unit\Music\Hand_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionTrigger>
-						<ActionTriggerEntry Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
-					</ActionTrigger>
-				</Event>
-				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="236780564" Name="LeverActivate" ObjectPath="\Events\Default Work Unit\SFX\Environment\LeverActivate" DurationType="OneShot" DurationMin="1.449040" DurationMax="1.642852">
 					<IncludedMemoryFiles>
 						<File Id="412420031" Language="SFX">
@@ -369,84 +362,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3235398401" Name="MainAmbiance_Stop" ObjectPath="\Events\Default Work Unit\SFX\Ambiance\MainAmbiance_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3306624374" Name="MainMenu_Start" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Start" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="122997816" Language="SFX">
-							<ShortName>MainMenu.wav</ShortName>
-							<Path>SFX\MainMenu_07E195FA.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2747674870" Name="MainMenu_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="114140307" Language="SFX">
-							<ShortName>Bridge.wav</ShortName>
-							<Path>SFX\Bridge_07E195FA.wem</Path>
-						</File>
-						<File Id="206205029" Language="SFX">
-							<ShortName>Coda2.wav</ShortName>
-							<Path>SFX\Coda2_07E195FA.wem</Path>
-						</File>
-						<File Id="316690344" Language="SFX">
-							<ShortName>SoloHautbois_1.wav</ShortName>
-							<Path>SFX\SoloHautbois_1_07E195FA.wem</Path>
-						</File>
-						<File Id="436540397" Language="SFX">
-							<ShortName>Hand_Trigger2.wav</ShortName>
-							<Path>SFX\Hand_Trigger2_07E195FA.wem</Path>
-						</File>
-						<File Id="437107786" Language="SFX">
-							<ShortName>Bob_Trigger.wav</ShortName>
-							<Path>SFX\Bob_Trigger_07E195FA.wem</Path>
-						</File>
-						<File Id="449164058" Language="SFX">
-							<ShortName>Hand_Trigger3.wav</ShortName>
-							<Path>SFX\Hand_Trigger3_07E195FA.wem</Path>
-						</File>
-						<File Id="523074337" Language="SFX">
-							<ShortName>Coda1.wav</ShortName>
-							<Path>SFX\Coda1_07E195FA.wem</Path>
-						</File>
-						<File Id="602165710" Language="SFX">
-							<ShortName>Hand_Trigger4.wav</ShortName>
-							<Path>SFX\Hand_Trigger4_07E195FA.wem</Path>
-						</File>
-						<File Id="697765994" Language="SFX">
-							<ShortName>Hand_Trigger1.wav</ShortName>
-							<Path>SFX\Hand_Trigger1_07E195FA.wem</Path>
-						</File>
-						<File Id="748283284" Language="SFX">
-							<ShortName>SectionA_Lush.wav</ShortName>
-							<Path>SFX\SectionA_Lush_07E195FA.wem</Path>
-						</File>
-						<File Id="847131327" Language="SFX">
-							<ShortName>SectionB_Winds.wav</ShortName>
-							<Path>SFX\SectionB_Winds_07E195FA.wem</Path>
-						</File>
-						<File Id="855369342" Language="SFX">
-							<ShortName>Intro.wav</ShortName>
-							<Path>SFX\Intro_07E195FA.wem</Path>
-						</File>
-						<File Id="862627587" Language="SFX">
-							<ShortName>SectionB_Percu.wav</ShortName>
-							<Path>SFX\SectionB_Percu_07E195FA.wem</Path>
-						</File>
-						<File Id="875139115" Language="SFX">
-							<ShortName>SoloHautbois_2.wav</ShortName>
-							<Path>SFX\SoloHautbois_2_07E195FA.wem</Path>
-						</File>
-						<File Id="940676883" Language="SFX">
-							<ShortName>SoloHorn_1.wav</ShortName>
-							<Path>SFX\SoloHorn_1_07E195FA.wem</Path>
-						</File>
-						<File Id="961277201" Language="SFX">
-							<ShortName>SectionA_Rtm.wav</ShortName>
-							<Path>SFX\SectionA_Rtm_07E195FA.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3439190578" Name="MainMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3345932315" Name="MenuItemClick" ObjectPath="\Events\Default Work Unit\SFX\UI\MenuItemClick" DurationType="OneShot" DurationMin="0.144638" DurationMax="0.157729">
 					<IncludedMemoryFiles>
 						<File Id="621144405" Language="SFX">
@@ -538,17 +453,109 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1156739451">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3427827313" Language="SFX" Hash="2658704232">
+			<ObjectPath>\SoundBanks\Default Work Unit\MusicSoundBank</ObjectPath>
+			<ShortName>MusicSoundBank</ShortName>
+			<Path>MusicSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1515293495" Name="Hand_Trigger" ObjectPath="\Events\Default Work Unit\Music\Hand_Trigger" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="563379772" Name="HandTimer_Start" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2488500112" Name="HandTimer_Stop" ObjectPath="\Events\Default Work Unit\Music\HandTimer_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3306624374" Name="MainMenu_Start" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="122997816" Language="SFX">
+							<ShortName>MainMenu.wav</ShortName>
+							<Path>SFX\MainMenu_07E195FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2747674870" Name="MainMenu_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMenu_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4088375194" Name="MainMusic_Start" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="114140307" Language="SFX">
+							<ShortName>Bridge.wav</ShortName>
+							<Path>SFX\Bridge_07E195FA.wem</Path>
+						</File>
+						<File Id="206205029" Language="SFX">
+							<ShortName>Coda2.wav</ShortName>
+							<Path>SFX\Coda2_07E195FA.wem</Path>
+						</File>
+						<File Id="316690344" Language="SFX">
+							<ShortName>SoloHautbois_1.wav</ShortName>
+							<Path>SFX\SoloHautbois_1_07E195FA.wem</Path>
+						</File>
+						<File Id="436540397" Language="SFX">
+							<ShortName>Hand_Trigger2.wav</ShortName>
+							<Path>SFX\Hand_Trigger2_07E195FA.wem</Path>
+						</File>
+						<File Id="437107786" Language="SFX">
+							<ShortName>Bob_Trigger.wav</ShortName>
+							<Path>SFX\Bob_Trigger_07E195FA.wem</Path>
+						</File>
+						<File Id="449164058" Language="SFX">
+							<ShortName>Hand_Trigger3.wav</ShortName>
+							<Path>SFX\Hand_Trigger3_07E195FA.wem</Path>
+						</File>
+						<File Id="523074337" Language="SFX">
+							<ShortName>Coda1.wav</ShortName>
+							<Path>SFX\Coda1_07E195FA.wem</Path>
+						</File>
+						<File Id="602165710" Language="SFX">
+							<ShortName>Hand_Trigger4.wav</ShortName>
+							<Path>SFX\Hand_Trigger4_07E195FA.wem</Path>
+						</File>
+						<File Id="697765994" Language="SFX">
+							<ShortName>Hand_Trigger1.wav</ShortName>
+							<Path>SFX\Hand_Trigger1_07E195FA.wem</Path>
+						</File>
+						<File Id="748283284" Language="SFX">
+							<ShortName>SectionA_Lush.wav</ShortName>
+							<Path>SFX\SectionA_Lush_07E195FA.wem</Path>
+						</File>
+						<File Id="847131327" Language="SFX">
+							<ShortName>SectionB_Winds.wav</ShortName>
+							<Path>SFX\SectionB_Winds_07E195FA.wem</Path>
+						</File>
+						<File Id="855369342" Language="SFX">
+							<ShortName>Intro.wav</ShortName>
+							<Path>SFX\Intro_07E195FA.wem</Path>
+						</File>
+						<File Id="862627587" Language="SFX">
+							<ShortName>SectionB_Percu.wav</ShortName>
+							<Path>SFX\SectionB_Percu_07E195FA.wem</Path>
+						</File>
+						<File Id="875139115" Language="SFX">
+							<ShortName>SoloHautbois_2.wav</ShortName>
+							<Path>SFX\SoloHautbois_2_07E195FA.wem</Path>
+						</File>
+						<File Id="940676883" Language="SFX">
+							<ShortName>SoloHorn_1.wav</ShortName>
+							<Path>SFX\SoloHorn_1_07E195FA.wem</Path>
+						</File>
+						<File Id="961277201" Language="SFX">
+							<ShortName>SectionA_Rtm.wav</ShortName>
+							<Path>SFX\SectionA_Rtm_07E195FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3439190578" Name="MainMusic_Stop" ObjectPath="\Events\Default Work Unit\Music\MainMusic_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2481527869" Name="HandTimer" ObjectPath="\Game Parameters\Default Work Unit\HandTimer"/>
 			</GameParameters>
 			<Triggers>
 				<Trigger Id="3666971986" Name="Hand" ObjectPath="\Triggers\Default Work Unit\Hand"/>
 			</Triggers>
-		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1156739451">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
