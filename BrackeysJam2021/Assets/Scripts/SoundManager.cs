@@ -26,12 +26,22 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
+        StartMainMusicOnce();
+    }
+
+    public void StartMainMusicOnce()
+    {
         if (!startedEvent)
         {
             AkSoundEngine.PostEvent("MainMusic_Start", Instance.gameObject);
-
             AkSoundEngine.PostEvent("MainAmbiance_Start", Instance.gameObject);
+
             startedEvent = true;
         }
+    }
+
+    public void PlayMainMusic(bool state)
+    {
+        startedEvent = !state;
     }
 }

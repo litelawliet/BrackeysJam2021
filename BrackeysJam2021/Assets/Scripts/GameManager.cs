@@ -36,6 +36,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        var soundManager = GameObject.FindGameObjectWithTag("SoundManager");
+        var scriptSoundManager = soundManager.GetComponent<SoundManager>();
+        scriptSoundManager.StartMainMusicOnce();
+
         levelLoader = GameObject.FindGameObjectWithTag("LevelLoader").GetComponent<LevelLoader>();
         levelDataComponentScript = saveSystemPrefab.GetComponent<LevelDataComponent>();
 
