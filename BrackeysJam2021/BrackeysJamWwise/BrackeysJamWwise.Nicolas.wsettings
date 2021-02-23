@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{8778865C-248E-4C3C-B069-4E7754FA156D}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\BrackeysJam\BrackeysJam_Music\export\master\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Nicolas\Documents\Projects\Games\Erlkonig\ErlkonigSoundDesign\Export\UI\"/>
 				<Property Name="Event Action List\{05599CB5-9D94-470F-A720-2EADF35CFE3F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{06781BAA-9555-446E-9066-48D537A75232}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{130CAC97-99EF-4493-A41C-1A444BBF1A64}\x64_Expand States" Type="string" Value=""/>
@@ -18,7 +18,9 @@
 				<Property Name="Event Action List\{493C10A6-FFCA-4155-8C61-E6B488EE40E6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4DAD9585-38F0-4913-A662-667F12FEAA73}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4E83C0C0-3588-4FC0-81E9-AC097D37F854}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{659B9921-07B9-4457-8A5E-915F20B466F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{69472728-EB19-4C53-8F08-816DF718AD16}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{864E80A3-0EE7-41D2-B92A-4ED2360F6EA6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8A1EDF6C-5AA2-4FD0-B423-38F2EAE6823A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B8D7FE9-3908-4212-97EA-BCD4D061E7CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AC99EA88-C72A-4F8F-BA2B-2E2E19F1C583}\x64_Expand States" Type="string" Value=""/>
@@ -53,7 +55,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="HAj8jozAmkuKytdl6/NfvA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="7jPUoCr5XkqNtwo49ILpwRwI/I6MwJpLisrXZevzX7w="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="sll9jXNHI0SaPtE3R8rKeQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{15E47E6F-B5C8-4368-8DA6-F59C7FCDE9EF} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP5oDiVbYHDtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

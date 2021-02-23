@@ -2737,6 +2737,92 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="UI" ID="{440EE4B0-30BA-4180-82D0-02C34E087176}" ShortID="146126908">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MenuClick1" ID="{1B4C0B23-04B0-4831-8BCD-D1E1A26A94E5}" ShortID="348530548">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{08DA41BF-3483-4CD2-82B6-007423ADBEEF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MenuClick1" ID="{E5AAC559-1115-49A0-9D1F-3B8EFD45D2DF}">
+									<Language>SFX</Language>
+									<AudioFile>MenuClick1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="621144405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MenuClick1" ID="{E5AAC559-1115-49A0-9D1F-3B8EFD45D2DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MenuSelect1" ID="{81DA5A98-2425-444A-8F56-EBB811F373F7}" ShortID="893766212">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{76DD84AA-8387-455B-BC84-17FD44B5C15D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D2250DE2-3D20-481C-B87D-FE1A933A47A9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B8566EE2-EC1E-4D82-A9E6-5835E73314CE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MenuSelect1" ID="{04EBF0F4-ABAD-49B0-95F5-9FA2B020BB08}">
+									<Language>SFX</Language>
+									<AudioFile>MenuSelect1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350439743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MenuSelect1" ID="{04EBF0F4-ABAD-49B0-95F5-9FA2B020BB08}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
