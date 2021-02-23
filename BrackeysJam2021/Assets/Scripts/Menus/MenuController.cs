@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
+        AkSoundEngine.PostEvent("MainMenu_Start", gameObject);
         creditsPanel.enabled = false;
         controlsPanel.enabled = false;
     }

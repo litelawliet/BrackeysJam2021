@@ -26,7 +26,6 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        // Sound test
         if (!startedEvent)
         {
             AkSoundEngine.PostEvent("MainMusic_Start", Instance.gameObject);
