@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
@@ -8,6 +6,11 @@ public class MenuController : MonoBehaviour
 
     public Canvas creditsPanel;
     public Canvas controlsPanel;
+
+    private void OnDestroy()
+    {
+        AkSoundEngine.PostEvent("MainMenu_Stop", gameObject);
+    }
 
     private void Start()
     {
