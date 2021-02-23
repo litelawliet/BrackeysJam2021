@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -5505,16 +5505,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 231656158151715417, guid: 356bbd691bf1530408e0c946ba1566f3,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 231656158151715417, guid: 356bbd691bf1530408e0c946ba1566f3,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 630323025
-      objectReference: {fileID: 0}
     - target: {fileID: 231656158151715420, guid: 356bbd691bf1530408e0c946ba1566f3,
         type: 3}
       propertyPath: m_Name
@@ -7196,7 +7186,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 13, y: -2, z: 0}
+  - first: {x: 12, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4

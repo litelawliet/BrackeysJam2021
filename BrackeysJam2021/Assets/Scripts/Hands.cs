@@ -80,6 +80,7 @@ public class Hands : MonoBehaviour
     {
         if (playerMovementScript.PlayerState == PlayerMovement.EPlayerState.ALONE)
         {
+            StartPosition();
             _spriteRenderer.enabled = true;
             beginChase = true;
             currentSpeed = 0.0f;

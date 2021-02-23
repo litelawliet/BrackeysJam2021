@@ -84,15 +84,12 @@ public class EnemyBob : MonoBehaviour
                     AkSoundEngine.PostEvent("BobAttack", gameObject);
                     AttackStarted = true;
                 }
-                else
-                {
-                    AttackStarted = false;
-                }
             }
         }
         else
         {
             afraid = false;
+            AttackStarted = false;
         }
 
         if (afraid)
