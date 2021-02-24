@@ -97,6 +97,6 @@ public partial class PlayerMovement
         Debug.DrawRay(playerGroundCollider.bounds.center - new Vector3(playerGroundCollider.bounds.extents.x - 0.01f, rayDistance), Vector2.right * (playerGroundCollider.bounds.size.x - 0.01f), rayColor);
         //Debug.Log(hit.collider);
 
-        return hit.collider != null;
+        return hit.collider != null && rb.velocity.y <= 0.001f;
     }
 }
