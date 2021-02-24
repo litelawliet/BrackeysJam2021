@@ -38,6 +38,7 @@ public class SoundManager : MonoBehaviour
 
             startedEvent = true;
         }
+        AkSoundEngine.PostEvent("HandTimer_Stop", Instance.gameObject); //reset du RTPC
     }
 
     public void PlayMainMusic(bool state)
